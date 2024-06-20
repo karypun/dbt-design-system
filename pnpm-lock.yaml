@@ -94,6 +94,8 @@ importers:
 
   apps/docs:
     specifiers:
+      '@apollo/client': 3.10.5
+      '@graphql-tools/schema': 9.0.19
       '@not-govuk/anchor-list': ^0.8.7
       '@not-govuk/app-composer': ^0.8.7
       '@not-govuk/app-plop-pack': ^0.8.7
@@ -112,6 +114,7 @@ importers:
       '@types/webpack-env': 1.18.5
       bunyan: 1.8.15
       cypress: 10.11.0
+      graphql: 15.8.0
       jest: 29.7.0
       jest-environment-jsdom: 29.7.0
       node-hot-loader: 1.21.10
@@ -130,15 +133,17 @@ importers:
       webpack-dev-middleware: 6.1.3
       webpack-hot-middleware: 2.26.1
     devDependencies:
+      '@apollo/client': 3.10.5_dsr2gllpjkkwd53ut47thvcyku
+      '@graphql-tools/schema': 9.0.19_graphql@15.8.0
       '@not-govuk/anchor-list': 0.8.7_3tan2rssugkbrpzqgedkremkrq
-      '@not-govuk/app-composer': 0.8.7_lerlwesvez4ziss6px4yjyg6ti
+      '@not-govuk/app-composer': 0.8.7_cp5u5qjgpg3akmnmjwmas3uffq
       '@not-govuk/app-plop-pack': 0.8.7
       '@not-govuk/asset-proxy': 0.8.7_tzwp7nmzpy2auo2xum377giv3q
-      '@not-govuk/client-renderer': 0.8.7_vliv6t5medhwwbhzvfnwur6kvy
+      '@not-govuk/client-renderer': 0.8.7_byi7acer2cdgckk3frt2eabyzq
       '@not-govuk/components': 0.8.7_onmn7hmhcijxpabf4ufy3bv5ia
       '@not-govuk/docs-components': 0.8.7_cwof5slgszfnnbnzrjq73cegpy
-      '@not-govuk/engine': 0.8.7_vliv6t5medhwwbhzvfnwur6kvy
-      '@not-govuk/server-renderer': 0.8.7_vliv6t5medhwwbhzvfnwur6kvy
+      '@not-govuk/engine': 0.8.7_qixovsjvk2r3stvlw3u5a2er3u
+      '@not-govuk/server-renderer': 0.8.7_byi7acer2cdgckk3frt2eabyzq
       '@not-govuk/user-info': 0.8.7_react@16.14.0
       '@not-govuk/webpack-config': 0.8.7_snnrlqp5sq6y6ryw33kacpqgd4
       '@types/react': 16.14.60
@@ -148,6 +153,7 @@ importers:
       '@types/webpack-env': 1.18.5
       bunyan: 1.8.15
       cypress: 10.11.0
+      graphql: 15.8.0
       jest: 29.7.0
       jest-environment-jsdom: 29.7.0
       node-hot-loader: 1.21.10_webpack@5.91.0
@@ -212,6 +218,45 @@ packages:
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
       rehackt: 0.1.0_react@16.14.0
+      response-iterator: 0.2.6
+      symbol-observable: 4.0.0
+      ts-invariant: 0.10.3
+      tslib: 2.6.2
+      zen-observable-ts: 1.2.5
+    transitivePeerDependencies:
+      - '@types/react'
+    dev: true
+
+  /@apollo/client/3.10.5_dsr2gllpjkkwd53ut47thvcyku:
+    resolution: {integrity: sha512-bZh5wLAT8b4KdEmqnqiQeDUttnR+NJ+gDYSN8T+U0uFGN++5LO5PTwySih6kIU5ErGGGw4NHI94YdSET3uLuBA==}
+    peerDependencies:
+      graphql: ^15.0.0 || ^16.0.0
+      graphql-ws: ^5.5.5
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      subscriptions-transport-ws: ^0.9.0 || ^0.11.0
+    peerDependenciesMeta:
+      graphql-ws:
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+      subscriptions-transport-ws:
+        optional: true
+    dependencies:
+      '@graphql-typed-document-node/core': 3.2.0_graphql@15.8.0
+      '@wry/caches': 1.0.1
+      '@wry/equality': 0.5.7
+      '@wry/trie': 0.5.0
+      graphql: 15.8.0
+      graphql-tag: 2.12.6_graphql@15.8.0
+      hoist-non-react-statics: 3.3.2
+      optimism: 0.18.0
+      prop-types: 15.8.1
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
+      rehackt: 0.1.0_nhfnajythmqulrdwzj5xx6c5qy
       response-iterator: 0.2.6
       symbol-observable: 4.0.0
       ts-invariant: 0.10.3
@@ -3005,10 +3050,50 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
+  /@graphql-tools/merge/8.4.2_graphql@15.8.0:
+    resolution: {integrity: sha512-XbrHAaj8yDuINph+sAfuq3QCZ/tKblrTLOpirK0+CAgNlZUCHs0Fa+xtMUURgwCVThLle1AF7svJCxFizygLsw==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-tools/utils': 9.2.1_graphql@15.8.0
+      graphql: 15.8.0
+      tslib: 2.6.2
+    dev: true
+
+  /@graphql-tools/schema/9.0.19_graphql@15.8.0:
+    resolution: {integrity: sha512-oBRPoNBtCkk0zbUsyP4GaIzCt8C0aCI4ycIRUL67KK5pOHljKLBBtGT+Jr6hkzA74C8Gco8bpZPe7aWFjiaK2w==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-tools/merge': 8.4.2_graphql@15.8.0
+      '@graphql-tools/utils': 9.2.1_graphql@15.8.0
+      graphql: 15.8.0
+      tslib: 2.6.2
+      value-or-promise: 1.0.12
+    dev: true
+
+  /@graphql-tools/utils/9.2.1_graphql@15.8.0:
+    resolution: {integrity: sha512-WUw506Ql6xzmOORlriNrD6Ugx+HjVgYxt9KCXD9mHAak+eaXSwuGGPyE60hy9xaDEoXKBsG7SkG69ybitaVl6A==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-typed-document-node/core': 3.2.0_graphql@15.8.0
+      graphql: 15.8.0
+      tslib: 2.6.2
+    dev: true
+
   /@graphql-typed-document-node/core/3.2.0:
     resolution: {integrity: sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dev: true
+
+  /@graphql-typed-document-node/core/3.2.0_graphql@15.8.0:
+    resolution: {integrity: sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==}
+    peerDependencies:
+      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      graphql: 15.8.0
     dev: true
 
   /@hapi/hoek/9.3.0:
@@ -3554,7 +3639,7 @@ packages:
       - react-router-dom
     dev: true
 
-  /@not-govuk/app-composer/0.8.7_lerlwesvez4ziss6px4yjyg6ti:
+  /@not-govuk/app-composer/0.8.7_cp5u5qjgpg3akmnmjwmas3uffq:
     resolution: {integrity: sha512-V6WBAGVyJ+3PN2lg4kRNUOdwnop2hdO8k+XbkfjRcy0Dv5Oqskk726F/B1iB9n6flxnfQpWCqLcmfPsvzjfB6A==}
     peerDependencies:
       '@apollo/client': ^3.10.4
@@ -3564,6 +3649,7 @@ packages:
       react-router: ^5.3.4
       react-router-dom: ^5.3.4
     dependencies:
+      '@apollo/client': 3.10.5_dsr2gllpjkkwd53ut47thvcyku
       '@not-govuk/route-utils': 0.8.7_react-router-dom@5.3.4
       '@not-govuk/user-info': 0.8.7_react@16.14.0
       react: 16.14.0
@@ -3856,13 +3942,13 @@ packages:
       react: 16.14.0
     dev: true
 
-  /@not-govuk/client-renderer/0.8.7_vliv6t5medhwwbhzvfnwur6kvy:
+  /@not-govuk/client-renderer/0.8.7_byi7acer2cdgckk3frt2eabyzq:
     resolution: {integrity: sha512-+WYQ+La1dr6shYyOmiO1ZOr6+Ku6Js83cR4EXABZ+5WSM0uvvI2YpcuP+cSuIZm1sW0HGUr0S2bKMJ687ezHDg==}
     peerDependencies:
       react: ^16.14.0
       react-dom: ^16.14.0
     dependencies:
-      '@not-govuk/app-composer': 0.8.7_lerlwesvez4ziss6px4yjyg6ti
+      '@not-govuk/app-composer': 0.8.7_cp5u5qjgpg3akmnmjwmas3uffq
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
     transitivePeerDependencies:
@@ -4226,14 +4312,14 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@not-govuk/engine/0.8.7_vliv6t5medhwwbhzvfnwur6kvy:
+  /@not-govuk/engine/0.8.7_qixovsjvk2r3stvlw3u5a2er3u:
     resolution: {integrity: sha512-KqNPbCpeJQlwDfMEMp2vy2o0DeCdX14emD44HilFjalpvIv9idnNV5+i3V1DaVOyqLcd4UFm5x7VisI7Mrr70Q==}
     dependencies:
       '@not-govuk/consent-cookies': 0.8.7
       '@not-govuk/express-adapter': 0.8.7
       '@not-govuk/restify': 0.8.7
-      '@not-govuk/server-renderer': 0.8.7_vliv6t5medhwwbhzvfnwur6kvy
-      apollo-server-restify: 1.3.6
+      '@not-govuk/server-renderer': 0.8.7_byi7acer2cdgckk3frt2eabyzq
+      apollo-server-restify: 1.3.6_graphql@15.8.0
       base64url: 3.0.1
       openid-client: 5.6.5
       passport: 0.7.0
@@ -5300,13 +5386,13 @@ packages:
       react: 16.14.0
     dev: true
 
-  /@not-govuk/server-renderer/0.8.7_vliv6t5medhwwbhzvfnwur6kvy:
+  /@not-govuk/server-renderer/0.8.7_byi7acer2cdgckk3frt2eabyzq:
     resolution: {integrity: sha512-yhN1rN6a3e58anQLTiDSZl4vmLHYmu/oDgievwpHUoqTSxyLwKWrM9wL+W//SgvB9UC71q0gHjYOFGdhKjfmSQ==}
     peerDependencies:
       react: ^16.14.0
       react-dom: ^16.14.0
     dependencies:
-      '@not-govuk/app-composer': 0.8.7_lerlwesvez4ziss6px4yjyg6ti
+      '@not-govuk/app-composer': 0.8.7_cp5u5qjgpg3akmnmjwmas3uffq
       js-beautify: 1.15.1
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
@@ -9153,48 +9239,51 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /apollo-cache-control/0.1.1:
+  /apollo-cache-control/0.1.1_graphql@15.8.0:
     resolution: {integrity: sha512-XJQs167e9u+e5ybSi51nGYr70NPBbswdvTEHtbtXbwkZ+n9t0SLPvUcoqceayOSwjK1XYOdU/EKPawNdb3rLQA==}
     engines: {node: '>=4.0'}
     deprecated: The functionality provided by the `apollo-cache-control` package is built in to `apollo-server-core` starting with Apollo Server 3. See https://www.apollographql.com/docs/apollo-server/migration/#cachecontrol for details.
     peerDependencies:
       graphql: 0.10.x - 0.13.x
     dependencies:
-      graphql-extensions: 0.0.10
+      graphql: 15.8.0
+      graphql-extensions: 0.0.10_graphql@15.8.0
     dev: true
 
-  /apollo-server-core/1.4.0:
+  /apollo-server-core/1.4.0_graphql@15.8.0:
     resolution: {integrity: sha512-BP1Vh39krgEjkQxbjTdBURUjLHbFq1zeOChDJgaRsMxGtlhzuLWwwC6lLdPatN8jEPbeHq8Tndp9QZ3iQZOKKA==}
     deprecated: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0
     dependencies:
-      apollo-cache-control: 0.1.1
-      apollo-tracing: 0.1.4
-      graphql-extensions: 0.0.10
+      apollo-cache-control: 0.1.1_graphql@15.8.0
+      apollo-tracing: 0.1.4_graphql@15.8.0
+      graphql: 15.8.0
+      graphql-extensions: 0.0.10_graphql@15.8.0
     dev: true
 
   /apollo-server-module-graphiql/1.4.0:
     resolution: {integrity: sha512-GmkOcb5he2x5gat+TuiTvabnBf1m4jzdecal3XbXBh/Jg+kx4hcvO3TTDFQ9CuTprtzdcVyA11iqG7iOMOt7vA==}
     dev: true
 
-  /apollo-server-restify/1.3.6:
+  /apollo-server-restify/1.3.6_graphql@15.8.0:
     resolution: {integrity: sha512-i2nBli3e4IwP0b2ULjU91F1Tv0eiqpxPFU04wOtcDgncqtcPq2eonnLQTCiSpvSNte/wgL3lvPW7tQa9GqTdTw==}
     dependencies:
-      apollo-server-core: 1.4.0
+      apollo-server-core: 1.4.0_graphql@15.8.0
       apollo-server-module-graphiql: 1.4.0
     transitivePeerDependencies:
       - graphql
     dev: true
 
-  /apollo-tracing/0.1.4:
+  /apollo-tracing/0.1.4_graphql@15.8.0:
     resolution: {integrity: sha512-Uv+1nh5AsNmC3m130i2u3IqbS+nrxyVV3KYimH5QKsdPjxxIQB3JAT+jJmpeDxBel8gDVstNmCh82QSLxLSIdQ==}
     engines: {node: '>=4.0'}
     deprecated: The `apollo-tracing` package is no longer part of Apollo Server 3. See https://www.apollographql.com/docs/apollo-server/migration/#tracing for details
     peerDependencies:
       graphql: 0.10.x - 0.13.x
     dependencies:
-      graphql-extensions: 0.0.10
+      graphql: 15.8.0
+      graphql-extensions: 0.0.10_graphql@15.8.0
     dev: true
 
   /app-root-dir/1.0.2:
@@ -13653,7 +13742,7 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /graphql-extensions/0.0.10:
+  /graphql-extensions/0.0.10_graphql@15.8.0:
     resolution: {integrity: sha512-TnQueqUDCYzOSrpQb3q1ngDSP2otJSF+9yNLrQGPzkMsvnQ+v6e2d5tl+B35D4y+XpmvVnAn4T3ZK28mkILveA==}
     engines: {node: '>=4.0'}
     deprecated: 'The `graphql-extensions` API has been removed from Apollo Server 3. Use the plugin API instead: https://www.apollographql.com/docs/apollo-server/integrations/plugins/'
@@ -13661,6 +13750,7 @@ packages:
       graphql: 0.10.x - 0.13.x
     dependencies:
       core-js: 2.6.12
+      graphql: 15.8.0
       source-map-support: 0.5.21
     dev: true
 
@@ -13671,6 +13761,21 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       tslib: 2.6.2
+    dev: true
+
+  /graphql-tag/2.12.6_graphql@15.8.0:
+    resolution: {integrity: sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+    dependencies:
+      graphql: 15.8.0
+      tslib: 2.6.2
+    dev: true
+
+  /graphql/15.8.0:
+    resolution: {integrity: sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==}
+    engines: {node: '>= 10.x'}
     dev: true
 
   /gzip-size/6.0.0:
@@ -18656,6 +18761,21 @@ packages:
       jsesc: 0.5.0
     dev: true
 
+  /rehackt/0.1.0_nhfnajythmqulrdwzj5xx6c5qy:
+    resolution: {integrity: sha512-7kRDOuLHB87D/JESKxQoRwv4DzbIdwkAGQ7p6QKGdVlY1IZheUnVhlk/4UZlNUVxdAXpyxikE3URsG067ybVzw==}
+    peerDependencies:
+      '@types/react': '*'
+      react: '*'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      '@types/react': 16.14.60
+      react: 16.14.0
+    dev: true
+
   /rehackt/0.1.0_react@16.14.0:
     resolution: {integrity: sha512-7kRDOuLHB87D/JESKxQoRwv4DzbIdwkAGQ7p6QKGdVlY1IZheUnVhlk/4UZlNUVxdAXpyxikE3URsG067ybVzw==}
     peerDependencies:
@@ -21113,6 +21233,11 @@ packages:
 
   /value-equal/1.0.1:
     resolution: {integrity: sha512-NOJ6JZCAWr0zlxZt+xqCHNTEKOsrks2HQd4MqhP1qy4z1SkbEP467eNx6TgDKXMvUOb+OENfJCZwM+16n7fRfw==}
+    dev: true
+
+  /value-or-promise/1.0.12:
+    resolution: {integrity: sha512-Z6Uz+TYwEqE7ZN50gwn+1LCVo9ZVrpxRPOhOLnncYkY1ZzOYtrX8Fwf/rFktZ8R5mJms6EZf5TqNOMeZmnPq9Q==}
+    engines: {node: '>=12'}
     dev: true
 
   /vary/1.1.2:
