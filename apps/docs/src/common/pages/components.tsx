@@ -31,8 +31,8 @@ const buildLink = (v: string) => ({
 const buildLinks = v => Object.keys(v).sort().map(buildLink);
 
 const mainLinks = buildLinks(mainComponents);
-const unofficialLinks = buildLinks(unofficialComponents);
-const internalLinks = buildLinks(internalComponents);
+//const unofficialLinks = buildLinks(unofficialComponents);
+//const internalLinks = buildLinks(internalComponents);
 
 export const title = 'Components';
 const description = 'The components provided in NotGovUK';
@@ -52,10 +52,6 @@ const Page: FC<PageProps> = ({ location }) => {
       </Helmet>
       <div className="govuk-grid-column-one-quarter">
         <NavigationMenu items={mainLinks} />
-        <div className="govuk-heading-s">Unofficial</div>
-        <NavigationMenu items={unofficialLinks} />
-        <div className="govuk-heading-s">Internal</div>
-        <NavigationMenu items={internalLinks} />
       </div>
       <div className="govuk-grid-column-three-quarters">
         {
