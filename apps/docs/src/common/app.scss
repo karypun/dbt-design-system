@@ -1,1 +1,31 @@
 @import "@not-govuk/components/src/index";
+
+$dbt-brand-colour-blue: #1d70b8;
+
+// Content style guide
+.a-z-header {
+  display: inline-block;
+  @include govuk-responsive-margin(6, "top");
+  @include govuk-responsive-padding(2, "top");
+  @include govuk-responsive-padding(2, "left");
+  @include govuk-responsive-padding(2, "bottom");
+  @include govuk-responsive-padding(2, "right");
+  background-color: $dbt-brand-colour-blue;
+  color: govuk-colour("white");
+}
+
+.back-to-top {
+  display: block;
+  @include govuk-responsive-margin(6, "bottom");
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// NotGovUK (0.8.3) imposes a max-width on a paragraph. Need to override this.
+// This is so that bullets, paragraphs, inset text and so on have the same width,
+// which is defined by the containing column.
+p {
+  max-width: none;
+}
