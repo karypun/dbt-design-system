@@ -9,12 +9,14 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
     { href: '/get-started', text: 'Get started' },
     { href: '/styles', text: 'Styles' },
     { href: '/components', text: 'Components' },
+    { href: '/patterns', text: 'Patterns' },
+    { href: '/content', text: 'Content guide' },  
     { href: '/contributing', text: 'Contributing' }
   ];
 
   return (
     <NotGovUKPage
-      department="department-for-business-and-trade"
+      department="department-for-b"
       feedbackHref="https://github.com/daniel-ac-martin/NotGovUK/issues/new"
       footerContent={(
         <Fragment>
@@ -27,9 +29,9 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
         { href: "/sitemap", text: "Sitemap" },
         { href: "https://github.com/daniel-ac-martin/NotGovUK/issues/new", text: "Contact" },
       ]}
-      organisationText="DBT"
+      organisationText="Dept for Business & Trade"
       phase="alpha"
-      serviceName="DBT"
+      serviceName="Design system"
       title="DBT Design System"
       maxContentsWidth={1100}
     >

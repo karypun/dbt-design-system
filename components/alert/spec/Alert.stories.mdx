@@ -1,0 +1,39 @@
+import { Meta, Preview, Props, Story } from '@storybook/addon-docs';
+import { Alert } from '../src/Alert';
+import readMe from '../README.md';
+
+<Meta
+  title="Alert"
+  component={ Alert }
+  parameters={ {
+    chromatic: { viewports: [640, 480] },
+    description: 'A component to alert users to important information.',
+    jest: ['Alert'],
+    notes: readMe
+  } }
+/>
+
+# Alert
+
+A component to alert users to important information.
+WRITE MORE DESCRIPTION HERE.
+
+<Preview withToolbar>
+  <Story name="Alert">
+    <Alert />
+  </Story>
+</Preview>
+
+<Props of={ Alert } />
+
+
+## Stories
+### Standard
+
+A standard Alert.
+
+<Preview>
+  <Story name="Standard">
+    <Alert />
+  </Story>
+</Preview>

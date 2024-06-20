@@ -1,0 +1,9 @@
+.dbt-design-system-alert {
+  /* Write base styles for Alert here */
+  background-color: beige;
+
+  &__heading {
+    /* Write styles for 'heading' element within Alert here */
+    color: navy;
+  }
+}

@@ -8,7 +8,7 @@ const reduceToLookup = (acc: object, cur) => ({...acc, [cur.default.title]: cur}
 const buildLookup = v => v.reduce(reduceToLookup, {});
 
 const mainStories = [
-  //require('../../../../../components/warning-text/spec/WarningText.stories.mdx')
+  require('../../../../../components/alert/spec/Alert.stories.mdx')
 ];
 
 const mainComponents = buildLookup(mainStories);
