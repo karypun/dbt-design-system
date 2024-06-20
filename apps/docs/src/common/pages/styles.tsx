@@ -18,7 +18,6 @@ const Page: FC<PageProps> = _ => (
     </Helmet>
     <h1>{title}</h1>
     <p>{description}</p>
-    <p>Hello world!</p>
   </Fragment>
 );
 
