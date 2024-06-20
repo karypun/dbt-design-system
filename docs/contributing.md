@@ -1,5 +1,5 @@
-Working on and contributing to NotGovUK
-=======================================
+Working on and contributing to DBT design system
+================================================
 
 
 Contributing
@@ -89,11 +89,11 @@ npm run create:component
 See also: [Working on your project]
 
 
-[Pull requests]: https://github.com/daniel-ac-martin/NotGovUK/pulls
-[open an issue]: https://github.com/daniel-ac-martin/NotGovUK/issues/new
-[pull request]: https://github.com/daniel-ac-martin/NotGovUK/pulls
-[issue]: https://github.com/daniel-ac-martin/NotGovUK/issues
-[get in touch]: https://github.com/daniel-ac-martin/NotGovUK/issues/new
+[Pull requests]: https://github.com/karypun/dbt-design-system/pulls
+[open an issue]: https://github.com/karypun/dbt-design-system/issues/new
+[pull request]: https://github.com/karypun/dbt-design-system/pulls
+[issue]: https://github.com/karypun/dbt-design-system/issues
+[get in touch]: https://github.com/karypun/dbt-design-system/issues/new
 [pnpm]: https://pnpm.io/installation
 [Storybook]: https://storybook.js.org/
 [Working on your project]: ./working-on-your-project

@@ -5,13 +5,13 @@ import { PageProps } from '@not-govuk/app-composer';
 import Markdown from '../../../../../docs/working-on-your-project.md';
 
 export const title = 'Working on your project';
-const description = 'How to work on your NotGovUK-based project';
+const description = 'How to work on your DBT design system-based project';
 const section = 'Get started';
 
 const Page: FC<PageProps> = props => (
   <Fragment>
     <Helmet>
-      <title>{title} - NotGovUK</title>
+      <title>{title} - DBT design system</title>
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />
       <meta name="og:description" content={description} />

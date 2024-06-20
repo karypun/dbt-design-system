@@ -35,7 +35,7 @@ const mainLinks = buildLinks(mainComponents);
 //const internalLinks = buildLinks(internalComponents);
 
 export const title = 'Components';
-const description = 'The components provided in NotGovUK';
+const description = 'The components provided in DBT design system';
 
 const Page: FC<PageProps> = ({ location }) => {
   const componentName = location.query[nameParam];
@@ -44,7 +44,7 @@ const Page: FC<PageProps> = ({ location }) => {
   return (
     <div className="govuk-grid-row">
       <Helmet>
-        <title>{title} - NotGovUK</title>
+        <title>{title} - DBT design system</title>
         <meta name="description" content={description} />
         <meta name="og:title" content={title} />
         <meta name="og:description" content={description} />
@@ -58,7 +58,7 @@ const Page: FC<PageProps> = ({ location }) => {
           stories ? (
             <Fragment>
               <span className="govuk-caption-xl">{title}</span>
-              <DocsPage siteName="NotGovUK" stories={stories} />
+              <DocsPage siteName="DBT design system" stories={stories} />
             </Fragment>
           ) : (
             componentName ? (

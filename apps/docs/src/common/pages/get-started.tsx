@@ -10,7 +10,7 @@ const description = 'The following introductory guides will help you to get set 
 const Page: FC<PageProps> = props => (
   <Fragment>
     <Helmet>
-      <title>{title} - NotGovUK</title>
+      <title>{title} - DBT design system</title>
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />
       <meta name="og:description" content={description} />
