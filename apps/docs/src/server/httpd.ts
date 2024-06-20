@@ -6,7 +6,6 @@ import ErrorPage from '../common/error-page';
 import PageWrap from '../common/page-wrap';
 import pageLoader from '../common/page-loader';
 import isReady from './readiness';
-import graphQLSchema from './graphql';
 
 export type httpdOptions = {
   entrypoints?: object
@@ -36,9 +35,6 @@ export const createServer = ({ entrypoints, port }: httpdOptions) => {
     },
     env: config.env,
     frameAncestors: config.frameAncestors,
-    graphQL: {
-      schema: graphQLSchema
-    },
     httpd: {
       host: config.httpd.host,
       port: port || config.httpd.port
