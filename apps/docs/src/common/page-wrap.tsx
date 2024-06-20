@@ -14,12 +14,11 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
 
   return (
     <NotGovUKPage
+      department="department-for-business-and-trade"
       feedbackHref="https://github.com/daniel-ac-martin/NotGovUK/issues/new"
       footerContent={(
         <Fragment>
-          Copyright (C) 2019, 2020, 2021, 2022, 2023, 2024 Crown Copyright<br />
-          Copyright (C) 2019, 2020, 2021, 2022, 2023, 2024 <A href="https://github.com/daniel-ac-martin">Daniel A.C. Martin</A><br />
-          NotGovUK operates independently from <A href="https://gov.uk">GOV.UK</A> and is not affiliated, endorsed or supported by HM Government
+          Copyright (C) 2024 Crown Copyright<br />
         </Fragment>
       )}
       navigation={navigation}
@@ -28,10 +27,10 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
         { href: "/sitemap", text: "Sitemap" },
         { href: "https://github.com/daniel-ac-martin/NotGovUK/issues/new", text: "Contact" },
       ]}
-      organisationText="!GOV.UK"
+      organisationText="DBT"
       phase="alpha"
-      serviceName="NotGovUK"
-      title="NotGovUK"
+      serviceName="DBT"
+      title="DBT Design System"
       maxContentsWidth={1100}
     >
       {children}
