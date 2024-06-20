@@ -4,7 +4,7 @@ import { PageProps } from '@not-govuk/app-composer';
 
 import Markdown from '../../../../../docs/about.md';
 
-export const title = 'NotGovUK';
+export const title = 'DBT design system';
 const description = 'An implementation of the GOV.UK Design System in React that provides support for writing internal applications in addition to public ones';
 
 const Page: FC<PageProps> = props => (

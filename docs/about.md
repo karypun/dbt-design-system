@@ -1,5 +1,5 @@
-About NotGovUK
-==============
+About DBT design system
+=======================
 
 [NotGovUK] is an implementation of the [GOV.UK Design System] in [React]
 that provides [support for writing internal applications] in addition to
