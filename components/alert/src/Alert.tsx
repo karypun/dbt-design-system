@@ -1,32 +1,32 @@
 import { FC, createElement as h } from 'react';
 import { StandardProps, classBuilder } from '@not-govuk/component-helpers';
+import { InsetText} from '@not-govuk/inset-text';
 
 import '../assets/Alert.scss';
 
 export type AlertProps = StandardProps & {
-  /** Description for the 'heading' prop */
-  heading?: string
+  /** Heading of the alert */
+  heading: string
 };
 
 export const Alert: FC<AlertProps> = ({
   children,
-  classBlock,
+  classBlock = 'hods-alert',
   classModifiers,
   className,
   heading,
   ...attrs
 }) => {
-  const classes = classBuilder('dbt-design-system-alert', classBlock, classModifiers, className);
-  const title = heading || 'Alert';
+  const classes = classBuilder('hods-alert', classBlock, classModifiers, className);
 
   return (
-    <div {...attrs} className={classes()}>
-      <h1 className={classes('heading')}>{title}</h1>
-      {children}
-    </div>
+      <InsetText {...attrs} classBlock={classBlock} classModifiers={classModifiers} className={className}>
+        <h2 className={classes('heading')}>{heading}</h2>
+        <p>
+          {children}
+        </p>
+      </InsetText>
   );
 };
-
-Alert.displayName = 'Alert';
 
 export default Alert;

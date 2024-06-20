@@ -1,7 +1,7 @@
-Dbt-Design-System - Alert
-=========================
+HODS - Alert
+============
 
-A component to alert users to important information.
+Alert users to important information.
 
 
 Using this package
@@ -10,19 +10,19 @@ Using this package
 First install the package into your project:
 
 ```shell
-npm install -S @dbt-design-system/alert
+npm install -S @hods/alert
 ```
 
 Then use it in your code as follows:
 
 ```js
 import React, { createElement as h } from 'react';
-import Alert from '@dbt-design-system/alert';
+import Alert from '@hods/alert';
 
 export const MyComponent = props => (
-  <Alert
-    // WRITEME
-  />
+  <Alert heading="New passport">
+    We'll send your new passport by secure delivery. The cost is included in the passport fee.
+  </Alert>
 );
 
 export default MyComponent;
@@ -42,8 +42,6 @@ pnpm install
 
 ### Testing
 
-Run the unit tests.
-
 ```shell
 npm test
 ```
@@ -51,16 +49,12 @@ npm test
 
 ### Building
 
-Build the package by compiling the TypeScript source code.
-
 ```shell
 npm run build
 ```
 
 
 ### Clean-up
-
-Remove any previously built files.
 
 ```shell
 npm run clean

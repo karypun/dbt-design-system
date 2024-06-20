@@ -3,26 +3,12 @@ import { render, screen } from '@not-govuk/component-test-helpers';
 import Alert from '../src/Alert';
 
 describe('Alert', () => {
-  const minimalProps = {
-  };
-
-  describe('when given minimal valid props', () => {
-    beforeEach(async () => {
-      render(h(Alert, minimalProps));
+  describe('when given minimal props', () => {
+    beforeEach(async() => {
+      render(h(Alert, { heading: 'My heading' }, 'Child'));
     });
 
-    it('renders an element', async () => expect(screen.getByRole('generic')).toBeInTheDocument());
-  });
-
-  describe('when given all valid props', () => {
-    const props = {
-      ...minimalProps
-    };
-
-    beforeEach(async () => {
-      render(h(Alert, props));
-    });
-
-    it('renders an element', async () => expect(screen.getByRole('generic')).toBeInTheDocument());
+    it('has a heading', async() => expect(screen.getByRole('heading')).toHaveTextContent('My heading'));
+    it('renders the children', async() => expect(screen.getByText('Child')).toBeInTheDocument());
   });
 });
