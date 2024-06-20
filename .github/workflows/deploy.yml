@@ -1,0 +1,30 @@
+name: Deploy
+on:
+  push:
+jobs:
+  chromatic:
+    name: Chromatic
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup
+        uses: ./.github/actions/setup
+        with:
+          node: 18
+
+      - name: Push Storybook to Chromatic
+        uses: chromaui/action@v11
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          buildScriptName: 'build:storybook'
+          autoAcceptChanges: master
+          exitZeroOnChanges: true
+          exitOnceUploaded: true
+          onlyChanged: true
+
