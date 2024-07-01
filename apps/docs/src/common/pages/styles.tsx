@@ -10,10 +10,7 @@ export const menu = (
         href: '/styles/colour',
         text: 'Colour'
       },
-      {
-        href: '/styles/images',
-        text: 'Images'
-      },
+
       {
         href: '/styles/typography',
         text: 'Typography'
@@ -50,7 +47,7 @@ const Page: FC<PageProps> = ({ location }) => (
           <p>If your service:</p>
           <ul>
             <li>is internal, such as a caseworking system or admin service, and</li>
-            <li>sits on a homeoffice.gov.uk domain</li>
+            <li>sits on a businessandtrade.gov.uk domain</li>
           </ul>
           <p>You should use:</p>
           <ul>
@@ -61,7 +58,7 @@ const Page: FC<PageProps> = ({ location }) => (
         </div>
         <div className="govuk-grid-column-one-half">
           <img src={ddatEventsImage} alt="Screenshot of a DBT 'Digital, Data and Technology Together' events page" className="image-examples" />
-          <span className="image-caption">Digital, Data and Technolgy (DDaT) Together page on homeoffice.gov.uk</span>
+          <span className="image-caption">Digital, Data and Technolgy (DDaT) Together page on businessandtrade.gov.uk</span>
         </div>
       </div>
       <hr className="govuk-section-break govuk-section-break--xl govuk-section-break--visible" />
@@ -87,20 +84,19 @@ const Page: FC<PageProps> = ({ location }) => (
         </div>
       </div>
       <hr className="govuk-section-break govuk-section-break--xl govuk-section-break--visible" />
-      <h2 className="govuk-heading-m">Independent branding</h2>
+      <h2 className="govuk-heading-m">Promotional branding</h2>
       <div className="govuk-grid-row">
         <div className="govuk-grid-column-one-half">
           <p>If your service is one of the following:</p>
           <ul>
-            <li>a marketing or informational site</li>
-            <li>public-facing and exempt from using GOV.UK styles</li>
-            <li>public-facing and on the homeoffice.gov.uk domain</li>
+            <li>a marketing or promotional campaign site</li>
+            <li>public-facing and on the great.gov.uk domain</li>
           </ul>
-          <p>You may be able to use independent branding.</p>
+          <p>Use the <A href="https://www.great.gov.uk/">Great.GOV.UK branding</A>.</p>
         </div>
         <div className="govuk-grid-column-one-half">
           <img src={policeImage} alt="Screenshot of a 'Joining the police' page" className="image-examples" />
-          <span className="image-caption"><A href="https://www.joiningthepolice.co.uk">www.joiningthepolice.co.uk</A></span>
+          <span className="image-caption"><A href="https://www.great.gov.uk/">www.great.gov.uk</A></span>
         </div>
       </div>
     </div>

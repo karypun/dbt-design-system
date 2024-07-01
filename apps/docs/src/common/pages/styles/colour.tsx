@@ -42,7 +42,7 @@ const Page: FC<PageProps> = ({ location }) => (
       </h1>
 
       <p className="govuk-body">Always use the DBT colour palette when you are designing and building internal services and products. For public facing and transactional sites use the <A href="https://design-system.service.gov.uk/styles/colour/">GOV.UK colour palette</A>.</p>
-      <p className="govuk-body">Ask <A href="mailto:design@digital.homeoffice.gov.uk">design@digital.homeoffice.gov.uk</A> if you have any questions.</p>
+      <p className="govuk-body">Ask <A href="mailto:design@businessandtrade.gov.uk">design@businessandtrade.gov.uk</A> if you have any questions.</p>
 
       {/* PRIMARY  */}
 
@@ -56,11 +56,11 @@ const Page: FC<PageProps> = ({ location }) => (
             #732282
           </div>
           <div className="colour-info">
-            <p>Purple is the DBT's brand colour. This doesn't mean you should use it as the dominant colour in a digital interface.</p>
+            <p>Red is the DBT's brand colour. This doesn't mean you should use it as the dominant colour in a digital interface.</p>
 
-            <p>Overusing the purple can make content hard to read on screen, particularly on services that are designed to be used for long periods of time.</p>
+            <p>Overusing the red can make content hard to read on screen, particularly on services that are designed to be used for long periods of time.</p>
 
-            <p>DBT purple works best in digital interfaces when it's just used for the DBT logo and sparingly used as a keyline or accent.</p>
+            <p>DBT red works best in digital interfaces when it's just used for the DBT logo and sparingly used as a keyline or accent.</p>
           </div>
         </div>
 

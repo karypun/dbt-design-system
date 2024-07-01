@@ -10,10 +10,6 @@ export const menu = (
       {
         href: '/patterns/make-a-declaration',
         text: 'Declarations'
-      },
-      {
-        href: '/patterns/find-information-on-document',
-        text: 'Information on a document'
       }
     ]} />
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
@@ -26,18 +22,6 @@ export const menu = (
       {
         href: '/patterns/add-multiple-things',
         text: 'Add multiple things'
-      },
-      {
-        href: '/patterns/get-more-details',
-        text: 'Request for information'
-      },
-      {
-        href: '/patterns/leave-a-service',
-        text: 'Leave a service'
-      },
-      {
-        href: '/patterns/search-for-something',
-        text: 'Search for something'
       }
     ]} />
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Send users</span>

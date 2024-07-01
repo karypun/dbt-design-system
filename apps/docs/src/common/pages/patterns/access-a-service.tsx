@@ -73,9 +73,10 @@ const Page: FC<PageProps> = ({ location }) => (
 
       <p className="govuk-body">This pattern is used by:</p>
       <ul className="govuk-list govuk-list--bullet">
-        <li>Access UK</li>
-        <li>Apply for the EU settlement scheme</li>
-        <li>Employer checking service</li>
+        <li>Export licensing (SIELs)</li>
+        <li>MOD F680</li>
+        <li>Sanctions</li>
+        <li>ICMS</li>
       </ul>
 
       <h3 className="govuk-heading-m">Access a service with reference numbers</h3>
@@ -87,7 +88,7 @@ const Page: FC<PageProps> = ({ location }) => (
 
       <p className="govuk-body">This pattern is used by:</p>
       <ul className="govuk-list govuk-list--bullet">
-        <li>Passport renewals</li>
+        <li>ICMS</li>
       </ul>
 
       <h2 className="govuk-heading-l">Accessibility</h2>

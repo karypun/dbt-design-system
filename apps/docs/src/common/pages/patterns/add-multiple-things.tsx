@@ -67,8 +67,9 @@ const Page: FC<PageProps> = ({ location }) => (
       <h2 className="govuk-heading-l">Research</h2>
       <p className="govuk-body">This pattern is used by:</p>
       <ul>
-        <li>Firearms licensing</li>
-        <li>Refugee integration loan</li>
+        <li>Export licensing (SIELs)</li>
+        <li>MOD F680</li>
+        <li>ICMS</li>
       </ul>
       <p className="govuk-body">More research is needed. If your service uses this
       pattern, get in touch to share your user research findings.</p>

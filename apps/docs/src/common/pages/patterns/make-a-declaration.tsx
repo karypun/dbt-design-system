@@ -90,9 +90,12 @@ const Page: FC<PageProps> = ({ location }) => (
       <h2 className="govuk-heading-l">Research</h2>
       <p>This pattern is used by:</p>
       <ul className="govuk-list govuk-list--bullet">
-        <li>Electronic Visa Waiver</li>
-        <li>Register to Apply for US Global Entry</li>
-        <li>Registered Traveller</li>
+      <li>Export licensing (SIELs)</li>
+      <li>Apply for an export certificate</li>
+      <li>Apply for an import licence</li>
+      <li>MOD F680</li>
+      <li>Sanctions</li>
+      <li>Trade remedies service</li>
       </ul>
 
       <p className="govuk-body">More research is needed. If your service uses this
