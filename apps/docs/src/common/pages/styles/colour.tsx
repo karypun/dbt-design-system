@@ -53,10 +53,10 @@ const Page: FC<PageProps> = ({ location }) => (
         <div className="colour-swatch">
           <span className="app-swatch hods-colour-purple"></span>
           <div className="hex">
-            #732282
+            #cf102d
           </div>
           <div className="colour-info">
-            <p>Red is the DBT's brand colour. This doesn't mean you should use it as the dominant colour in a digital interface.</p>
+            <p>Red is DBT's brand colour. This doesn't mean you should use it as the dominant colour in a digital interface.</p>
 
             <p>Overusing the red can make content hard to read on screen, particularly on services that are designed to be used for long periods of time.</p>
 

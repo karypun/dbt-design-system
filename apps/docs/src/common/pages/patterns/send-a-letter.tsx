@@ -28,26 +28,17 @@ const Page: FC<PageProps> = ({ location }) => (
         <span className="caption">{subsection}</span>
         {title}
       </h1>
-      <p className="govuk-body">Internal teams sends printed letters in the post to tell users:</p>
+      <p className="govuk-body">Internal DBT teams send printed letters in the post to tell users:</p>
       <ul className="govuk-list govuk-list--bullet">
         <li>what is happening with their application</li>
-        <li>whether more information is needed to support their case</li>
+        <li>whether more information is needed to support their case (known as RFIs)</li>
         <li>what they need to do next</li>
       </ul>
       <p className="govuk-body">All letters should be clear and easy to act on.</p>
 
       <h2 className="govuk-heading-l">When to use this pattern</h2>
-      <p className="govuk-body">Use this pattern to tell users what has happened with their application.</p>
+      <p className="govuk-body">Use this pattern to tell users what has happened with their application or if more information is needed.</p>
       <p className="govuk-body">Use <A href="https://www.notifications.service.gov.uk/">GOV.UK Notify</A> to send letters in the post where possible.</p>
-
-      <h2 className="govuk-heading-l">When not to use this pattern</h2>
-      <p className="govuk-body">Do not use this pattern for letters that are:</p>
-      <ul className="govuk-list govuk-list--bullet">
-        <li>not part of a service - such as official letters from ministers</li>
-        <li>attached to emails</li>
-      </ul>
-      <p className="govuk-body">Make sure you understand what letters are used for and who usually writes and approves them.
-        Speak to your policy contact if you are not sure.</p>
 
       <h2 className="govuk-heading-l">What to include in a letter</h2>
       <p className="govuk-body">Each letter should have:</p>
@@ -141,26 +132,10 @@ const Page: FC<PageProps> = ({ location }) => (
         </li>
       </ol>
 
-      <h3 className="govuk-heading-m">Additional letter content</h3>
-      <p className="govuk-body">Include extra information on additional pages.</p>
-      <ol className="govuk-list app-letter-model">
-        <li className="app-annotate-block">
-          <span className="app-annotate-block__label">block: standard content</span>
-          <p className="govuk-body">Standard paragraphs not directly relevant to task, such as:</p>
-          <ul className="govuk-list govuk-list--bullet">
-            <li>data protection</li>
-            <li>legal rights</li>
-          </ul>
-        </li>
-        <li className="app-annotate-block">
-          <span className="app-annotate-block__label">block: page number</span>
-          <p className="govuk-body">Page number or 'End of letter'</p>
-        </li>
-      </ol>
+
 
       <h2 className="govuk-heading-l">Accessibility</h2>
-      <p className="govuk-body">Some of our users will not speak English as a first language and literacy levels may vary.
-        The content should be written to be clear and understandable for all and avoid jargon or over-complicated legal text.</p>
+      
 
       <p className="govuk-body">Make sure you ask users whether they want to receive a letter or whether an alternative type of communication, like an email, would be better.</p>
 

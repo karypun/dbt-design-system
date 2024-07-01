@@ -55,10 +55,7 @@ const Page: FC<PageProps> = ({ location }) => (
     <p>Let the user-centred design and accessibility community know that you have posted a new discussion and ask their comments.</p>
     <p>Share your discussion through Slack, show and tells and community meetups.</p>
     <p>Consider giving your discussion topic a deadline of a few weeks.</p>
-    <h3>4. Summarise the discussion</h3>
-    <p>Use the comments to make a suggestion for an improvement or a new entry.</p>
-    <p>Contact <A href="#">design@businessandtrade.gov.uk</A> if you'd like feedback on your discussion or for the design system working group to review it.</p>
-    <h3>5. Updating the design system</h3>
+    <h3>4. Updating the design system</h3>
     <p>The <A href="#">design system working group</A> regularly assess discussions using the <A href="#">GOV.UK design system contribute criteria</A>.</p>
     <p>If the pattern or component is  ready to be published, the working group will then raise an issue and progress this work further.</p>
     <p>The working group will share updates in the user-centred design community email about proposal decisions and changes to the DBT design system.</p>
