@@ -46,13 +46,12 @@ const Page: FC<PageProps> = ({ location }) => (
     <div className="govuk-grid-column-three-quarters">
       <h1>{title}</h1>
         <p>The DBT design system helps us understand what DBT services look like and how they should behave. It builds on the <A href="https://design-system.service.gov.uk/">GOV.UK design system</A>.</p>
-        <p>There is an implementation of the design system that's an extension of <A href="https://not-gov.uk/">NotGovUK</A> which implements the GOV.UK design system in React. (See: <A href="https://not-gov.uk/design-decisions">design decisions</A>)</p>
-        <p>You can use the DBT design system for prototyping and products in production. See <A href="../styles">styles</A> for more information on internal and public facing services.</p>
+
         <h2>Design assets</h2>
         <p>You can explore ideas and demonstrate page flows using these design assets:</p>
         <ul>
           <li><A href="https://app.mural.co/t/departmentforbusinessandtrad1574/m/departmentforbusinessandtrad1574/1718094413612/699e6b95d41d31ea4da1717eb1f645242da71026?sender=uf6ad2fb3e168bde1c2295660">Service blueprint template (Mural)</A></li>
-          <li><A href="#">DBT styles and components (Figma)</A></li>
+          
         </ul>
 
     </div>

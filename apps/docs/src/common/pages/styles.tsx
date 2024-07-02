@@ -46,8 +46,8 @@ const Page: FC<PageProps> = ({ location }) => (
         <div className="govuk-grid-column-one-half">
           <p>If your service:</p>
           <ul>
-            <li>is internal, such as a caseworking system or admin service, and</li>
-            <li>sits on a businessandtrade.gov.uk domain</li>
+            <li>is internal, such as a caseworking system or admin service</li>
+
           </ul>
           <p>You should use:</p>
           <ul>
@@ -58,7 +58,7 @@ const Page: FC<PageProps> = ({ location }) => (
         </div>
         <div className="govuk-grid-column-one-half">
           <img src={ddatEventsImage} alt="Screenshot of a DBT 'Digital, Data and Technology Together' events page" className="image-examples" />
-          <span className="image-caption">Digital, Data and Technolgy (DDaT) Together page on businessandtrade.gov.uk</span>
+          <span className="image-caption">Digital, Data and Technolgy (DDaT) Together page</span>
         </div>
       </div>
       <hr className="govuk-section-break govuk-section-break--xl govuk-section-break--visible" />
@@ -76,11 +76,11 @@ const Page: FC<PageProps> = ({ location }) => (
             <li>the crown logo and GDS Transport font</li>
             <li><A href="https://design-system.service.gov.uk/styles/colour/">GOV.UK colours</A></li>
           </ul>
-          <p>Note: independent branding is used for services that are granted a GOV.UK exemption.</p>
+
         </div>
         <div className="govuk-grid-column-one-half">
           <img src={applyPassportImage} alt="Screenshot of a gov.uk 'Apply for a passport' page" className="image-examples" />
-          <span className="image-caption"><A href="https://www.passport.service.gov.uk/">www.passport.service.gov.uk</A></span>
+          <span className="image-caption">Apply for an export licence using LITE</span>
         </div>
       </div>
       <hr className="govuk-section-break govuk-section-break--xl govuk-section-break--visible" />
@@ -92,11 +92,11 @@ const Page: FC<PageProps> = ({ location }) => (
             <li>a marketing or promotional campaign site</li>
             <li>public-facing and on the great.gov.uk domain</li>
           </ul>
-          <p>Use the <A href="https://www.great.gov.uk/">Great.GOV.UK branding</A>.</p>
+          <p>Use the <A href="https://www.great.gov.uk/">GREAT branding</A>.</p>
         </div>
         <div className="govuk-grid-column-one-half">
           <img src={policeImage} alt="Screenshot of a 'Joining the police' page" className="image-examples" />
-          <span className="image-caption"><A href="https://www.great.gov.uk/">www.great.gov.uk</A></span>
+          <span className="image-caption">www.great.gov.uk</span>
         </div>
       </div>
     </div>

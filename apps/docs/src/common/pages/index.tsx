@@ -39,21 +39,21 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Styles</h2>
-          <p className="govuk-body govuk-!-font-size-19">We apply different styles to our services and products depending on the domain and type of service.</p>
+          <p className="govuk-body govuk-!-font-size-19">We apply different styles to our services and products depending on its type.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/styles">Browse styles</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Components</h2>
-          <p className="govuk-body govuk-!-font-size-19">Components are reusable, ready-made interface elements that can be used in different patterns and layouts.</p>
+          <p className="govuk-body govuk-!-font-size-19">Save time with reusable, accessible components for forms, tables and more.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/components">Browse components</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Patterns</h2>
-          <p className="govuk-body govuk-!-font-size-19">Patterns help users complete common tasks, are flexible and don't prescribe exact design solutions.</p>
+          <p className="govuk-body govuk-!-font-size-19">Help users complete common tasks like uploading files and getting help.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/patterns">Browse patterns</A>
         </aside>
       </div>
