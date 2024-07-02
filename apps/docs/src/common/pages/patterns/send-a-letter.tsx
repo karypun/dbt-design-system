@@ -135,7 +135,7 @@ const Page: FC<PageProps> = ({ location }) => (
 
 
       <h2 className="govuk-heading-l">Accessibility</h2>
-      
+
 
       <p className="govuk-body">Make sure you ask users whether they want to receive a letter or whether an alternative type of communication, like an email, would be better.</p>
 
@@ -152,7 +152,7 @@ const Page: FC<PageProps> = ({ location }) => (
       <p className="govuk-body">If your service uses this pattern, let us know of any insights you have on accessibility considerations.</p>
 
       <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">The insights that informed this model came from multiple services across the Home Office including:</p>
+      <p className="govuk-body">The insights that informed this model came from multiple services across Regulatory services including:</p>
       <ul className="govuk-list govuk-list--bullet">
         <li>Export licensing (SIELs)</li>
         <li>Apply for an export certificate</li>
