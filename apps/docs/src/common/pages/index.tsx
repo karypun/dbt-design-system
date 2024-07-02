@@ -16,21 +16,21 @@ const Page: FC<PageProps> = props => (
     </Helmet>
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
-        <h1>Designing and building DBT services</h1>
-        <p className="govuk-body-l">This design system will help you to design and build internal, as well as public-facing, services that are fit for everyone.</p>
-        <p className="govuk-body-l">Find out when to use our own styles, components and patterns and when to use the <A href="https://design-system.service.gov.uk/">GOV.UK Design System</A>. See examples from within existing services.</p>
+        <h1>Design, build and deliver accessible and consistent services</h1>
+        <p className="govuk-body-l">Use the DBT design system to learn from the work and experiences of others, contribute back into the design system to share your knowledge, and reuse as much as possible to avoid repeating what has already been done</p>
+
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Updates</h2>
-          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 23 October 2023</p>
+          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 23 June 2024</p>
           <ul className="govuk-!-font-size-16">
             <li>Help <A href="/patterns/send-a-letter">send users a letter</A></li>
           </ul>
         </aside>
         <aside>
           <h2>Content style guide</h2>
-          <p className="govuk-body govuk-!-font-size-19">How to write for digital DBT services.</p>
+          <p className="govuk-body govuk-!-font-size-19">How to write for Regulatory services.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/content">Browse content style guide</A>
         </aside>
       </div>
@@ -39,7 +39,7 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Styles</h2>
-          <p className="govuk-body govuk-!-font-size-19">We apply different styles to our services and products depending domain and type of service.</p>
+          <p className="govuk-body govuk-!-font-size-19">We apply different styles to our services and products depending on the domain and type of service.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/styles">Browse styles</A>
         </aside>
       </div>
