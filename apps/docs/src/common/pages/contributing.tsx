@@ -38,27 +38,19 @@ const Page: FC<PageProps> = ({ location }) => (
     <p>Anyone can contribute to the design system. For example, you can:</p>
     <ul>
       <li>ask questions about a style, component or pattern</li>
-      <li>answer questions from others</li>
       <li>share an example use of a component or pattern</li>
       <li>share research relating to a style, component or pattern</li>
       <li>request an addition or improvement to the content style guide</li>
       <li>propose a new style, component or pattern</li>
     </ul>
     <h2>Make a suggestion</h2>
-    <h3>1. Check if there's already a discussion</h3>
+    <h3>Check if there's already a discussion</h3>
     <p><A href="#">Check if there are any open discussions</A> about your suggestion on the design system GitHub.</p>
-    <h3>2. Create a new discussion</h3>
+    <h3>Create a new discussion</h3>
     <p>If there is not a discussion, <A href="#">start a new discussion</A> on GitHub. Select ‘ideas’ from the ‘select category’ list when starting to create the discussion.</p>
     <p>For help, use our <A href="#">GitHub guide</A> or ask the <A href="#">working group</A>.</p>
-    <p>When discussing a proposal for a new component, try to explain why it should be included in our design system. If you can, include screenshots and research findings.</p>
-    <h3>3. Share the discussion</h3>
-    <p>Let the user-centred design and accessibility community know that you have posted a new discussion and ask their comments.</p>
-    <p>Share your discussion through Slack, show and tells and community meetups.</p>
-    <p>Consider giving your discussion topic a deadline of a few weeks.</p>
-    <h3>4. Updating the design system</h3>
-    <p>The <A href="#">design system working group</A> regularly assess discussions using the <A href="#">GOV.UK design system contribute criteria</A>.</p>
-    <p>If the pattern or component is  ready to be published, the working group will then raise an issue and progress this work further.</p>
-    <p>The working group will share updates in the user-centred design community email about proposal decisions and changes to the DBT design system.</p>
+
+
   </div>
   </div>
 

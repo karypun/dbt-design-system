@@ -42,7 +42,7 @@ const Page: FC<PageProps> = ({ location }) => (
       </h1>
 
       <p className="govuk-body">Always use the DBT colour palette when you are designing and building internal services and products. For public facing and transactional sites use the <A href="https://design-system.service.gov.uk/styles/colour/">GOV.UK colour palette</A>.</p>
-      <p className="govuk-body">Ask <A href="mailto:design@businessandtrade.gov.uk">design@businessandtrade.gov.uk</A> if you have any questions.</p>
+
 
       {/* PRIMARY  */}
 
@@ -58,7 +58,7 @@ const Page: FC<PageProps> = ({ location }) => (
           <div className="colour-info">
             <p>Red is DBT's brand colour. This doesn't mean you should use it as the dominant colour in a digital interface.</p>
 
-            <p>Overusing the red can make content hard to read on screen, particularly on services that are designed to be used for long periods of time.</p>
+
 
             <p>DBT red works best in digital interfaces when it's just used for the DBT logo and sparingly used as a keyline or accent.</p>
           </div>
@@ -101,76 +101,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>You can use the <A href="https://design-system.service.gov.uk/styles/colour/">GOV.UK colour palette</A> alongside the main DBT colours. Use them to create graphs and supporting materials. If you need to use tints of the palette, use either 25% or 50%.</p>
       </section>
 
-      <h2 className="govuk-heading-l" style={{marginTop: "2em"}}>Accessibility</h2>
-      <p>There should be enough difference (contrast) between a background and the foreground content so that user can easily differentiate the two. See the <A href="/accessibility/colour-and-contrast">colour and contrast guidance</A> for more information.</p>
-      <p>If your service uses colour, let us know of any insights you have on accessibility considerations.</p>
-
-      {/* BACKGROUND COMBINATIONS */}
-
-      <section className="colour-swatch-wrapper">
-        <h3 className="govuk-heading-m" style={{marginTop: "1.5em", marginBottom: "0.5em"}}>Accessible text and background combinations</h3>
-        <p>Below are the colour combinations that pass.</p>
-
-
-        <div className="govuk-grid-row">
-
-          <div className="govuk-grid-column-one-half">
-
-            <div className="colour-swatch">
-              <span className="app-swatch" style={{backgroundColor: "#0b0c0c"}}>
-                <span style={{color: "#ffffff"}}>A</span>
-              </span>
-              <div className="colour-info">
-                Background: #0b0c0c<br />
-                Foreground: #ffffff
-              </div>
-            </div>
-
-            <div className="colour-swatch">
-              <span className="app-swatch" style={{backgroundColor: "#ffffff", border: "1px solid #cbcbcb"}}>
-                <span style={{color: "#0b0c0c"}}>A</span>
-              </span>
-              <div className="colour-info">
-                Background: #ffffff<br />
-                Foreground: #0b0c0c
-              </div>
-            </div>
-
-            <div className="colour-swatch">
-              <span className="app-swatch" style={{backgroundColor: "#cbcbcb", border: "1px solid #cbcbcb"}}>
-                <span style={{color: "#0b0c0c"}}>A</span>
-              </span>
-              <div className="colour-info">
-                Background: #cbcbcb<br />
-                Foreground: #0b0c0c
-              </div>
-            </div>
-
-            <div className="colour-swatch">
-              <span className="app-swatch" style={{backgroundColor: "#00703c"}}>
-                <span style={{color: "#ffffff"}}>A</span>
-              </span>
-              <div className="colour-info">
-                Background: #00703c<br />
-                Foreground: #ffffff
-              </div>
-            </div>
-
-            <div className="colour-swatch">
-              <span className="app-swatch" style={{backgroundColor: "#1d70b8"}}>
-                <span style={{color: "#ffffff"}}>A</span>
-              </span>
-              <div className="colour-info">
-                Background: #1d70b8<br />
-                Foreground: #ffffff
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-      </section>
+    
 
 
     </div>
