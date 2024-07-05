@@ -40,8 +40,8 @@ const Page: FC<PageProps> = ({ location }) => (
     </div>
     <div className="govuk-grid-column-three-quarters">
       <h1>{title}</h1>
-      <p>We apply different styles to DBT services and products depending on what domain they sit in and what kind of service it is.</p>
-      <h2 className="govuk-heading-m">DBT design styles</h2>
+      <p>We apply different styles to Regulatory Services and products depending on what domain they sit in and what kind of service it is.</p>
+      <h2 className="govuk-heading-m">Regulatory Services design styles</h2>
       <div className="govuk-grid-row">
         <div className="govuk-grid-column-one-half">
           <p>If your service:</p>
@@ -51,7 +51,7 @@ const Page: FC<PageProps> = ({ location }) => (
           </ul>
           <p>You should use:</p>
           <ul>
-            <li><A href="/components?name=Page">DBT page template</A></li>
+            <li><A href="/components?name=Page">Regulatory Services page template</A></li>
             <li><A href="https://fonts.google.com/specimen/Roboto#standard-styles">Roboto</A> font</li>
             <li><A href="/styles/colour">DBT colours</A></li>
           </ul>
@@ -83,22 +83,7 @@ const Page: FC<PageProps> = ({ location }) => (
           <span className="image-caption">Apply for an export licence using LITE</span>
         </div>
       </div>
-      <hr className="govuk-section-break govuk-section-break--xl govuk-section-break--visible" />
-      <h2 className="govuk-heading-m">Promotional branding</h2>
-      <div className="govuk-grid-row">
-        <div className="govuk-grid-column-one-half">
-          <p>If your service is one of the following:</p>
-          <ul>
-            <li>a marketing or promotional campaign site</li>
-            <li>public-facing and on the great.gov.uk domain</li>
-          </ul>
-          <p>Use the <A href="https://www.great.gov.uk/">GREAT branding</A>.</p>
-        </div>
-        <div className="govuk-grid-column-one-half">
-          <img src={policeImage} alt="Screenshot of a 'Joining the police' page" className="image-examples" />
-          <span className="image-caption">www.great.gov.uk</span>
-        </div>
-      </div>
+
     </div>
   </div>
 );

@@ -16,8 +16,8 @@ const Page: FC<PageProps> = props => (
     </Helmet>
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
-        <h1>Design, build and deliver accessible and consistent services</h1>
-        <p className="govuk-body-l">Use the DBT design system to learn from the work and experiences of others, contribute back into the design system to share your knowledge, and reuse as much as possible to avoid repeating what has already been done</p>
+        <h1>Design and build accessible and consistent Regulatory services</h1>
+        <p className="govuk-body-l">Save time by learning from the work and experiences of others, contribute back into the design system to share your knowledge, and reuse as much as possible to avoid repeating what has already been done</p>
 
       </div>
       <div className="govuk-grid-column-one-third">

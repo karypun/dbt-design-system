@@ -10,7 +10,7 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
     { href: '/styles', text: 'Styles' },
     { href: '/components', text: 'Components' },
     { href: '/patterns', text: 'Patterns' },
-    { href: '/content', text: 'Content guide' },  
+    { href: '/content', text: 'Content guide' },
     { href: '/contributing', text: 'Contributing' }
   ];
 
@@ -29,10 +29,10 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
         { href: "/sitemap", text: "Sitemap" },
         { href: "https://github.com/daniel-ac-martin/NotGovUK/issues/new", text: "Contact" },
       ]}
-      organisationText="Dept for Business & Trade"
+      organisationText="Department for Business & Trade"
       phase="alpha"
-      serviceName="Design system"
-      title="DBT Design System"
+      serviceName="Regulatory Services design system"
+      title="DBT Regulatory Services design system"
       maxContentsWidth={1100}
     >
       {children}
