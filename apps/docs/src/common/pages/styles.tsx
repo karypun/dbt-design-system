@@ -51,7 +51,7 @@ const Page: FC<PageProps> = ({ location }) => (
           </ul>
           <p>You should use:</p>
           <ul>
-            <li><A href="/components?name=Page">Regulatory Services page template</A></li>
+            <li><A href="#">Regulatory Services page template</A></li>
             <li><A href="https://fonts.google.com/specimen/Roboto#standard-styles">Roboto</A> font</li>
             <li><A href="/styles/colour">DBT colours</A></li>
           </ul>
