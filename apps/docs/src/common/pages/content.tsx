@@ -27,7 +27,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>When a product is altered or processed to change what it was - for example,  being forged, coated or machined.</p>
 
  <p>Suggested help text for users: We need to know if the product will undergo any processing or alteration work, for example being forged, coated or machined.</p>
-
+<h3 id="altered">test</h3>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="b">B</h2>
