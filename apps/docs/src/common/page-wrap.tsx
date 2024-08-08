@@ -29,7 +29,7 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
         { href: "/sitemap", text: "Sitemap" },
         { href: "https://github.com/daniel-ac-martin/NotGovUK/issues/new", text: "Contact" },
       ]}
-      organisationText="Depßt for Business & Trade"
+      organisationText="Dept for Business & Trade"
       phase="alpha"
       serviceName="Regulatory Services design system"
       title="DBT Regulatory Services design system"
