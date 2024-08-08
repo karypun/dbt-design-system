@@ -10,6 +10,10 @@ export const menu = (
       {
         href: '/patterns/company-details',
         text: 'Commercial organisation details'
+      },
+      {
+        href: '/patterns/feedback-on-service',
+        text: 'Feedback on a service'
       }
     ]} />
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
@@ -18,6 +22,14 @@ export const menu = (
       {
         href: '/patterns/access-a-service',
         text: 'Access a service'
+      },
+      {
+        href: '/patterns/add-multiple-things',
+        text: 'Add multiple things'
+      },
+      {
+        href: '/patterns/view-messages',
+        text: 'View messages'
       }
     ]} />
   </Fragment>
