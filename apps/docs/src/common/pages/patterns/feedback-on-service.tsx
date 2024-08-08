@@ -4,10 +4,10 @@ import { PageProps } from '@not-govuk/app-composer';
 import { A } from '@not-govuk/components';
 import { menu } from '../patterns';
 
-export const title = 'Add multiple things';
-const description = 'How to help users to add multiple things';
+export const title = 'Feedback on a service';
+const description = 'Ask users for feedback on a service';
 const section = 'Patterns';
-const subsection = 'Help users to';
+const subsection = 'Ask users for';
 
 const applyAddAnother = require('../../../../assets/images/patterns/add-another.svg');
 
@@ -34,11 +34,9 @@ const Page: FC<PageProps> = ({ location }) => (
       <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-      <p className="govuk-body">H-CSAT (Harmonised Customer Satisfactin Tool) is DBT's standardised instrument for gathering the <A href="https://www.gov.uk/service-manual/measuring-success/measuring-user-satisfaction">Government Digital Service metric of user satisfaction</A>.</p>
-
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyAddAnother} className="image-examples" alt="An example of an interaction to add multiple addresses" />
-      </div>
+      <p className="govuk-body">H-CSAT (Harmonised Customer Satisfactin Tool) is DBT's standardised instrument for gathering
+      the <A href="https://www.gov.uk/service-manual/measuring-success/measuring-user-satisfaction">Government Digital Service
+      metric of user satisfaction</A>.</p>
 
       <h2 className="govuk-heading-l">How it works</h2>
       <p>The H-CSAT consists of three standard questions:</p>
@@ -53,7 +51,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <img src={applyAddAnother} className="image-examples" alt="An example of an interaction to add multiple addresses" />
       </div>
 
-<p>In addition to the standard questions, you may choose to include 1-2 optional service-specific questions. Contact the M&E team on how to select and develop
+<p>In addition to the standard questions, you may choose to include 1-2 optional service-specific questions. Contact the <A href="#">M&E team</A> on how to select and develop
 these questions. They will also help to outline the stages in the user's journey for H-CSAT implementation.</p>
 
 
