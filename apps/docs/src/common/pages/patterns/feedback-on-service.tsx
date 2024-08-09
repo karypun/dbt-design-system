@@ -34,9 +34,14 @@ const Page: FC<PageProps> = ({ location }) => (
       <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-      <p className="govuk-body">H-CSAT (Harmonised Customer Satisfactin Tool) is DBT's standardised instrument for gathering
+      <p className="govuk-body">H-CSAT (Harmonised Customer Satisfaction Tool) is DBT's standardised instrument for gathering
       the <A href="https://www.gov.uk/service-manual/measuring-success/measuring-user-satisfaction">Government Digital Service
       metric of user satisfaction</A>.</p>
+
+      <h2 className="govuk-heading-l">When to use</h2>
+      <p>Follow this method of collecting customer satisfaction data across all digital services. Contact the <A href="mailto:evaluation@businessandtrade.gov.uk">Monitoring and Evaluaiton team </A>(M&E)
+      for more information.</p>
+
 
       <h2 className="govuk-heading-l">How it works</h2>
       <p>The H-CSAT consists of three standard questions:</p>
@@ -47,11 +52,8 @@ const Page: FC<PageProps> = ({ location }) => (
       </ul>
       <p>It can be accessed at any point in the service, either from the feedback banner or at the end of the user's journey.</p>
 
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyAddAnother} className="image-examples" alt="An example of an interaction to add multiple addresses" />
-      </div>
 
-<p>In addition to the standard questions, you may choose to include 1-2 optional service-specific questions. Contact the <A href="#">M&E team</A> on how to select and develop
+<p>In addition to the standard questions, you may choose to include 1-2 optional service-specific questions. Contact the <A href="mailto:evaluation@businessandtrade.gov.uk">M&E team</A> on how to select and develop
 these questions. They will also help to outline the stages in the user's journey for H-CSAT implementation.</p>
 
 

@@ -1,6 +1,6 @@
 @import "@not-govuk/components/src/index";
 
-$dbt-brand-colour-blue: #1d70b8;
+$dbt-brand-colour-blue: #cf102d;
 
 // Passport pattern
 div.app-example {
@@ -22,7 +22,7 @@ p.monospace {
   @include govuk-responsive-padding(2, "left");
   @include govuk-responsive-padding(2, "bottom");
   @include govuk-responsive-padding(2, "right");
-  background-color: $dbt-brand-colour-blue;
+  background-color: #cf102d;
   color: govuk-colour("white");
 }
 
@@ -82,7 +82,7 @@ ol.app-letter-model li.app-annotate-block {
   padding: govuk-spacing(3);
   padding-top: 3em;
   outline: 2px dashed govuk-colour("dark-grey");
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 ol.app-letter-model .app-annotate-block__label {
@@ -100,4 +100,33 @@ ol.app-letter-model .app-annotate-block__label {
 // which is defined by the containing column.
 p {
   max-width: none;
+}
+
+// Patch the organisational colours
+.govuk-header__container--department-for-business-trade {
+  border-color: #cf102d !important;
+
+  .govuk-header__navigation-item--active a,
+  .govuk-header__navigation-item--active a.govuk-header__link--active {
+    &:link,
+    &:hover,
+    &:visited {
+      color: #cf102d !important;
+    }
+  }
+}
+
+.govuk-header__logotype-text {
+  font-size: 20px;
+}
+
+.not-govuk-aside, aside {
+  border-top: 2px solid #cf102d;
+}
+
+.hods-page, #story-root, #root, body, html {
+    background-color: #fff !important;
+    color: #0b0c0c;
+    font-family: "Roboto", "Arial", sans-serif;
+    margin: 0;
 }
