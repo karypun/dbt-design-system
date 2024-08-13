@@ -23,8 +23,7 @@ export const title = 'Styles';
 const description = 'Make your service look and feel like a DBT service';
 
 const applyPassportImage = require('../../../assets/images/apply-passport.png');
-const ddatEventsImage = require('../../../assets/images/ddat-events.png');
-const policeImage = require('../../../assets/images/police.png');
+const ddatEventsImage = require('../../../assets/images/lite-case-management.png');
 
 const Page: FC<PageProps> = ({ location }) => (
   <div className="govuk-grid-row">
@@ -58,7 +57,7 @@ const Page: FC<PageProps> = ({ location }) => (
         </div>
         <div className="govuk-grid-column-one-half">
           <img src={ddatEventsImage} alt="Screenshot of a DBT 'Digital, Data and Technology Together' events page" className="image-examples" />
-          <span className="image-caption">Digital, Data and Technolgy (DDaT) Together page</span>
+          <span className="image-caption">LITE's export licensing case management system</span>
         </div>
       </div>
       <hr className="govuk-section-break govuk-section-break--xl govuk-section-break--visible" />
