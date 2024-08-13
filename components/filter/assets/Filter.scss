@@ -1,0 +1,9 @@
+.dbt-design-system-filter {
+  /* Write base styles for Filter here */
+  background-color: beige;
+
+  &__heading {
+    /* Write styles for 'heading' element within Filter here */
+    color: navy;
+  }
+}

@@ -1,0 +1,9 @@
+.dbt-design-system-tag {
+  /* Write base styles for Tag here */
+  background-color: beige;
+
+  &__heading {
+    /* Write styles for 'heading' element within Tag here */
+    color: navy;
+  }
+}

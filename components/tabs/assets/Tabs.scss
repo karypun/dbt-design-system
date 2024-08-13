@@ -1,0 +1,9 @@
+.dbt-design-system-tabs {
+  /* Write base styles for Tabs here */
+  background-color: beige;
+
+  &__heading {
+    /* Write styles for 'heading' element within Tabs here */
+    color: navy;
+  }
+}

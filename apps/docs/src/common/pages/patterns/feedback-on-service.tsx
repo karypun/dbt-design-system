@@ -9,7 +9,7 @@ const description = 'Ask users for feedback on a service';
 const section = 'Patterns';
 const subsection = 'Ask users for';
 
-const applyAddAnother = require('../../../../assets/images/patterns/add-another.svg');
+const applyAddAnother = require('../../../../assets/images/patterns/h-csat.png');
 
 const Page: FC<PageProps> = ({ location }) => (
 <div className="govuk-grid-row">
@@ -39,7 +39,7 @@ const Page: FC<PageProps> = ({ location }) => (
       metric of user satisfaction</A>.</p>
 
       <h2 className="govuk-heading-l">When to use</h2>
-      <p>Follow this method of collecting customer satisfaction data across all digital services. Contact the <A href="mailto:evaluation@businessandtrade.gov.uk">Monitoring and Evaluaiton team </A>(M&E)
+      <p>Follow this method of collecting customer satisfaction data across all digital services. Contact the <A href="mailto:evaluation@businessandtrade.gov.uk">Monitoring and Evaluation team </A>(M&E)
       for more information.</p>
 
 
@@ -52,16 +52,22 @@ const Page: FC<PageProps> = ({ location }) => (
       </ul>
       <p>It can be accessed at any point in the service, either from the feedback banner or at the end of the user's journey.</p>
 
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={applyAddAnother} className="image-examples" alt="An example of an interaction to add multiple addresses" />
+      </div>
 
 <p>In addition to the standard questions, you may choose to include 1-2 optional service-specific questions. Contact the <A href="mailto:evaluation@businessandtrade.gov.uk">M&E team</A> on how to select and develop
 these questions. They will also help to outline the stages in the user's journey for H-CSAT implementation.</p>
 
 
       <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">This pattern is used by:</p>
+      <p className="govuk-body">The H-CSAT has been used in:</p>
       <ul>
+        <li>Apply for a licence to provide sanctioned trade services</li>
         <li>Digital Market Access Service</li>
         <li>LITE</li>
+        <li>Search for UK subsidies</li>
+        <li>Trade Remedies Service</li>
       </ul>
       <p className="govuk-body">More research is needed. If your service uses this
       pattern, get in touch to share your user research findings.</p>
@@ -69,10 +75,11 @@ these questions. They will also help to outline the stages in the user's journey
       <h2 className="govuk-heading-l">Help us improve this pattern</h2>
       <p>This pattern needs improving. We need evidence about:</p>
       <ul>
+        <li>how the star rating has worked</li>
         <li>where H-CSAT has been placed in a journey</li>
       </ul>
 
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://github.com/UKHomeOffice/design-system/discussions/353">GitHub discussion</A>, or follow our <A href="/contribute">contribute guidance</A>.</p>
+      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="#">GitHub discussion</A>, or follow our <A href="#">contribute guidance</A>.</p>
 
     </div>
 </div>

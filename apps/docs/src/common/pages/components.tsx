@@ -8,7 +8,10 @@ const reduceToLookup = (acc: object, cur) => ({...acc, [cur.default.title]: cur}
 const buildLookup = v => v.reduce(reduceToLookup, {});
 
 const mainStories = [
-  require('../../../../../components/alert/spec/Alert.stories.mdx')
+  require('../../../../../components/alert/spec/Alert.stories.mdx'),
+  require('../../../../../components/tabs/spec/Tabs.stories.mdx'),
+  require('../../../../../components/tag/spec/Tag.stories.mdx'),
+  require('../../../../../components/filter/spec/Filter.stories.mdx')
 ];
 
 const mainComponents = buildLookup(mainStories);

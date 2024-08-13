@@ -1,0 +1,39 @@
+import { Meta, Preview, Props, Story } from '@storybook/addon-docs';
+import { Tabs } from '../src/Tabs';
+import readMe from '../README.md';
+
+<Meta
+  title="Tabs"
+  component={ Tabs }
+  parameters={ {
+    chromatic: { viewports: [640, 480] },
+    description: 'A component to let users navigate between related sections of content, displaying one section at a time',
+    jest: ['Tabs'],
+    notes: readMe
+  } }
+/>
+
+# Tabs
+
+A component to let users navigate between related sections of content, displaying one section at a time
+WRITE MORE DESCRIPTION HERE.
+
+<Preview withToolbar>
+  <Story name="Tabs">
+    <Tabs />
+  </Story>
+</Preview>
+
+<Props of={ Tabs } />
+
+
+## Stories
+### Standard
+
+A standard Tabs.
+
+<Preview>
+  <Story name="Standard">
+    <Tabs />
+  </Story>
+</Preview>

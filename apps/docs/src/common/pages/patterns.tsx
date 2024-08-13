@@ -19,14 +19,7 @@ export const menu = (
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
     <NavigationMenu items={[
 
-      {
-        href: '/patterns/access-a-service',
-        text: 'Access a service'
-      },
-      {
-        href: '/patterns/add-multiple-things',
-        text: 'Add multiple things'
-      },
+      
       {
         href: '/patterns/view-messages',
         text: 'View messages'
