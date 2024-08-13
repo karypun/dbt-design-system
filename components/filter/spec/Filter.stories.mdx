@@ -15,8 +15,7 @@ import readMe from '../README.md';
 
 # Filter
 
-To help users filter a list of items, such as a list of cases or search results
-WRITE MORE DESCRIPTION HERE.
+A component to sift through a list of items or information.
 
 <Preview withToolbar>
   <Story name="Filter">
@@ -29,36 +28,26 @@ WRITE MORE DESCRIPTION HERE.
 
 ## When to use this component
 
-Use the details component to make a page easier to scan when it contains information that only some users will need.
+Use the filter component to help users filter a list of items, such as a list of cases or search results.
+
+You should only provide users with filters they really need.
 
 
-## When not to use this component
+## How to use
 
-Do not use the details component to hide information that the majority of your users will need.
+Users can select 1 or more filters. When the user clicks 'Apply filters' the page refreshes to show the items that match the filters.
 
-
-## Details, accordions and tabs
-
-Details, accordions, and tabs all hide sections of content which a user can choose to reveal.
-
-Use the details component instead of tabs or an accordion if you only have 1 section of content.
-
-The details component is less visually prominent than tabs and accordions, so tends to work better for content which is not as important to users.
+The selected filters are displayed at the top or side to let users see what they've selected and remove them easily.
+Clicking on a selected filter refreshes the page and removes the filter.
 
 
 ## How it works
 
-The details component is a short link that expands into more detailed help text when a user clicks on it.
-
-<Preview>
-  <Story name="Standard">
-    <Details summary="Help with nationality">
-      We need to know your nationality so we can work out which elections you’re entitled to vote in. If you cannot provide your nationality, you’ll have to send copies of identity documents through the post.
-    </Details>
-  </Story>
-</Preview>
+The filter component is a short link that expands into more detailed filtering options when a user clicks on it.
+You can use form elements such as radios and checkboxes to let users filter the list.
 
 
-## Write clear link text
 
-Make the link text short and descriptive so users can quickly work out if they need to click on it.
+## Research
+
+This component has been used on LITE to sift through cases and view certain information at a glance.
