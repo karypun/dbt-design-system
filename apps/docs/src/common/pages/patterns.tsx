@@ -10,6 +10,10 @@ export const menu = (
       {
         href: '/patterns/company-details',
         text: 'Commercial organisation details'
+      },
+      {
+        href: '/patterns/user-satisfaction',
+        text: 'User satisfaction'
       }
     ]} />
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
