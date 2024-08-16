@@ -55,11 +55,11 @@ const Page: FC<PageProps> = ({ location }) => (
 
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyAddAnother} className="image-examples" alt="An example of an interaction to add multiple addresses" />
+        <img src={applyAddAnother} className="image-examples" alt="A series of screens to capture user satisfaction" />
       </div>
 
       <h2 className="govuk-heading-l">Accessibility</h2>
-      <p className="govuk-body">You must test that your designs meet the WCAG 2.2 AA accessibiity standard.
+      <p className="govuk-body">You must test that your designs meet the WCAG 2.2 AA accessibility standard.
       By using standard components such as radios and text areas, you can make your design more accessible without custom development work.</p>
 
       <h2 className="govuk-heading-l">Research</h2>
