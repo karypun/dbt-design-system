@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "@not-govuk/component-helpers": "^0.8.7",
-    "@not-govuk/tabs": "^0.9.0"
+    "@not-govuk/navigation-menu": "^0.9.1"
   },
   "peerDependencies": {
     "@not-govuk/docs-components": "^0.8.7",

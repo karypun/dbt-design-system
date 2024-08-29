@@ -19,7 +19,20 @@ A component to let users navigate between related sections of content, displayin
 
 <Preview withToolbar>
   <Story name="Tabs">
-    <Tabs />
+    <Tabs items={[
+    {
+      href: "/",
+      text: "Inactive 1",
+    },
+    {
+      href: "#main-content",
+      text: "Active",
+    },
+    {
+      href: "/#main-content",
+      text: "Inactive 2",
+    },
+  ]} />
   </Story>
 </Preview>
 
@@ -33,6 +46,19 @@ A standard Tabs.
 
 <Preview>
   <Story name="Standard">
-    <Tabs />
+    <Tabs items={[
+    {
+      href: "/",
+      text: "Inactive 1",
+    },
+    {
+      href: "#main-content",
+      text: "Active",
+    },
+    {
+      href: "/#main-content",
+      text: "Inactive 2",
+    },
+  ]} />
   </Story>
 </Preview>
