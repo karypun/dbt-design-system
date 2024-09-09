@@ -66,10 +66,7 @@ const Page: FC<PageProps> = ({ location }) => (
       <p className="govuk-body">This pattern is used by:</p>
       <ul>
         <li>Apply for a licence to provide sanctioned trade services</li>
-        <li>Digital Market Access Service</li>
         <li>LITE</li>
-        <li>Search for UK subsidies</li>
-        <li>Trade Remedies Service</li>
       </ul>
 
       <h2 className="govuk-heading-l">Help us improve this pattern</h2>
