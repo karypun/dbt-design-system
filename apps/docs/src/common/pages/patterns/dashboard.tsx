@@ -4,12 +4,12 @@ import { PageProps } from '@not-govuk/app-composer';
 import { A } from '@not-govuk/components';
 import { menu } from '../patterns';
 
-export const title = 'View messages';
-const description = 'How to help users to view messages';
+export const title = 'View their dashboard';
+const description = 'How to help users to view their dashboard';
 const section = 'Patterns';
 const subsection = 'Help users to';
 
-const applyContextualHelp = require('../../../../assets/images/patterns/messages.png');
+
 
 const Page: FC<PageProps> = ({ location }) => (
 <div className="govuk-grid-row">
@@ -36,20 +36,21 @@ const Page: FC<PageProps> = ({ location }) => (
 
 
 
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyContextualHelp} className="image-examples" alt="An example of an interaction that shows contextual help" />
-      </div>
-
       <h2 className="govuk-heading-l">When to use this pattern</h2>
-      <p>Use this component in your service to display a list of messages in chronological order between different people or systems.
-      For example, between case workers and external businesses.</p>
+      <p>Use this pattern to help users filter a list of items, such as a list of cases or search results.</p>
+      <p>You should only provide users with filters they really need.</p>
 
+
+      <h2 className="govuk-heading-l">How to use</h2>
+      <p className="govuk-body">Users can select one or more filters. When the user clicks 'Apply filters' the Page
+      refreshes to show the items that match the filters.</p>
+
+      <p className="govuk-body">The selected filters are displayed at the top or side to let users see what they've selected
+      and remove them easily.</p>
 
       <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">This pattern is used by:</p>
-      <ul>
-        <li>Export licensing (SIELs)</li>
-      </ul>
+      <p className="govuk-body">This pattern has been used on LITE to sift through cases and view certain information at a glance.</p>
+
       <p className="govuk-body">More research is needed. If your service uses this
       pattern, get in touch to share your user research findings.</p>
 

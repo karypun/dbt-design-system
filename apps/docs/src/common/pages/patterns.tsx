@@ -18,11 +18,21 @@ export const menu = (
     ]} />
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
     <NavigationMenu items={[
-
-
       {
-        href: '/patterns/view-messages',
-        text: 'View messages'
+        href: '/patterns/filter-list',
+        text: 'Filter a list'
+      },
+      {
+        href: '/patterns/make-a-declaration',
+        text: 'Make a declaration'
+      },
+      {
+        href: '/patterns/send-a-letter',
+        text: 'Send a letter'
+      },
+      {
+        href: '/patterns/dashboard',
+        text: 'View their dashboard'
       }
     ]} />
   </Fragment>

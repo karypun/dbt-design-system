@@ -8,7 +8,7 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
   const navigation = [
     { href: '/get-started', text: 'Get started' },
     { href: '/styles', text: 'Styles' },
-    { href: '/components', text: 'Components' },
+    { href: '/component', text: 'Components' },
     { href: '/patterns', text: 'Patterns' },
     { href: '/content', text: 'Content guide' },
     { href: '/contributing', text: 'Contributing' }
@@ -31,8 +31,8 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
       ]}
       organisationText="Department for Business & Trade"
 
-      serviceName="Regulatory Services design system"
-      title="DBT Regulatory Services design system"
+      serviceName="Trade and Regulatory Services design system"
+      title="DBT Trade and Regulatory Services design system"
       maxContentsWidth={1100}
     >
       {children}
