@@ -44,6 +44,9 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>Dual-use products (including software and technology) can be used for both civil and military purposes. Dual-use products also includes all products which have non-explosive uses or assist in any way with the manufacture of nuclear weapons or other nuclear explosive devices.</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
+        <h3 id="dbs adult first">Test content</h3>
+        <p>Test </p>
+
         <h2 className="a-z-header" id="e">E</h2>
         <h3 id="eea biometric residence card">End user</h3>
         <p>An end-user receives the products in the destination country. They either use the products themselves, resell from stock, or export them again to another country.</p>
