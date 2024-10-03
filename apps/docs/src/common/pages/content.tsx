@@ -37,7 +37,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <h2 className="a-z-header" id="c">C</h2>
 
         <h3 id="CRN">Company registration number (CRN)</h3>
-        </p>Suggested help text: 8 numbers, or 2 letters followed by 6 numbers.</p>
+        <p>Suggested help text: 8 numbers, or 2 letters followed by 6 numbers.</p>
         <h3 id="consignee">Consignee</h3>
         <p>A consignee receives the products then delivers or sells them to the end user</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
@@ -93,7 +93,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <h2 className="a-z-header" id="m">M</h2>
 
         <h3 id="modified military">Modified for military use</h3>
-        <p>Goods determined to have a clear military function and altered for military use.
+        <p>Goods determined to have a clear military function and altered for military use.</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
