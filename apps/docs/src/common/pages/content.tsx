@@ -25,14 +25,11 @@ const Page: FC<PageProps> = ({ location }) => (
         <h2 className="a-z-header" id="a">A</h2>
         <h3 id="altered">Altered or processed products</h3>
         <p>When a product is altered or processed to change what it was - for example, being forged, coated or machined.</p>
-
         <p>Suggested help text: We need to know if the product will undergo any processing or alteration work, for example being forged, coated or machined.</p>
-
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="b">B</h2>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
-
 
         <h2 className="a-z-header" id="c">C</h2>
 
@@ -156,7 +153,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2>Help improve this guide</h2>
-        <p>To contribute, send your request to <A href="mailto:design@digital.homeoffice.gov.uk">xxx@businessandtrade.gov.uk,</A> or add it to the <A href="https://github.com/UKHomeOffice/design-system/discussions/470">GitHub discussion</A>.</p>
+        <p>To contribute, add it to the <A href="https://github.com/UKHomeOffice/design-system/discussions/470">GitHub discussion</A>.</p>
       </div>
     </div>
   </Fragment>

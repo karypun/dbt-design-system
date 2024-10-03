@@ -1,0 +1,53 @@
+import { Meta, Preview, Props, Story } from '@storybook/addon-docs';
+import { Filter } from '../src/Filter';
+import readMe from '../README.md';
+
+<Meta
+  title="Filter"
+  component={ Filter }
+  parameters={ {
+    chromatic: { viewports: [640, 480] },
+    description: 'To help users filter a list of items, such as a list of cases or search results',
+    jest: ['Filter'],
+    notes: readMe
+  } }
+/>
+
+# Filter
+
+A component to sift through a list of items or information.
+
+<Preview withToolbar>
+  <Story name="Filter">
+    <Filter />
+  </Story>
+</Preview>
+
+<Props of={ Filter } />
+
+
+## When to use this component
+
+Use the filter component to help users filter a list of items, such as a list of cases or search results.
+
+You should only provide users with filters they really need.
+
+
+## How to use
+
+Users can select 1 or more filters. When the user clicks 'Apply filters' the page refreshes to show the items that match the filters.
+
+The selected filters are displayed at the top or side to let users see what they've selected and remove them easily.
+Clicking on a selected filter refreshes the page and removes the filter.
+
+
+## How it works
+
+The filter component is a short link that expands into more detailed filtering options when a user clicks on it.
+You can use form elements such as radios and checkboxes to let users filter the list.
+
+
+
+## Research
+
+This component has been used on LITE to sift through cases and view certain information at a glance.

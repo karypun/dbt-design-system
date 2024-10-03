@@ -16,7 +16,7 @@ const Page: FC<PageProps> = props => (
     </Helmet>
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
-        <h1>Design and build accessible and consistent Regulatory Services</h1>
+        <h1>Design and build accessible and consistent services</h1>
         <p className="govuk-body-l">Save time by learning from the work and experiences of others, contribute back into the design system to share your knowledge, and reuse as much as possible to avoid repeating what has already been done</p>
 
       </div>

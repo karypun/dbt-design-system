@@ -10,14 +10,29 @@ export const menu = (
       {
         href: '/patterns/company-details',
         text: 'Commercial organisation details'
+      },
+      {
+        href: '/patterns/user-satisfaction',
+        text: 'User satisfaction'
       }
     ]} />
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
     <NavigationMenu items={[
-
       {
-        href: '/patterns/access-a-service',
-        text: 'Access a service'
+        href: '/patterns/filter-list',
+        text: 'Filter a list'
+      },
+      {
+        href: '/patterns/make-a-declaration',
+        text: 'Make a declaration'
+      },
+      {
+        href: '/patterns/send-a-letter',
+        text: 'Send a letter'
+      },
+      {
+        href: '/patterns/dashboard',
+        text: 'View their dashboard'
       }
     ]} />
   </Fragment>
