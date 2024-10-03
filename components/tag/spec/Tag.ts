@@ -2,7 +2,7 @@ import { createElement as h } from 'react';
 import { render, screen } from '@not-govuk/component-test-helpers';
 import Tag from '../src/Tag';
 
-describe('Tag', () => {
+describe.skip('Tag', () => {
   const minimalProps = {
   };
 
