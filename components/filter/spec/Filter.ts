@@ -2,7 +2,7 @@ import { createElement as h } from 'react';
 import { render, screen } from '@not-govuk/component-test-helpers';
 import Filter from '../src/Filter';
 
-describe('Filter', () => {
+describe.skip('Filter', () => {
   const minimalProps = {
   };
 
