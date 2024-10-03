@@ -24,29 +24,37 @@ const Page: FC<PageProps> = ({ location }) => (
       <div className="govuk-grid-column-two-thirds">
         <h2 className="a-z-header" id="a">A</h2>
         <h3 id="altered">Altered or processed products</h3>
-        <p>When a product is altered or processed to change what it was - for example,  being forged, coated or machined.</p>
-
- <p>Suggested help text for users: We need to know if the product will undergo any processing or alteration work, for example being forged, coated or machined.</p>
-
+        <p>When a product is altered or processed to change what it was - for example, being forged, coated or machined.</p>
+        <p>Suggested help text: We need to know if the product will undergo any processing or alteration work, for example being forged, coated or machined.</p>
+        <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="b">B</h2>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
-
         <h2 className="a-z-header" id="c">C</h2>
 
+        <h3 id="CRN">Company registration number (CRN)</h3>
+        <p>Suggested help text: 8 numbers, or 2 letters followed by 6 numbers.</p>
+        <h3 id="consignee">Consignee</h3>
+        <p>A consignee receives the products then delivers or sells them to the end user</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="d">D</h2>
-        <h3 id="dbs adult first">Dual-use</h3>
+        <h3 id="dual-use">Dual-use</h3>
+        <p>Hyphenate</p>
         <p>Dual-use products (including software and technology) can be used for both civil and military purposes. Dual-use products also includes all products which have non-explosive uses or assist in any way with the manufacture of nuclear weapons or other nuclear explosive devices.</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="e">E</h2>
         <h3 id="eea biometric residence card">End user</h3>
-        <p>An end-user receives the products in the destination country. They either use the products themselves, resell from stock, or export them again to another country.</p>
-        <h3 id="egates">End user undertaking</h3>
-        <p>A form that an exporter has to complete for single individual export licences (SIELs) and standard individual trade control licences (SITCLs). It asks details about the products being exported. Exporter must complete one if the products are being shipped to be used when they arrive or if an end user is incorporating the products (such as installing them into another product or higher-level system).</p>
+        <p>An end user receives the products in the destination country. They either use the products themselves, resell from stock, or export them again to another country.</p>
+        
+        <h3 id="EORI">Economic Operators Registration and Identification (EORI) number</h3>
+        <p>Usually just referred to as an EORI number. It is mandatory for customers clearance in the customer territory of the European Union.</p>
+        <p>UK registered companies will have an EORI number that begins with GB or XI, so this can be built into the validation.</p>
+        <p>Suggested help text: The first two letters are the country code, like GB or XI. This is followed by 12 or 15 numbers, like GB 123456123456.</p>
+        <p>The suggested help text is also used by HMRC across their services.</p>
+
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -60,10 +68,10 @@ const Page: FC<PageProps> = ({ location }) => (
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="i">I</h2>
-        <h3 id="immigration adviser">Incorporate</h3>
+        <h3 id="incorporate">Incorporate</h3>
         <p>Synonym: Integrate</p>
         <p>Incorporation is when one product is put into a new product - for example a processing chip product is incorporated into a computer. In incorporation the item isn't changed, just added to a new product. In the new SIEL application, items are incorporated into a 'higher platform' (for example adding a gun to a tank).</p>
-        <p>Suggested help text for users: We need to know if the product will be onward exported, regardless of whether it has been integrated into a higher system, platform or software.</p>
+        <p>Suggested help text: We need to know if the product will be onward exported, regardless of whether it has been integrated into a higher system, platform or software.</p>
         <h3 id="item">Item</h3>
         <p>The term 'item' is used when asking how many of each product you are exporting. For example, how many items of 'x' type of firearm are you exporting.</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
@@ -80,6 +88,9 @@ const Page: FC<PageProps> = ({ location }) => (
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="m">M</h2>
+
+        <h3 id="modified military">Modified for military use</h3>
+        <p>Goods determined to have a clear military function and altered for military use.</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -115,6 +126,12 @@ const Page: FC<PageProps> = ({ location }) => (
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="u">U</h2>
+
+        <h3 id="VAT">UK VAT number</h3>
+        <p>VAT does not need spelled out the first time you use the term.</p>
+        <p>Suggested the help text: This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate.</p>
+        <p>The suggested help text is also used by HMRC across their services.</p>
+
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
