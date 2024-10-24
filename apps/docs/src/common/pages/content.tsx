@@ -26,7 +26,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <h3 id="altered">Altered or processed products</h3>
         <p>When a product is altered or processed to change what it was - for example, being forged, coated or machined.</p>
 
-        <p>Suggested help text: We need to know if the product will undergo any processing or alteration work, for example being forged, coated or machined.</p>
+        <p>Suggested hint text: We need to know if the product will undergo any processing or alteration work, for example being forged, coated or machined.</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -39,7 +39,13 @@ const Page: FC<PageProps> = ({ location }) => (
         <h3 id="CRN">Company registration number (CRN)</h3>
         <p>Suggested help text: 8 numbers, or 2 letters followed by 6 numbers.</p>
         <h3 id="consignee">Consignee</h3>
-        <p>A consignee receives the products then delivers or sells them to the end user</p>
+        <p>A consignee receives the products then delivers or sells them to the end user.</p>
+
+        <h3 id="control list entry">Control list entry (CLE)</h3>
+        <p>Products that are 'controlled' and require authorisation to be exported from the UK have a CLE. Each type of product has a specific CLE. 
+          We publish a <a href="hhttps://www.gov.uk/government/publications/uk-strategic-export-control-lists-the-consolidated-list-of-strategic-military-and-dual-use-items-that-require-export-authorisation">list of CLEs</a> on GOV.UK.</p>
+        <p>If a product does not require authoritsation, users will have a 'no licence required' document.</p>
+        <p>The LITE system only allows users to choose from a bank of CLEs. They cannot type in a CLE that is not on the pre-populated list.</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="d">D</h2>
@@ -55,7 +61,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <h3 id="EORI">Economic Operators Registration and Identification (EORI) number</h3>
         <p>Usually just referred to as an EORI number. It is mandatory for customers clearance in the customer territory of the European Union.</p>
         <p>UK registered companies will have an EORI number that begins with GB or XI, so this can be built into the validation.</p>
-        <p>Suggested help text: The first two letters are the country code, like GB or XI. This is followed by 12 or 15 numbers, like GB 123456123456.</p>
+        <p>Suggested hint text: The first two letters are the country code, like GB or XI. This is followed by 12 or 15 numbers, like GB 123456123456.</p>
         <p>The suggested help text is also used by HMRC across their services.</p>
 
 
@@ -74,7 +80,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <h3 id="incorporate">Incorporate</h3>
         <p>Synonym: Integrate</p>
         <p>Incorporation is when one product is put into a new product - for example a processing chip product is incorporated into a computer. In incorporation the item isn't changed, just added to a new product. In the new SIEL application, items are incorporated into a 'higher platform' (for example adding a gun to a tank).</p>
-        <p>Suggested help text: We need to know if the product will be onward exported, regardless of whether it has been integrated into a higher system, platform or software.</p>
+        <p>Suggested hint text: We need to know if the product will be onward exported, regardless of whether it has been integrated into a higher system, platform or software.</p>
         <h3 id="item">Item</h3>
         <p>The term 'item' is used when asking how many of each product you are exporting. For example, how many items of 'x' type of firearm are you exporting.</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
@@ -106,10 +112,26 @@ const Page: FC<PageProps> = ({ location }) => (
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="p">P</h2>
-        <h3 id="passport control">Product</h3>
+        <h3 id="product">Product</h3>
         <p>Each type of thing you are exporting. Products include goods, items, technology, data and services.</p> 
         <p>For example, if you are exporting firearms and ammunitions,  you’re exporting 2 products. You may be exporting several firearms, but they still count as one product.</p> 
          <p>Legacy systems use the word ‘goods’. The word product has been tested and found to be easier for users to understand.</p>
+        <p>What is being being exported can:</p>
+        <ul>
+          <li>be a complete product - hardware such as devices, systems platforms, vehicles, equipment</li>
+          <li>be part of a product - components and accessories or raw materials and substances</li>
+          <li>help operate a product - software or information such as technology manuals and specifications</li>
+          </ul>
+        <h3 id="product name">Product name</h3>
+        <p>Users need to give each new product a name when they add it to their application. This helps case officers understand what
+        they want to export. It also makes it easier for users to add saved products to future applications.</p>
+        <p>The product name should include the make, model and type of item.</p>
+        <p>It should not include serial numbers or part numbers.</p>
+        <p>Suggested hint text: Try to match the name as closely as possible to any documentation such as the technical specification, end-user
+        certificate or firearm certificate.</p>
+
+
+
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
