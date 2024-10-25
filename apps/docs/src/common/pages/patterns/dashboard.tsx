@@ -4,10 +4,10 @@ import { PageProps } from '@not-govuk/app-composer';
 import { A } from '@not-govuk/components';
 import { menu } from '../patterns';
 
-export const title = 'View their dashboard';
+export const title = 'Dashboard';
 const description = 'How to help users to view their dashboard';
 const section = 'Patterns';
-const subsection = 'Help users to';
+const subsection = 'Pages';
 
 const viewDashboard = require('../../../../assets/images/patterns/dashboard.png');
 

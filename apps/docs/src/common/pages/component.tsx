@@ -7,25 +7,10 @@ export const menu = (
   <Fragment>
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Components</span>
     <NavigationMenu items={[
-      {
-        href: '/component/banner',
-        text: 'Banner'
-      },
-      {
-        href: '/component/flag',
-        text: 'Flag'
-      },
+
       {
         href: '/component/messages',
         text: 'Messages'
-      },
-      {
-        href: '/component/tabs',
-        text: 'Tabs'
-      },
-      {
-        href: '/component/timeline',
-        text: 'Timeline'
       }
     ]} />
   </Fragment>

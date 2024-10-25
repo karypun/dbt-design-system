@@ -42,22 +42,24 @@ const Page: FC<PageProps> = ({ location }) => (
 
       <h2 className="govuk-heading-l">How it works</h2>
       <p>Only create an account if there is a need to do so. For example, to return to a saved application
-        or to manage multiple applications. In LITE this is broken into these steps:</p>
+        or to manage multiple tasks in one place. See the <a href="https://design-system.service.gov.uk/patterns/create-accounts/">Create accounts pattern</a> in the GOV.UK Design System for more information.</p>
+      <p>In LITE, the pattern is further extended by showing how it is applied in practice with export licensing using the GOV.UK One Login. These are the steps
+        LITE uses to create an account:</p>
       <h3 className="govuk-heading-m">1. Sign in or create a GOV.UK One Login</h3>
-      
+      <p>Below is the flow for how to create or sign into <a href="">GOV.UK One Login</a>.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={applyAuthenticatePersonal2} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
       </div>
 
       <h3 className="govuk-heading-m">2. Register your company details</h3>
-      <p>Submit your application to request an account. An internal team will review your request.</p>
+      <p>Once logged in, you will be asked to complete your company details as part of the application process to request a LITE account. An internal team will review your request.</p>
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={applyAuthenticatePersonal} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
       </div>
 
       <h3 className="govuk-heading-m">3. Receive notifications about your account</h3>
-      <p>Once your request has been submitted, you will receive a message from GOV.UK Notify that your request is being reviewed. If successful, you will receive another
+      <p>After your request has been submitted, you will receive a message from GOV.UK Notify that your request is being reviewed. If successful, you will receive another
          email that it has been approved with a link to access your new account.</p>
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={applyAuthenticatePersonal3} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />

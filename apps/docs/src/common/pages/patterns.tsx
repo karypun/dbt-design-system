@@ -19,20 +19,23 @@ export const menu = (
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
     <NavigationMenu items={[
       {
-        href: '/patterns/filter-list',
-        text: 'Filter a list'
+        href: '/patterns/create-account',
+        text: 'Create an account'
+      }
+    ]} />
+     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Pages</span>
+    <NavigationMenu items={[
+      {
+        href: '/patterns/case-list-page',
+        text: 'Case list page'
       },
       {
-        href: '/patterns/make-a-declaration',
-        text: 'Make a declaration'
-      },
-      {
-        href: '/patterns/send-a-letter',
-        text: 'Send a letter'
+        href: '/patterns/case-detail-page',
+        text: 'Case details page'
       },
       {
         href: '/patterns/dashboard',
-        text: 'View their dashboard'
+        text: 'Dashboard'
       }
     ]} />
   </Fragment>
@@ -44,7 +47,7 @@ const description = 'Patterns are best practice design solutions for specific us
 const Page: FC<PageProps> = ({ location }) => (
   <div className="govuk-grid-row">
     <Helmet>
-      <title>{title} - Home Office Design System</title>
+      <title>{title} - DBT Design System</title>
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />
       <meta name="og:description" content={description} />
