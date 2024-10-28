@@ -21,6 +21,14 @@ export const menu = (
       {
         href: '/patterns/create-account',
         text: 'Create an account'
+      },
+      {
+        href: '/patterns/manage-complex-applications',
+        text: 'Manage complex applications'
+      },
+      {
+        href: '/patterns/manage-queries',
+        text: 'Manage queries'
       }
     ]} />
      <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Pages</span>

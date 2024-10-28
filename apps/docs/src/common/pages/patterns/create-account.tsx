@@ -9,8 +9,7 @@ const description = 'How to help users to create an account';
 const section = 'Patterns';
 const subsection = 'Help users to';
 
-const applyAuthenticatePersonal = require('../../../../assets/images/patterns/access-service.png');
-const applyAuthenticatePersonal2 = require('../../../../assets/images/patterns/govuk-one.png');
+const accessService = require('../../../../assets/images/patterns/access-service.png');
 const applyAuthenticatePersonal3 = require('../../../../assets/images/patterns/govuk-notify.png');
 
 const Page: FC<PageProps> = ({ location }) => (
@@ -38,7 +37,9 @@ const Page: FC<PageProps> = ({ location }) => (
 
       <p className="govuk-body"></p>
 
-
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={accessService} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+      </div>
 
       <h2 className="govuk-heading-l">How it works</h2>
       <p>Only create an account if there is a need to do so. For example, to return to a saved application
@@ -46,17 +47,12 @@ const Page: FC<PageProps> = ({ location }) => (
       <p>In LITE, the pattern is further extended by showing how it is applied in practice with export licensing using the GOV.UK One Login. These are the steps
         LITE uses to create an account:</p>
       <h3 className="govuk-heading-m">1. Sign in or create a GOV.UK One Login</h3>
-      <p>Below is the flow for how to create or sign into <a href="">GOV.UK One Login</a>.</p>
+      <p>Go to <a href="https://www.sign-in.service.gov.uk/documentation/user-journeys">GOV.UK One Login</a> to see how it works.</p>
 
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyAuthenticatePersonal2} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
-      </div>
 
       <h3 className="govuk-heading-m">2. Register your company details</h3>
       <p>Once logged in, you will be asked to complete your company details as part of the application process to request a LITE account. An internal team will review your request.</p>
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyAuthenticatePersonal} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
-      </div>
+      
 
       <h3 className="govuk-heading-m">3. Receive notifications about your account</h3>
       <p>After your request has been submitted, you will receive a message from GOV.UK Notify that your request is being reviewed. If successful, you will receive another

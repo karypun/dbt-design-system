@@ -9,6 +9,8 @@ const description = 'How to help users manage queries';
 const section = 'Patterns';
 const subsection = 'Help users to';
 
+const manageQuery = require('../../../../assets/images/patterns/manage-query.png');
+
 const Page: FC<PageProps> = ({ location }) => (
 <div className="govuk-grid-row">
   <Helmet>
@@ -28,147 +30,36 @@ const Page: FC<PageProps> = ({ location }) => (
         <span className="caption">{subsection}</span>
         {title}
       </h1>
-      <p className="govuk-body">Internal DBT teams send printed letters in the post to tell users:</p>
-      <ul className="govuk-list govuk-list--bullet">
-        <li>what is happening with their application</li>
-        <li>whether more information is needed to support their case (known as RFIs)</li>
-        <li>what they need to do next</li>
-      </ul>
-      <p className="govuk-body">All letters should be clear and easy to act on.</p>
+
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={manageQuery} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+      </div>
 
       <h2 className="govuk-heading-l">When to use this pattern</h2>
-      <p className="govuk-body">Use this pattern to tell users what has happened with their application or if more information is needed.</p>
-      <p className="govuk-body">Use <A href="https://www.notifications.service.gov.uk/">GOV.UK Notify</A> to send letters in the post where possible.</p>
-
-      <h2 className="govuk-heading-l">What to include in a letter</h2>
-      <p className="govuk-body">Each letter should have:</p>
+      <p className="govuk-body">Internal caseworkers send messages to tell users:</p>
       <ul className="govuk-list govuk-list--bullet">
-        <li>a clear sender with an official logo, contact address and signature</li>
-        <li>a reference number and details of when and how to use it</li>
-        <li>the full name of the recipient so they trust it is authentic</li>
-        <li>a main header summarising the outcome or action</li>
-        <li>a concise description of the outcome or action - use lists to break up content</li>
-        <li>a header summarising next steps</li>
-        <li>a concise description of next steps - again, lists may help break up actions if there are several</li>
-        <li>page numbers or 'end of letter' in the footer so they know they have read everything</li>
-        <li>any standard paragraphs below the signature so they do not distract from the main message of the letter</li>
+        <li>what is happening with their application</li>
+        <li>whether more information is needed to support their case (known as RFIs or queries)</li>
+        <li>what they need to do next</li>
       </ul>
-
-      <h3 className="govuk-heading-m">Main page content</h3>
-      <ol className="govuk-list app-letter-model">
-        <li className="app-annotate-block">
-          <span className="app-annotate-block__label">block: header</span>
-          <div className="govuk-grid-row">
-            <div className="govuk-grid-column-one-half">
-              <ol className ="govuk-list">
-                <li className="app-annotate-block">
-                  <span className="app-annotate-block__label">left element: logo</span>
-                </li>
-                <li className="app-annotate-block">
-                  <span className="app-annotate-block__label">left element: recipient address</span>
-                </li>
-                <li className="app-annotate-block">
-                  <span className="app-annotate-block__label">left element: date</span>
-                </li>
-              </ol>
-            </div>
-            <div className="govuk-grid-column-one-half govuk-!-width-one-half">
-              <ol className="govuk-list">
-                <li className="app-annotate-block">
-                  <span className="app-annotate-block__label">right element: contact or return details</span>
-                </li>
-              </ol>
-            </div>
-          </div>
-        </li>
-        <li className="app-annotate-block">
-          <span className="app-annotate-block__label">block: main message</span>
-          <ol className="govuk-list">
-            <li className="app-annotate-block">
-              <span className="app-annotate-block__label">element: main header</span>
-              <h1 className="govuk-heading-l">Main header summarising outcome or action</h1>
-            </li>
-            <li className="app-annotate-block">
-              <span className="app-annotate-block__label">element: reference number</span>
-              <p className="govuk-body">Include when and how to use the reference number</p>
-            </li>
-            <li className="app-annotate-block">
-              <span className="app-annotate-block__label">element: recipient name</span>
-              <p className="govuk-body">Dear first name and last name,</p>
-            </li>
-            <li className="app-annotate-block">
-              <span className="app-annotate-block__label">element: summary</span>
-              <p className="govuk-body">Summarise the outcome or action.</p>
-              <ul className="govuk-list govuk-list--bullet">
-                <li>Lists can help make multiple outcomes or actions more readable</li>
-              </ul>
-            </li>
-          </ol>
-        </li>
-        <li className="app-annotate-block">
-          <span className="app-annotate-block__label">block: next steps</span>
-          <ol className="govuk-list">
-            <li className="app-annotate-block">
-              <span className="app-annotate-block__label">element: next steps header</span>
-              <h2 className="govuk-heading-l">Header summarising next steps</h2>
-            </li>
-            <li className="app-annotate-block">
-              <span className="app-annotate-block__label">element: next steps description</span>
-              <p className="govuk-body">Concise description of what the user needs to do or where to go for ongoing support or advice.</p>
-              <ul className="govuk-list govuk-list--bullet">
-                <li>Lists can help make multiple outcomes or actions more readable</li>
-              </ul>
-            </li>
-          </ol>
-        </li>
-        <li className="app-annotate-block">
-          <span className="app-annotate-block__label">block: signature</span>
-          <p className="govuk-body">Yours sincerely,</p>
-          <p className="govuk-body">Sender</p>
-        </li>
-        <li className="app-annotate-block">
-          <span className="app-annotate-block__label">block: page number</span>
-          <p className="govuk-body">Page number or 'End of letter'</p>
-        </li>
-      </ol>
-
+      <p className="govuk-body">LITE sends messages through <A href="https://www.notifications.service.gov.uk/">GOV.UK Notify</A>.</p>
 
 
       <h2 className="govuk-heading-l">Accessibility</h2>
 
 
-      <p className="govuk-body">Make sure you ask users whether they want to receive a letter or whether an alternative type of communication, like an email, would be better.</p>
-
-      <p className="govuk-body">The letter should:</p>
-      <ul className="govuk-list govuk-list--bullet">
-        <li>use Arial font, or another sans-serif font</li>
-        <li>use font size at least 12</li>
-        <li>left-align English text, and other left to right languages</li>
-        <li>right-align text that is read right to left</li>
-        <li>not use italics</li>
-        <li>use sentence case and not block capitals</li>
-      </ul>
-
       <p className="govuk-body">If your service uses this pattern, let us know of any insights you have on accessibility considerations.</p>
 
       <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">The insights that informed this model came from multiple services across Regulatory services including:</p>
-      <ul className="govuk-list govuk-list--bullet">
-        <li>Export licensing (SIELs)</li>
-        <li>Apply for an export certificate</li>
-        <li>Apply for an import licence</li>
-        <li>MOD F680</li>
-        <li>Sanctions</li>
-        <li>Trade remedies service</li>
-      </ul>
+      <p className="govuk-body">More research is needed. If your service uses this pattern, get in touch to share your user research findings.</p>
+      
       <p className="govuk-body">If you have evidence this also works for your users, you can contribute to our backlog.</p>
 
       <h2 className="govuk-heading-l">Help us improve this pattern</h2>
       <p>This pattern needs improving. We need evidence about:</p>
       <ul>
-        <li>how you've used this template to design a letter</li>
         <li>any other accessibility considerations</li>
-        <li>design differences if the letter is sent by email</li>
+        <li>any research findings</li>
       </ul>
 
       <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://github.com/UKHomeOffice/design-system/discussions/377">GitHub discussion</A>, or follow our <A href="/contribute">contribute guidance</A>.</p>
