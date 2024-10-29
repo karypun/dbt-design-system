@@ -66,7 +66,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <li>user research findings</li>
       </ul>
 
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://github.com/UKHomeOffice/design-system/discussions/378">GitHub discussion</A>, or follow our <A href="/contribute">contribute guidance</A>.</p>
+      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="#s">GitHub discussion</A>, or follow our <A href="#s">contribute guidance</A>.</p>
 
     </div>
 </div>

@@ -31,18 +31,25 @@ const Page: FC<PageProps> = ({ location }) => (
         {title}
       </h1>
 
+      <div style={{marginTop: "-2em"}}>
+      <p className="govuk-caption-m" style={{marginBottom: "2em"}}>Use this pattern for requesting more information from users.</p>
+      </div>
+
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={manageQuery} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
       </div>
 
-      <h2 className="govuk-heading-l">When to use this pattern</h2>
+      <h2 className="govuk-heading-l">How it works</h2>
       <p className="govuk-body">Internal caseworkers send messages to tell users:</p>
       <ul className="govuk-list govuk-list--bullet">
         <li>what is happening with their application</li>
-        <li>whether more information is needed to support their case (known as RFIs or queries)</li>
+        <li>whether more information is needed to support their case, known as queries or RFIs (request further information)</li>
         <li>what they need to do next</li>
       </ul>
-      <p className="govuk-body">LITE sends messages through <A href="https://www.notifications.service.gov.uk/">GOV.UK Notify</A>.</p>
+      <p className="govuk-body">The user will receive an email notification via GOV.UK Notify with a link to their account
+        where they can navigate to the application in question. From there, they can respond directly through a <a href="/component/messages">messaging component</a>.
+      </p>
+
 
 
       <h2 className="govuk-heading-l">Accessibility</h2>

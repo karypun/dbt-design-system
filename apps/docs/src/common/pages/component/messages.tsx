@@ -34,24 +34,18 @@ const Page: FC<PageProps> = ({ location }) => (
       <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-
+      <p>Use this component in your service to display a list of messages in chronological order between different people or systems.
+      For example, between case workers and external businesses.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={applyContextualHelp} className="image-examples" alt="An example of an interaction that shows contextual help" />
       </div>
 
-      <h2 className="govuk-heading-l">When to use this pattern</h2>
-      <p>Use this component in your service to display a list of messages in chronological order between different people or systems.
-      For example, between case workers and external businesses.</p>
-
-
       <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">This pattern is used by:</p>
-      <ul>
-        <li>Export licensing (SIELs)</li>
-      </ul>
-      <p className="govuk-body">More research is needed. If your service uses this
-      pattern, get in touch to share your user research findings.</p>
+      <p className="govuk-body">More research is needed. If your service uses this pattern, get in touch to share your user research findings.</p>
+
+      <p>If you have evidence this also works for your users, you can contribute to our backlog.</p>
+      
 
       <h2 className="govuk-heading-l">Help us improve this pattern</h2>
       <p>This pattern needs improving. We need evidence about:</p>
@@ -59,7 +53,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <li>alterations for internal caseworking systems</li>
       </ul>
 
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://github.com/UKHomeOffice/design-system/discussions/353">GitHub discussion</A>, or follow our <A href="/contribute">contribute guidance</A>.</p>
+      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="#s">GitHub discussion</A>, or follow our <A href="#s">contribute guidance</A>.</p>
 
     </div>
 </div>

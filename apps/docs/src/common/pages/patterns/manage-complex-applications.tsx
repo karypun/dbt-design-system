@@ -31,6 +31,10 @@ const Page: FC<PageProps> = ({ location }) => (
         {title}
       </h1>
 
+      <div style={{marginTop: "-2em"}}>
+      <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
+      </div>
+
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={taskList} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
       </div>
@@ -46,7 +50,8 @@ const Page: FC<PageProps> = ({ location }) => (
           any additional questions before returning to the task list
         </li>
       </ul>
-    
+
+   
 
 
       <h2 className="govuk-heading-l">Accessibility</h2>
@@ -66,7 +71,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <li>any research findings</li>
       </ul>
 
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://github.com/UKHomeOffice/design-system/discussions/377">GitHub discussion</A>, or follow our <A href="/contribute">contribute guidance</A>.</p>
+      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="#s">GitHub discussion</A>, or follow our <A href="#s">contribute guidance</A>.</p>
     </div>
 </div>
 

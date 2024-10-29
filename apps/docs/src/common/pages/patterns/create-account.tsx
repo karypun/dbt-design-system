@@ -44,10 +44,10 @@ const Page: FC<PageProps> = ({ location }) => (
       <h2 className="govuk-heading-l">How it works</h2>
       <p>Only create an account if there is a need to do so. For example, to return to a saved application
         or to manage multiple tasks in one place. See the <a href="https://design-system.service.gov.uk/patterns/create-accounts/">Create accounts pattern</a> in the GOV.UK Design System for more information.</p>
-      <p>In LITE, the pattern is further extended by showing how it is applied in practice with export licensing using the GOV.UK One Login. These are the steps
+      <p>In LITE, the pattern is further extended by showing how it is applied in practice with export licensing to create an account using the GOV.UK One Login. These are the steps
         LITE uses to create an account:</p>
       <h3 className="govuk-heading-m">1. Sign in or create a GOV.UK One Login</h3>
-      <p>Go to <a href="https://www.sign-in.service.gov.uk/documentation/user-journeys">GOV.UK One Login</a> to see how it works.</p>
+      <p>Go to <a href="https://www.sign-in.service.gov.uk/users-create-an-account-upfront-pdf-february-2023">GOV.UK One Login</a> to see how it works.</p>
 
 
       <h3 className="govuk-heading-m">2. Register your company details</h3>
@@ -77,7 +77,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <li>any accessibility considerations</li>
       </ul>
 
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://github.com/UKHomeOffice/design-system/discussions/476">GitHub discussion</A>, or follow our <A href="/contribute">contribute guidance</A>.</p>
+      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="#s">GitHub discussion</A>, or follow our <A href="#s">contribute guidance</A>.</p>
 
     </div>
 </div>
