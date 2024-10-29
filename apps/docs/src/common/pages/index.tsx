@@ -46,14 +46,14 @@ const Page: FC<PageProps> = props => (
         <aside>
           <h2>Pages</h2>
           <p className="govuk-body govuk-!-font-size-19">Design and build reusing LITE's case management pages</p>
-          <A className="govuk-body govuk-!-font-size-19" href="/styles">Browse pages</A>
+          <A className="govuk-body govuk-!-font-size-19" href="/patterns/case-list-page">Browse pages</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Components</h2>
           <p className="govuk-body govuk-!-font-size-19">Save time with reusable, accessible components for forms, tables and more.</p>
-          <A className="govuk-body govuk-!-font-size-19" href="/components">Browse components</A>
+          <A className="govuk-body govuk-!-font-size-19" href="/component">Browse components</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
