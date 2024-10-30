@@ -41,7 +41,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <h3 id="control list entry">Control list entry (CLE)</h3>
         <p>Products that are 'controlled' and require authorisation to be exported from the UK have a CLE. Each type of product has a specific CLE. 
           We publish a <a href="https://www.gov.uk/government/publications/uk-strategic-export-control-lists-the-consolidated-list-of-strategic-military-and-dual-use-items-that-require-export-authorisation">list of CLEs</a> on GOV.UK.</p>
-        <p>If a product does not require authoritsation, users will have a 'no licence required' document.</p>
+        <p>If a product does not require authorisation, users will have a 'no licence required' document.</p>
         <p>The LITE system only allows users to choose from a bank of CLEs. They cannot type in a CLE that is not on the pre-populated list.</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
@@ -148,8 +148,8 @@ const Page: FC<PageProps> = ({ location }) => (
         <h2 className="a-z-header" id="u">U</h2>
 
         <h3 id="VAT">UK VAT number</h3>
-        <p>VAT does not need spelled out the first time you use the term.</p>
-        <p>Suggested the help text: This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate.</p>
+        <p>VAT does not need to be spelled out the first time you use the term.</p>
+        <p>Suggested help text: This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate.</p>
         <p>The suggested help text is also used by HMRC across their services.</p>
 
 
