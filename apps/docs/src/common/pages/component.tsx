@@ -11,6 +11,10 @@ export const menu = (
       {
         href: '/component/messages',
         text: 'Messages'
+      },
+      {
+        href: '/component/picklist',
+        text: 'Picklist'
       }
     ]} />
   </Fragment>
@@ -22,7 +26,7 @@ const description = 'Components are reusable parts of the user interface that ha
 const Page: FC<PageProps> = ({ location }) => (
   <div className="govuk-grid-row">
     <Helmet>
-      <title>{title} - Home Office Design System</title>
+      <title>{title} - DBT Design System</title>
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />
       <meta name="og:description" content={description} />

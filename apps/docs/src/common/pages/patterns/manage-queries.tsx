@@ -47,8 +47,13 @@ const Page: FC<PageProps> = ({ location }) => (
         <li>what they need to do next</li>
       </ul>
       <p className="govuk-body">The user will receive an email notification via GOV.UK Notify with a link to their account
-        where they can navigate to the application in question. From there, they can respond directly through a <a href="/component/messages">messaging component</a>.
+        where they can navigate to the application in question. From there, they can respond directly through their account.
       </p>
+      <h3 className="govuk-heading-m">Related components</h3>
+      <ul>
+        <li><a href="/component/messages">messaging component</a></li>
+        <li><a href="/component/picklist">picklist component</a></li>
+      </ul>
 
 
 

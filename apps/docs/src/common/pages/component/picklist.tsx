@@ -4,18 +4,18 @@ import { PageProps } from '@not-govuk/app-composer';
 import { A } from '@not-govuk/components';
 import { menu } from '../component';
 
-export const title = 'Messages';
-const description = 'How to help users to view messages';
+export const title = 'Picklist';
+const description = 'How to help users to use the picklist';
 const section = 'Component';
 const subsection = 'Components';
 
-const applyContextualHelp = require('../../../../assets/images/patterns/messages.png');
-const manageQuery = require('../../../../assets/images/patterns/manage-query.png');
+const pickList = require('../../../../assets/images/patterns/picklist-pattern.png');
+const pickListComponent = require('../../../../assets/images/patterns/picklist-component.png');
 
 const Page: FC<PageProps> = ({ location }) => (
 <div className="govuk-grid-row">
   <Helmet>
-    <title>{title} - Trade and Regulatory Services Design System</title>
+    <title>{title} - DBT Design System</title>
     <meta name="description" content={description} />
     <meta name="og:title" content={title} />
     <meta name="og:description" content={description} />
@@ -35,25 +35,24 @@ const Page: FC<PageProps> = ({ location }) => (
       <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-      <p>Use this component in your service to display a list of messages in chronological order between different people or systems.
-      For example, between case workers and external businesses.</p>
+      <p>Help internal users to quickly select frequent prompts when requesting further information from applications.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyContextualHelp} className="image-examples" alt="An example of an interaction that shows contextual help" />
+        <img src={pickListComponent} className="image-examples" alt="An example of an interaction that shows contextual help" />
       </div>
 
-      <h2 className="govuk-heading-l">When to use</h2>
-      <p>When asking users: </p>
-      <ul>
-        <li>what is happening with their applications</li>
-        <li>whether more information is needed to support their case, known as queries or RFIs (request further information)</li>
-        <li>what they need to do next</li>
-      </ul>
+      <h2 className="govuk-heading-l">When to use this pattern</h2>
+      <p>When internal users such as caseworkers need to request further information (known as RFIs) or have a query on an application.
+        The picklist component helps to list out most frequent queries which an internal user can select to save time writing out the query.
+      </p>
 
-      <p>Diagram below shows how the messaging component is used between caseworkers and applicants. See pattern for <a href="/patterns/manage-queries">managing queries</a>.</p>
+      <h2 className="govuk-heading-l">How it works</h2>
+      <p>A picklist link opens a modal dialog (also known as a pop-up window)
+        with reusable prompts. Finding the prompt can be done through a search or by scrolling through the list which orders topics alphabetically. Once the right prompt is found, this can then be added to the query which can either be adapted or sent directly to the applicant.
+      </p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={manageQuery} className="image-examples" alt="An example of an interaction that shows contextual help" />
+        <img src={pickList} className="image-examples" alt="An example of an interaction that shows contextual help" />
       </div>
 
       <h2 className="govuk-heading-l">Research</h2>

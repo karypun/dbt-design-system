@@ -45,7 +45,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>Using the GOV.UK <a href="https://design-system.service.gov.uk/components/task-list/">task list component</a>, this has been adapted  
         to include:</p>
       <ul className="govuk-list govuk-list--bullet">
-        <li>numbered sections to help tackle tasks in a specific order</li>
+        <li>numbered sections to help tackle tasks in a specific order (depending on your input, this may impact subsequent tasks)</li>
         <li>if a user changes an answer in one section, they will be prompted by an alert to go to answer 
           any additional questions before returning to the task list
         </li>
