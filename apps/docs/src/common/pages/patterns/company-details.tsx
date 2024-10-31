@@ -41,7 +41,7 @@ const Page: FC<PageProps> = ({ location }) => (
         />
         <TextInput
           label="European Union registration and identification number (EORI)"
-          hint="Get an EORI number if you don't have one"
+          hint="The first two letters are the country code, like GB or XI. This is followed by 12 or 15 numbers, like GB123456123456. Get an EORI number if you do not have one."
           name="passport-number"
         />
         <TextInput
@@ -51,7 +51,7 @@ const Page: FC<PageProps> = ({ location }) => (
         />
         <TextInput
           label="UK VAT number"
-          hint="9 digits long with the first 2 letters indicating the country code of the registered business"
+          hint="This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate."
           name="passport-number"
         />
         <TextInput
