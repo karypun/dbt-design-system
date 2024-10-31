@@ -23,10 +23,14 @@ const Page: FC<PageProps> = ({ location }) => (
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
         <h2 className="a-z-header" id="a">A</h2>
-        <h3 id="altered">Altered or processed products</h3>
-        <p>When a product is altered or processed to change what it was - for example, being forged, coated or machined.</p>
-
+        <h3 id="altered">Altered products</h3>
+        <p>Also known as a processed product</p>
         <p>Suggested hint text: We need to know if the product will undergo any processing or alteration work, for example being forged, coated or machined.</p>
+
+
+        <h3 id="altered">Apply</h3>
+        <p>Use "apply" anytime a user is completing a form or application for a specific licence or approval, except for open general export licences (OGELS).</p>
+        <p>Use the term "register" for OGELs.</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -37,9 +41,11 @@ const Page: FC<PageProps> = ({ location }) => (
         <h2 className="a-z-header" id="c">C</h2>
 
         <h3 id="CRN">Company registration number (CRN)</h3>
-        <p>Suggested help text: 8 numbers, or 2 letters followed by 6 numbers.</p>
+        <p>Suggested hint text: 8 numbers, or 2 letters followed by 6 numbers.</p>
+        
         <h3 id="consignee">Consignee</h3>
-        <p>A consignee receives the products then delivers or sells them to the end user.</p>
+        <p>LITE defines the term in the application for users.</p>
+        <p>Current definition: a consignee receives the products then delivers or sells them to the end user.</p>
 
         <h3 id="control list entry">Control list entry (CLE)</h3>
         <p>Products that are 'controlled' and require authorisation to be exported from the UK have a CLE. Each type of product has a specific CLE. 
@@ -50,13 +56,14 @@ const Page: FC<PageProps> = ({ location }) => (
 
         <h2 className="a-z-header" id="d">D</h2>
         <h3 id="dual-use">Dual-use</h3>
-        <p>Hyphenate</p>
-        <p>Dual-use products (including software and technology) can be used for both civil and military purposes. Dual-use products also includes all products which have non-explosive uses or assist in any way with the manufacture of nuclear weapons or other nuclear explosive devices.</p>
+        <p>Hyphenate as "dual-use" not "dual use".</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="e">E</h2>
         <h3 id="eea biometric residence card">End user</h3>
-        <p>An end user receives the products in the destination country. They either use the products themselves, resell from stock, or export them again to another country.</p>
+        <p>Do not hyphenate "end user" or "ultimate end user".</p>
+        <p>LITE defines the term in the application for users.</p>
+        <p>Current definition: an end user receives the products in the destination country. They either use the products themselves, resell from stock, or export them again to another country.</p>
         
         <h3 id="EORI">Economic Operators Registration and Identification (EORI) number</h3>
         <p>Usually just referred to as an EORI number. It is mandatory for customers clearance in the customer territory of the European Union.</p>
@@ -78,11 +85,12 @@ const Page: FC<PageProps> = ({ location }) => (
 
         <h2 className="a-z-header" id="i">I</h2>
         <h3 id="incorporate">Incorporate</h3>
-        <p>Synonym: Integrate</p>
-        <p>Incorporation is when one product is put into a new product - for example a processing chip product is incorporated into a computer. In incorporation the item isn't changed, just added to a new product. In the new SIEL application, items are incorporated into a 'higher platform' (for example adding a gun to a tank).</p>
-        <p>Suggested hint text: We need to know if the product will be onward exported, regardless of whether it has been integrated into a higher system, platform or software.</p>
+        <p>Synonym: integrate</p>
+        <p>Incorporation is when one product is put into a new product, like a processing chip product is incorporated into a computer. In incorporation the item isn't changed, just added to a new product.</p>
+        <p>In the new SIEL application, items are incorporated into a 'higher platform' (for example adding a gun to a tank).</p>
+        <p>Suggested hint text: we need to know if the product will be onward exported, regardless of whether it has been integrated into a higher system, platform or software.</p>
         <h3 id="item">Item</h3>
-        <p>The term 'item' is used when asking how many of each product you are exporting. For example, how many items of 'x' type of firearm are you exporting.</p>
+        <p>The term "item" is used when asking how many of each product you are exporting. For example, how many items of "x" type of firearm are you exporting.</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="j">J</h2>
@@ -94,12 +102,13 @@ const Page: FC<PageProps> = ({ location }) => (
 
         <h2 className="a-z-header" id="l">L</h2>
 
+        <h3 id="Licence">Licence</h3>
+        <p>Always spell it this way when using licence as a noun.</p>
+        <p>When it's a verb, use the spellings "license", "licensing" and "licensed".
+
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="m">M</h2>
-
-        <h3 id="modified military">Modified for military use</h3>
-        <p>Goods determined to have a clear military function and altered for military use.</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -113,9 +122,9 @@ const Page: FC<PageProps> = ({ location }) => (
 
         <h2 className="a-z-header" id="p">P</h2>
         <h3 id="product">Product</h3>
-        <p>Each type of thing you are exporting. Products include goods, items, technology, data and services.</p> 
-        <p>For example, if you are exporting firearms and ammunitions,  you’re exporting 2 products. You may be exporting several firearms, but they still count as one product.</p> 
-         <p>Legacy systems use the word ‘goods’. The word product has been tested and found to be easier for users to understand.</p>
+        <p>Each type of thing you are exporting. Products include goods, items, technology, data and services.</p>
+        <p>For example, if you are exporting firearms and ammunitions, you’re exporting 2 products. You may be exporting several firearms, but they still count as one product.</p> 
+        <p>Legacy systems use the word "goods". The word product has been tested and found to be easier for users to understand.</p>
         <p>What is being being exported can:</p>
         <ul>
           <li>be a complete product - hardware such as devices, systems platforms, vehicles, equipment</li>
@@ -127,7 +136,7 @@ const Page: FC<PageProps> = ({ location }) => (
         they want to export. It also makes it easier for users to add saved products to future applications.</p>
         <p>The product name should include the make, model and type of item.</p>
         <p>It should not include serial numbers or part numbers.</p>
-        <p>Suggested hint text: Try to match the name as closely as possible to any documentation such as the technical specification, end-user
+        <p>Suggested hint text: try to match the name as closely as possible to any documentation such as the technical specification, end user
         certificate or firearm certificate.</p>
 
 
@@ -139,6 +148,10 @@ const Page: FC<PageProps> = ({ location }) => (
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="r">R</h2>
+
+        <h3 id="VAT">Register</h3>
+        <p>Use "register" for open general export licences (OGELS).</p>
+        <p>Use the term "apply" for other licences and approvals, like standard individual export licences (SIELs) and MOD Form 680 (F680).</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -165,6 +178,14 @@ const Page: FC<PageProps> = ({ location }) => (
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2 className="a-z-header" id="w">W</h2>
+
+         <h3 id="VAT">Words to avoid</h3>
+         <p>Avoid using these words:</p>
+         <ul>
+          <li>licensee, use applicant or exporter instead</li>
+          <li>goods, use products instead</li>
+          <li>workbasket, use dashboard or account home instead</li>
+          </ul>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
