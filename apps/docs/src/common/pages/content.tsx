@@ -134,7 +134,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>Write in all lower case unless it's at the start of a sentence.</p>
         <p>LITE provides several paragraphs of guidance about government security classifications using the <a href="https://design-system.service.gov.uk/components/details/">GDS design system details component.</a></p>
         <p>Current guidance: the government classifies information assets to ensure they are appropriately protected.</p>
-        <p><a href="https://www.gov.uk/government/publications/government-security-classifications">Guidance on government security gradings (opens in a new tab)</p>
+        <p><a href="https://www.gov.uk/government/publications/government-security-classifications">Guidance on government security gradings (opens in a new tab)</a></p>
         <p>The grading can sometimes include a prefix and suffix. There are many in use and so it is important that you know the full classification of the product.</p>
         <p>If the product was developed with Minstry of Defense (MOD) funding you will find the grading in the Security Aspects Letter provided by the MOD project team.</p>
         <p>If the product was developed with overseas government support that government is responsible for providing the grading.</p>
