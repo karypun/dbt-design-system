@@ -10,14 +10,40 @@ export const menu = (
       {
         href: '/patterns/company-details',
         text: 'Commercial organisation details'
+      },
+      {
+        href: '/patterns/user-satisfaction',
+        text: 'User satisfaction'
       }
     ]} />
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
     <NavigationMenu items={[
-
       {
-        href: '/patterns/access-a-service',
-        text: 'Access a service'
+        href: '/patterns/create-account',
+        text: 'Create an account'
+      },
+      {
+        href: '/patterns/manage-complex-applications',
+        text: 'Manage complex applications'
+      },
+      {
+        href: '/patterns/manage-queries',
+        text: 'Manage queries'
+      }
+    ]} />
+     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Pages</span>
+    <NavigationMenu items={[
+      {
+        href: '/patterns/case-list-page',
+        text: 'Case list page'
+      },
+      {
+        href: '/patterns/case-detail-page',
+        text: 'Case details page'
+      },
+      {
+        href: '/patterns/dashboard',
+        text: 'Dashboard'
       }
     ]} />
   </Fragment>
@@ -29,7 +55,7 @@ const description = 'Patterns are best practice design solutions for specific us
 const Page: FC<PageProps> = ({ location }) => (
   <div className="govuk-grid-row">
     <Helmet>
-      <title>{title} - Home Office Design System</title>
+      <title>{title} - DBT Design System</title>
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />
       <meta name="og:description" content={description} />

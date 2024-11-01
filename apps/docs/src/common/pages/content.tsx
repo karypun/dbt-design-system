@@ -24,7 +24,6 @@ const Page: FC<PageProps> = ({ location }) => (
       <div className="govuk-grid-column-two-thirds">
         <h2 className="a-z-header" id="a">A</h2>
 
-
         <h3 id="accessory">Accessory</h3>
         <p>An accessory is different to a component. LITE defines the term in the application for users.</p>
         <p>Current definition: an accessory is an optional item that when fitted to a functioning product adds features or capability.
@@ -51,7 +50,6 @@ const Page: FC<PageProps> = ({ location }) => (
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
-
         <h2 className="a-z-header" id="c">C</h2>
 
         <h3 id="CRN">Company registration number (CRN)</h3>
@@ -63,6 +61,7 @@ const Page: FC<PageProps> = ({ location }) => (
          <p>Current definition: a component is a constituent part or element of a product.</p>
         
         <h3 id="consignee">Consignee</h3>
+
         <p>LITE defines the term in the application for users.</p>
         <p>Current definition: a consignee receives the products then delivers or sells them to the end user.</p>
 
@@ -78,6 +77,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>LITE provides several paragraphs of guidance about government security classifications using the <a href="https://design-system.service.gov.uk/components/details/">GDS design system details component.</a></p>
         <p>Current guidance: information security features include cryptography, authentication and cryptanalytic functions. They are often found
           in wireless or internet-based products and in communication, digital forensics and surveillance tools.</p>
+
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -202,12 +202,15 @@ const Page: FC<PageProps> = ({ location }) => (
           <li>help operate a product - software or information such as technology manuals and specifications</li>
           </ul>
         <h3 id="product name">Product name</h3>
+
         <p>Users need to give each new product a name when they add it to their application. This helps case officers understand what
         they want to export. It also makes it easier for users to add saved products to future applications.</p>
         <p>The product name should include the make, model and type of item.</p>
         <p>It should not include serial numbers or part numbers.</p>
+
         <p>Suggested hint text: try to match the name as closely as possible to any documentation such as the technical specification, end user
         certificate or firearm certificate.</p>
+
 
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
@@ -247,8 +250,8 @@ const Page: FC<PageProps> = ({ location }) => (
         <h2 className="a-z-header" id="u">U</h2>
 
         <h3 id="VAT">UK VAT number</h3>
-        <p>VAT does not need spelled out the first time you use the term.</p>
-        <p>Suggested the help text: This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate.</p>
+        <p>VAT does not need to be spelled out the first time you use the term.</p>
+        <p>Suggested help text: This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate.</p>
         <p>The suggested help text is also used by HMRC across their services.</p>
 
         <h3 id="ultimate end user">Ultimate end user</h3>
@@ -285,7 +288,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
         <h2>Help improve this guide</h2>
-        <p>To contribute, send your request to <A href="mailto:design@digital.homeoffice.gov.uk">xxx@businessandtrade.gov.uk,</A> or add it to the <A href="https://github.com/UKHomeOffice/design-system/discussions/470">GitHub discussion</A>.</p>
+        <p>To contribute, add it to the <A href="https://github.com/UKHomeOffice/design-system/discussions/470">GitHub discussion</A>.</p>
       </div>
     </div>
   </Fragment>

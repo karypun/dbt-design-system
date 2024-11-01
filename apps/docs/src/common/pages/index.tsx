@@ -16,21 +16,27 @@ const Page: FC<PageProps> = props => (
     </Helmet>
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
-        <h1>Design and build accessible and consistent Regulatory Services</h1>
-        <p className="govuk-body-l">Save time by learning from the work and experiences of others, contribute back into the design system to share your knowledge, and reuse as much as possible to avoid repeating what has already been done</p>
+        <h1>Design and build consistent TREGS services</h1>
+        <p className="govuk-body-l">Use this design system to help you design and deliver: </p>
+        <ul>
+            <li>public-facing Trade and Regulatory Services consistently</li>
+            <li>intenal case management systems based on reusable components and patterns from LITE (Licensing for 
+              International Trade and Enterprise)</li>
+          </ul>  
+        
 
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Updates</h2>
-          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 8 July 2024</p>
+          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 23 October 2024</p>
           <ul className="govuk-!-font-size-16">
             <li>Ask users for <A href="/patterns/company-details">commercial organisation details</A></li>
           </ul>
         </aside>
         <aside>
           <h2>Content style guide</h2>
-          <p className="govuk-body govuk-!-font-size-19">How to write for Regulatory services.</p>
+          <p className="govuk-body govuk-!-font-size-19">How to write for TREGS services.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/content">Browse content style guide</A>
         </aside>
       </div>
@@ -38,16 +44,16 @@ const Page: FC<PageProps> = props => (
     <div className="govuk-grid-row homepage-sections">
       <div className="govuk-grid-column-one-third">
         <aside>
-          <h2>Styles</h2>
-          <p className="govuk-body govuk-!-font-size-19">We apply different styles to our services and products depending on its type.</p>
-          <A className="govuk-body govuk-!-font-size-19" href="/styles">Browse styles</A>
+          <h2>Pages</h2>
+          <p className="govuk-body govuk-!-font-size-19">Design and build reusing LITE's case management pages</p>
+          <A className="govuk-body govuk-!-font-size-19" href="/patterns/case-list-page">Browse pages</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Components</h2>
           <p className="govuk-body govuk-!-font-size-19">Save time with reusable, accessible components for forms, tables and more.</p>
-          <A className="govuk-body govuk-!-font-size-19" href="/components">Browse components</A>
+          <A className="govuk-body govuk-!-font-size-19" href="/component">Browse components</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">

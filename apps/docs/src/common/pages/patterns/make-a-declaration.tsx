@@ -9,8 +9,6 @@ const description = 'A declaration allows users to confirm that they have unders
 const section = 'Patterns';
 const subsection = 'Ask users for';
 
-const applyDeclaration1 = require('../../../../assets/images/patterns/make-a-declaration.png');
-const applyDeclaration2 = require('../../../../assets/images/patterns/make-a-declaration-privacy-terms-conditions.png');
 
 const Page: FC<PageProps> = ({ location }) => (
 <div className="govuk-grid-row">
@@ -39,9 +37,7 @@ const Page: FC<PageProps> = ({ location }) => (
 
       <p>The following example shows how declarations can be used in services. Use these examples as a guide only and adapt them for your service.</p>
       <p>You must ask a legal representative to sign off your declaration content.</p>
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyDeclaration1} className="image-examples" alt="An example of how declarations are used in Home Office services" />
-      </div>
+
 
       <h2 className="govuk-heading-l">When to use this pattern</h2>
       <p>Use this pattern when there are significant consequences if false information is given and the user needs to confirm that:</p>

@@ -82,5 +82,8 @@
     "react-components dbt design-system"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pnpm": "^9.12.1"
+  }
 }
