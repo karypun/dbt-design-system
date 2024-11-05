@@ -50,6 +50,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <h2>Design assets</h2>
         <p>You can explore ideas and demonstrate page flows using these design assets:</p>
         <ul>
+          <li><A href="https://internal.prototypes.uktrade.digital/lite-work">Licensing prototype kit (GOV.UK prototype kit)</A></li>
           <li><A href="https://app.mural.co/t/departmentforbusinessandtrad1574/m/departmentforbusinessandtrad1574/1718094413612/699e6b95d41d31ea4da1717eb1f645242da71026?sender=uf6ad2fb3e168bde1c2295660">Service blueprint template (Mural)</A></li>
 
         </ul>
