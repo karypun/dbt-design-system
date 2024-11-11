@@ -81,7 +81,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>Usually just referred to as an EORI number. It is mandatory for customers clearance in the customer territory of the European Union.</p>
         <p>UK registered companies will have an EORI number that begins with GB or XI, so this can be built into the validation.</p>
         <p>Suggested hint text: The first two letters are the country code, like GB or XI. This is followed by 12 or 15 numbers, like GB 123456123456.</p>
-        <p>The suggested help text is also used by HMRC across their services.</p>
+        <p>The suggested hint text is also used by HMRC across their services.</p>
 
         <h3 id="end user">End user</h3>
         <p>Do not hyphenate "end user" or "ultimate end user". Has historically been hyphenated so may be inconsistent across older services, forms and guidance.</p>
@@ -232,8 +232,8 @@ const Page: FC<PageProps> = ({ location }) => (
 
         <h3 id="VAT">UK VAT number</h3>
         <p>VAT does not need to be spelled out the first time you use the term.</p>
-        <p>Suggested help text: This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate.</p>
-        <p>The suggested help text is also used by HMRC across their services.</p>
+        <p>Suggested hint text: This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate.</p>
+        <p>The suggested hint text is also used by HMRC across their services.</p>
 
         <h3 id="ultimate end user">Ultimate end user</h3>
         <p>Do not hyphenate. Has hystorically been hyphenated so may be inconsistent across older services, forms and guidance.</p>
