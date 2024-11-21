@@ -9,6 +9,10 @@ export const menu = (
     <NavigationMenu items={[
 
       {
+        href: '/component/entry-lookup',
+        text: 'Entry lookup'
+      },
+      {
         href: '/component/messages',
         text: 'Messages'
       },
