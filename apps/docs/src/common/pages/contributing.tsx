@@ -7,12 +7,8 @@ export const menu = (
   <Fragment>
     <NavigationMenu items={[
           {
-            href: '',
-            text: 'Discuss on GitHub'
-          },
-          {
-            href: '',
-            text: 'Design system working group'
+            href: 'https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing',
+            text: 'Discussion backlog'
           }
         ]} />
   </Fragment>
@@ -43,12 +39,9 @@ const Page: FC<PageProps> = ({ location }) => (
       <li>request an addition or improvement to the content style guide</li>
       <li>propose a new style, component or pattern</li>
     </ul>
-    <h2>Make a suggestion</h2>
-    <h3>Check if there's already a discussion</h3>
-    <p><A href="#">Check if there are any open discussions</A> about your suggestion on the design system GitHub.</p>
-    <h3>Create a new discussion</h3>
-    <p>If there is not a discussion, <A href="#">start a new discussion</A> on GitHub. Select ‘ideas’ from the ‘select category’ list when starting to create the discussion.</p>
-    <p>For help, use our <A href="#">GitHub guide</A> or ask the <A href="#">working group</A>.</p>
+
+    <p><A href="https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing">Start a new discussion</A> in the backlog.</p>
+    
 
 
   </div>

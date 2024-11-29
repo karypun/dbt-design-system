@@ -29,9 +29,9 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Updates</h2>
-          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 23 October 2024</p>
+          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 29 November 2024</p>
           <ul className="govuk-!-font-size-16">
-            <li>Ask users for <A href="/patterns/company-details">commercial organisation details</A></li>
+            <li>Set up <A href="https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing">community discussion backlog</A></li>
           </ul>
         </aside>
         <aside>

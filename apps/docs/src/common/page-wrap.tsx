@@ -7,11 +7,10 @@ import './app.scss';
 export const PageWrap: FC<PageProps> = ({ children }) => {
   const navigation = [
     { href: '/get-started', text: 'Get started' },
-    { href: '/styles', text: 'Styles' },
     { href: '/component', text: 'Components' },
     { href: '/patterns', text: 'Patterns' },
     { href: '/content', text: 'Content guide' },
-    { href: '/contributing', text: 'Contributing' }
+    { href: '/contributing', text: 'Community' }
   ];
 
   return (
