@@ -50,7 +50,7 @@ const Page: FC<PageProps> = ({ location }) => (
 
         <h3 id="consignee">Consignee</h3>
         <p>LITE defines the term in the application for users.</p>
-        <p>Current definition: a consignee receives the products then delivers or sells them to the end user.</p>
+        <p>Current definition: a consignee receives the products then delivers or sells them to the end-user.</p>
 
         <h3 id="control list entry">Control list entry (CLE)</h3>
         <p>Products that are 'controlled' and require authorisation to be exported from the UK have a CLE. Each type of product has a specific CLE. 
@@ -83,20 +83,20 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>Suggested hint text: The first two letters are the country code, like GB or XI. This is followed by 12 or 15 numbers, like GB 123456123456.</p>
         <p>The suggested hint text is also used by HMRC across their services.</p>
 
-        <h3 id="end user">End user</h3>
-        <p>Do not hyphenate "end user" or "ultimate end user". Has historically been hyphenated so may be inconsistent across older services, forms and guidance.</p>
+        <h3 id="end user">End-user</h3>
+        <p>Hyphenate "end-user" or "ultimate end-user". There is inconsistency across older services, forms and guidance about hyphenating this term.</p>
         <p>LITE defines the term in the application for users.</p>
-        <p>Current definition: an end user receives the products in the destination country. They either use the products themselves, resell from stock or export them again to another country.</p>
+        <p>Current definition: an end-user receives the products in the destination country. They either use the products themselves, resell from stock or export them again to another country.</p>
 
-        <h3 id="end user document">End user document</h3>
+        <h3 id="end user document">End-user document</h3>
         <p>Do not hyphenate. Includes the:</p>
         <ul>
-          <li><a href="https://www.gov.uk/government/publications/end-user-undertaking-euu-form">end user undertaking (EUU) form</a></li> 
+          <li><a href="https://www.gov.uk/government/publications/end-user-undertaking-euu-form">end-user undertaking (EUU) form</a></li> 
           <li><a href="https://www.gov.uk/government/publications/stockist-undertaking-su-form">stockist undertaking (SU) form</a></li>
           <li><a href="https://www.gov.uk/government/publications/open-individual-export-licence-oiel-undertaking-template">open individual export licence (OIEL) undertaking template</a></li> 
         </ul>
         <p>Applicants must provide at least one of these documents as part of some licence applications (like OIELs and single individual export licences (SIELs)). It's important to tell users that the information they
-        provide in their application should match what's in the end user documentation.</p>
+        provide in their application should match what's in the end-user documentation.</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -196,7 +196,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>The product name should include the make, model and type of item.</p>
         <p>It should not include serial numbers or part numbers.</p>
 
-        <p>Suggested hint text: try to match the name as closely as possible to any documentation such as the technical specification, end user
+        <p>Suggested hint text: try to match the name as closely as possible to any documentation such as the technical specification, end-user
         certificate or firearm certificate.</p>
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -214,7 +214,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>Term to cover getting Ministry of Defense (MOD) approval through Form 680 (F680) or Form 1686 (F1686).</p>
 
         <h3>Signatory name</h3>
-        <p>Suggested hint text: this is the name of the person who signed the end user document.</p>
+        <p>Suggested hint text: this is the name of the person who signed the end-user document.</p>
 
         <h3>Standard industrial classification (SIC) code</h3>
         <p>Do not capitalise unless it's at the start of a sentence.</p>
@@ -224,7 +224,7 @@ const Page: FC<PageProps> = ({ location }) => (
         <h2 className="a-z-header" id="t">T</h2>
         <h3>Third party</h3>
         <p>LITE defines the term in the application for users.</p>
-        <p>Current definition: a third party is involved in the export but not regarded as a consignee, end user or ultimate end user. They might be an agent, broker, consultant or distributor.</p>
+        <p>Current definition: a third party is involved in the export but not regarded as a consignee, end-user or ultimate end-user. They might be an agent, broker, consultant or distributor.</p>
 
         <a className="back-to-top" href="#a-z-nav">Back to top</a>
 
@@ -235,10 +235,10 @@ const Page: FC<PageProps> = ({ location }) => (
         <p>Suggested hint text: This is 9 numbers, sometimes with 'GB' at the start, for example 123456789 or GB123456789. You can find it on your VAT registration certificate.</p>
         <p>The suggested hint text is also used by HMRC across their services.</p>
 
-        <h3 id="ultimate end user">Ultimate end user</h3>
-        <p>Do not hyphenate. Has hystorically been hyphenated so may be inconsistent across older services, forms and guidance.</p>
+        <h3 id="ultimate end user">Ultimate end-user</h3>
+        <p>Hyphenate. There is inconsistency across older services, forms and guidance about hyphenating this term.</p>
         <p>LITE defines the term in the application for users.</p>
-        <p>Current definition: an ultimate end user in either the destination country or a third country receives the products from the end user, or occasionally via a consignee after the end user.
+        <p>Current definition: an ultimate end-user in either the destination country or a third country receives the products from the end-user, or occasionally via a consignee after the end-user.
         This can be after products have been altered, processed or incorporated into a higher level system.</p>
 
 
