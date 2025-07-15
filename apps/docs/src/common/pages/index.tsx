@@ -16,22 +16,21 @@ const Page: FC<PageProps> = props => (
     </Helmet>
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
-        <h1>Design and build consistent TREGS services</h1>
+        <h1>Design your T-REG services consistently</h1>
         <p className="govuk-body-l">Use this design system to help you design and deliver: </p>
         <ul>
-            <li>public-facing Trade and Regulatory Services consistently</li>
-            <li>intenal case management systems based on reusable components and patterns from LITE (Licensing for 
-              International Trade and Enterprise)</li>
-          </ul>  
-        
+            <li>public-facing T-Reg services consistently</li>
+            <li>intenal case management systems based on reusable components and patterns</li>
+          </ul>
+
 
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Updates</h2>
-          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 29 November 2024</p>
+          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 28 May 2025</p>
           <ul className="govuk-!-font-size-16">
-            <li>Set up <A href="https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing">community discussion backlog</A></li>
+            <li>Set up <A href="https://github.com/users/karypun/projects/1/views/1">community discussion backlog</A></li>
           </ul>
         </aside>
         <aside>

@@ -7,7 +7,7 @@ export const menu = (
   <Fragment>
     <NavigationMenu items={[
           {
-            href: 'https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing',
+            href: 'https://github.com/users/karypun/projects/1/views/1',
             text: 'Discussion backlog'
           }
         ]} />
@@ -40,8 +40,8 @@ const Page: FC<PageProps> = ({ location }) => (
       <li>propose a new style, component or pattern</li>
     </ul>
 
-    <p><A href="https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing">Start a new discussion</A> in the backlog.</p>
-    
+    <p><A href="https://github.com/users/karypun/projects/1/views/1">Start a new discussion</A> in the backlog.</p>
+
 
 
   </div>
