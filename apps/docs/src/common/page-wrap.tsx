@@ -9,7 +9,6 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
     { href: '/get-started', text: 'Get started' },
     { href: '/component', text: 'Components' },
     { href: '/patterns', text: 'Patterns' },
-    { href: '/content', text: 'Content guide' },
     { href: '/contributing', text: 'Community' }
   ];
 

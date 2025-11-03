@@ -33,11 +33,7 @@ const Page: FC<PageProps> = props => (
             <li>Set up <A href="https://github.com/users/karypun/projects/1/views/1">community discussion backlog</A></li>
           </ul>
         </aside>
-        <aside>
-          <h2>Content style guide</h2>
-          <p className="govuk-body govuk-!-font-size-19">How to write for TREGS services.</p>
-          <A className="govuk-body govuk-!-font-size-19" href="/content">Browse content style guide</A>
-        </aside>
+      
       </div>
     </div>
     <div className="govuk-grid-row homepage-sections">
