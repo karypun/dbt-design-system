@@ -40,7 +40,7 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Pages</h2>
-          <p className="govuk-body govuk-!-font-size-19">Design and build reusing LITE's case management pages</p>
+          <p className="govuk-body govuk-!-font-size-19">Design and build case management pages</p>
           <A className="govuk-body govuk-!-font-size-19" href="/patterns/case-list-page">Browse pages</A>
         </aside>
       </div>
