@@ -31,12 +31,12 @@ const Page: FC<PageProps> = ({ location }) => (
         {title}
       </h1>
       <div style={{marginTop: "-2em"}}>
-      
+
       </div>
 
-      
 
-    
+
+
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={viewCaseListPage} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
       </div>
@@ -44,10 +44,10 @@ const Page: FC<PageProps> = ({ location }) => (
 
       <h2 className="govuk-heading-l">When to use this pattern</h2>
       <p>Use the case list page to make pieces of information about a case easier to scan, prioritise and action for users</p>
-  
+
       <h2 className="govuk-heading-l">How to use</h2>
-      <p>First understand what pieces of information are needed to prioritise and action cases. 
-        You should avoid using too many columns, and only provide users with information they really need. 
+      <p>First understand what pieces of information are needed to prioritise and action cases.
+        You should avoid using too many columns, and only provide users with information they really need.
         Use clear labels for column headings that describe the content.</p>
 
 

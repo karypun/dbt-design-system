@@ -5,17 +5,6 @@ import { A, NavigationMenu } from '@not-govuk/components';
 
 export const menu = (
   <Fragment>
-    <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Ask users for</span>
-    <NavigationMenu items={[
-      {
-        href: '/patterns/company-details',
-        text: 'Commercial organisation details'
-      },
-      {
-        href: '/patterns/user-satisfaction',
-        text: 'User satisfaction'
-      }
-    ]} />
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
     <NavigationMenu items={[
       {

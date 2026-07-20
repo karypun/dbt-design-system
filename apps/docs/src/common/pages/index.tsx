@@ -33,7 +33,7 @@ const Page: FC<PageProps> = props => (
             <li>Set up <A href="https://github.com/users/karypun/projects/1/views/1">community discussion backlog</A></li>
           </ul>
         </aside>
-      
+
       </div>
     </div>
     <div className="govuk-grid-row homepage-sections">

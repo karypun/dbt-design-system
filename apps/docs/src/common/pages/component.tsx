@@ -13,12 +13,16 @@ export const menu = (
         text: 'Entry lookup'
       },
       {
-        href: '/component/messages',
-        text: 'Messages'
-      },
-      {
         href: '/component/picklist',
         text: 'Picklist'
+      },
+      {
+        href: '/component/timeline',
+        text: 'Timeline'
+      },
+      {
+        href: '/component/card',
+        text: 'Up to date guidance card'
       }
     ]} />
   </Fragment>
