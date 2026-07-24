@@ -9,7 +9,7 @@ export const menu = (
     <NavigationMenu items={[
       {
         href: '/patterns/create-account',
-        text: 'Create an account'
+        text: 'Create an account1'
       },
       {
         href: '/patterns/manage-complex-applications',
