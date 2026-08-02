@@ -12,7 +12,7 @@ const subsection = 'Components';
 const panel = require('../../../../assets/images/patterns/guidance-card.png');
 const panelSitu = require('../../../../assets/images/patterns/guidance-panel-situ.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - Trade and Regulatory Services Design System</title>
