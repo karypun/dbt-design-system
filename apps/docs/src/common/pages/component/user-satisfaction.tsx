@@ -11,7 +11,7 @@ const subsection = 'Ask users for';
 
 const applyAddAnother = require('../../../../assets/images/patterns/h-csat.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - Regulatory Services Design System</title>

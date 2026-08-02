@@ -12,7 +12,7 @@ const subsection = 'Components';
 const pickList = require('../../../../assets/images/patterns/picklist-pattern.png');
 const pickListComponent = require('../../../../assets/images/patterns/picklist-component.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - DBT Design System</title>

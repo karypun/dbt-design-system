@@ -17,7 +17,7 @@ export const menu = (
 export const title = 'Contribute';
 const description = 'How to get involved and contribute to the DBT Design System'
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
   <div className="govuk-grid-row">
     <Helmet>
       <title>{title} - DBT Design System</title>

@@ -10,7 +10,7 @@ const section = 'Patterns';
 const subsection = 'Ask users for';
 
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - Home Office Design System</title>

@@ -11,7 +11,7 @@ const subsection = 'Pages';
 
 const viewDashboard = require('../../../../assets/images/patterns/dashboard.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - Home Office Design System</title>

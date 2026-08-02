@@ -9,7 +9,7 @@ const description = 'How to help users to filter a list';
 const section = 'Patterns';
 const subsection = 'Help users to';
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - Home Office Design System</title>

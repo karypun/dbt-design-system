@@ -11,7 +11,7 @@ const subsection = 'Pages';
 
 const viewCaseDetailPage = require('../../../../assets/images/patterns/case-detail-page.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - DBT Design System</title>

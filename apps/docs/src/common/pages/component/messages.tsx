@@ -12,7 +12,7 @@ const subsection = 'Components';
 const applyContextualHelp = require('../../../../assets/images/patterns/messages.png');
 const manageQuery = require('../../../../assets/images/patterns/manage-query.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - Trade and Regulatory Services Design System</title>

@@ -12,7 +12,7 @@ const subsection = 'Help users to';
 const accessService = require('../../../../assets/images/patterns/access-service.png');
 const applyAuthenticatePersonal3 = require('../../../../assets/images/patterns/govuk-notify.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - DBT design system</title>

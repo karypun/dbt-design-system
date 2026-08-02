@@ -8,17 +8,17 @@ jobs:
     steps:
 
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Setup
         uses: ./.github/actions/setup
         with:
-          node: 18
+          node: 22
 
       - name: Push Storybook to Chromatic
-        uses: chromaui/action@v11
+        uses: chromaui/action@v13
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
@@ -27,7 +27,6 @@ jobs:
           exitZeroOnChanges: true
           exitOnceUploaded: true
           onlyChanged: true
-
 
   deploy-docs-to-netlify:
     name: Deploy docs to Netlify

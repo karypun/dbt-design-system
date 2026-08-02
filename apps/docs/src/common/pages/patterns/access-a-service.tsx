@@ -13,7 +13,7 @@ const applyAuthenticatePersonal = require('../../../../assets/images/patterns/ac
 const applyAuthenticatePersonal2 = require('../../../../assets/images/patterns/govuk-one.png');
 const applyAuthenticatePersonal3 = require('../../../../assets/images/patterns/govuk-notify.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - DBT design system</title>

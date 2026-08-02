@@ -7,7 +7,7 @@ import { AZNavigation } from '@hods/components';
 export const title = 'Content style guide';
 const description = 'How to write content for Home Office services.';
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
   <Fragment>
     <Helmet>
       <title>{title} - DBT design system</title>

@@ -11,7 +11,7 @@ const subsection = 'Help users to';
 
 const taskList = require('../../../../assets/images/patterns/task-list-pattern.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{subsection} {title.toLowerCase()} - DBT Design System</title>
