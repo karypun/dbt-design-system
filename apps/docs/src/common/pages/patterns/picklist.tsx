@@ -4,7 +4,7 @@ import { PageProps } from '@not-govuk/app-composer';
 import { A } from '@not-govuk/components';
 import { menu } from '../patterns';
 
-export const title = 'Save and return';
+export const title = 'Templated responses';
 const description = 'How to help users manage complex applications';
 const section = 'Patterns';
 const subsection = 'Help users to';

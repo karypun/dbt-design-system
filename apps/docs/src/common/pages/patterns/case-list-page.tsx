@@ -9,7 +9,7 @@ const description = 'Make pieces of information about a case easier to scan, pri
 const section = 'Patterns';
 const subsection = 'Pages';
 
-const viewCaseListPage = require('../../../../assets/images/patterns/case-list-page.png');
+
 
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
@@ -37,9 +37,7 @@ const Page: FC<PageProps> = () => (
 
 
 
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={viewCaseListPage} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
-      </div>
+
 
 
       <h2 className="govuk-heading-l">When to use this pattern</h2>
@@ -51,14 +49,12 @@ const Page: FC<PageProps> = () => (
         Use clear labels for column headings that describe the content.</p>
 
 
-      <h2 className="govuk-heading-l">Accessibility</h2>
-      <p>If your service uses this pattern, let us know of any insights you have
-      on accessibility considerations.</p>
+      <h3 className="govuk-heading-m">If you have a lot of information</h3>
+      <p>Where case information can be dense, control vast amounts of data by using a filter. it allows caseworkers to prioritise the minimal essential information needed in order to handle next steps for the case.</p>
 
       <h2 className="govuk-heading-l">Research</h2>
 
-      <p className="govuk-body">More research is needed. If your service uses this
-      pattern, share your user research findings.</p>
+      <p className="govuk-body">The filters are used on LITE. Caseworkers found it useful, especially to prioritise different information across various teams; the filter selection persists unless it's updated by the caseworker.</p>
 
       <h2 className="govuk-heading-l">Help us improve this pattern</h2>
       <p>This pattern needs improving. We need evidence about:</p>

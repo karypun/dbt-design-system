@@ -10,6 +10,7 @@ const section = 'Patterns';
 const subsection = 'Help users to';
 
 const applyAddAnother = require('../../../../assets/images/patterns/add-another.svg');
+const entryLookup = require('../../../../assets/images/patterns/entry-lookup.png');
 
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
@@ -39,6 +40,10 @@ const Page: FC<PageProps> = () => (
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={applyAddAnother} className="image-examples" alt="An example of an interaction to add multiple addresses" />
+      </div>
+
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={entryLookup} className="image-examples" alt="An example of an interaction to add multiple addresses" />
       </div>
 
       <h2 className="govuk-heading-l">When to use this pattern</h2>
