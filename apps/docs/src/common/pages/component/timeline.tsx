@@ -33,15 +33,14 @@ const Page: FC<PageProps> = () => (
       <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-      <h2 className="govuk-heading-l">When to use this pattern</h2>
-      <p>Use this component in your service to display a list of messages in chronological order between different people or systems.
-      For example, between case workers and external businesses.</p>
+      
+      <p>Show a record of events and messages in chronological order.</p>
 
 
       <h2 className="govuk-heading-l">Research</h2>
       <p className="govuk-body">This pattern is used by:</p>
       <ul>
-        <li>Export licensing (SIELs)</li>
+        <li>LITE</li>
       </ul>
       <p className="govuk-body">More research is needed. If your service uses this
       pattern, get in touch to share your user research findings.</p>

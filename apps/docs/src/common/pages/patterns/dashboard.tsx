@@ -9,7 +9,8 @@ const description = 'How to help users to view their dashboard';
 const section = 'Patterns';
 const subsection = 'Pages';
 
-const viewDashboard = require('../../../../assets/images/patterns/dashboard.png');
+const liteDashboard = require('../../../../assets/images/patterns/lite-dashboard.png');
+const ecilDashboard = require('../../../../assets/images/patterns/ecil-dashboard.png');
 
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
@@ -35,7 +36,10 @@ const Page: FC<PageProps> = () => (
       </div>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={viewDashboard} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+        <img src={liteDashboard} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+      </div>
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={ecilDashboard} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
       </div>
 
       <h2 className="govuk-heading-l">When to use this pattern</h2>

@@ -9,20 +9,16 @@ export const menu = (
     <NavigationMenu items={[
 
       {
-        href: '/component/entry-lookup',
-        text: 'Entry lookup'
-      },
-      {
-        href: '/component/picklist',
-        text: 'Picklist'
+        href: '/component/card',
+        text: 'Card'
       },
       {
         href: '/component/timeline',
         text: 'Timeline'
       },
       {
-        href: '/component/card',
-        text: 'Up to date guidance card'
+        href: '/component/guidance-panel',
+        text: 'Up to date guidance panel'
       }
     ]} />
   </Fragment>

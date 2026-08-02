@@ -8,16 +8,24 @@ export const menu = (
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
     <NavigationMenu items={[
       {
+        href: '/patterns/add-multiple-things',
+        text: 'Add multiple things'
+      },
+      {
         href: '/patterns/create-account',
         text: 'Create an account'
       },
       {
-        href: '/patterns/manage-complex-applications',
-        text: 'Manage complex applications'
-      },
-      {
         href: '/patterns/manage-queries',
         text: 'Manage queries'
+      },
+      {
+        href: '/patterns/manage-complex-applications',
+        text: 'Save and return'
+      },
+      {
+        href: '/patterns/picklist',
+        text: 'Templated responses'
       }
     ]} />
      <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Pages</span>
