@@ -11,7 +11,7 @@ const subsection = 'Help users to';
 
 const manageQuery = require('../../../../assets/images/patterns/manage-query.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{subsection} {title.toLowerCase()} - DBT Design System</title>

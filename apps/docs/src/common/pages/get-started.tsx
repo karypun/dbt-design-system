@@ -31,7 +31,7 @@ export const menu = (
 export const title = 'Get started';
 const description = 'The following introductory guides will help you to get set up';
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
   <div className="govuk-grid-row">
     <Helmet>
       <title>{title} - DBT Design System</title>

@@ -25,7 +25,7 @@ const description = 'Make your service look and feel like a DBT service';
 const applyPassportImage = require('../../../assets/images/apply-passport.png');
 const ddatEventsImage = require('../../../assets/images/lite-case-management.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
   <div className="govuk-grid-row">
     <Helmet>
       <title>{title} - DBT Design System</title>

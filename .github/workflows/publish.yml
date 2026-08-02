@@ -5,6 +5,8 @@ on:
       version:
         description: Version to publish
         required: true
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 jobs:
   publish:
     name: Publish packages
@@ -12,14 +14,14 @@ jobs:
     steps:
 
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.PAT }}
 
       - name: Setup
         uses: ./.github/actions/setup
         with:
-          node: 18
+          node: 22
           frozen-lockfile: true
 
       - name: Publish

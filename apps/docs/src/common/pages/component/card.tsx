@@ -11,7 +11,7 @@ const subsection = 'Components';
 
 const card = require('../../../../assets/images/patterns/card.png');
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - Trade and Regulatory Services Design System</title>

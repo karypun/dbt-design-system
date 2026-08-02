@@ -1,6 +1,8 @@
 name: Deploy
 on:
   push:
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 jobs:
   chromatic:
     name: Chromatic
@@ -8,17 +10,17 @@ jobs:
     steps:
 
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Setup
         uses: ./.github/actions/setup
         with:
-          node: 18
+          node: 22
 
       - name: Push Storybook to Chromatic
-        uses: chromaui/action@v11
+        uses: chromaui/action@v13
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
@@ -28,14 +30,13 @@ jobs:
           exitOnceUploaded: true
           onlyChanged: true
 
-
   deploy-docs-to-netlify:
     name: Deploy docs to Netlify
     if: github.event_name == 'push'
     uses: './.github/workflows/deploy-to-netlify.yml'
     with:
       app: docs
-      node: 18
+      node: 22
       production-branch: master
     secrets:
       CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}

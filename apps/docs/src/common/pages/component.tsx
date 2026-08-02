@@ -31,7 +31,7 @@ export const menu = (
 export const title = 'Components';
 const description = 'Components are reusable parts of the user interface that have been made to support a variety of applications';
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
   <div className="govuk-grid-row">
     <Helmet>
       <title>{title} - DBT Design System</title>

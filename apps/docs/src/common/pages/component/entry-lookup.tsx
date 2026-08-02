@@ -12,7 +12,7 @@ const subsection = 'Components';
 const entryLookup = require('../../../../assets/images/patterns/entry-lookup.png');
 
 
-const Page: FC<PageProps> = ({ location }) => (
+const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
     <title>{title} - DBT Design System</title>

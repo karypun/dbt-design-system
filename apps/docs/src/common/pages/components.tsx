@@ -3,9 +3,10 @@ import { Helmet } from 'react-helmet-async';
 import { PageProps } from '@not-govuk/app-composer';
 import { NavigationMenu } from '@not-govuk/components';
 import { DocsPage } from '@not-govuk/docs-components';
+import { useLocation } from '@not-govuk/router';
 
-const reduceToLookup = (acc: object, cur) => ({...acc, [cur.default.title]: cur});
-const buildLookup = v => v.reduce(reduceToLookup, {});
+const reduceToLookup = (acc: object, cur: any) => ({...acc, [cur.default.title]: cur});
+const buildLookup = (v: any) => v.reduce(reduceToLookup, {});
 
 const mainStories = [
   require('../../../../../components/alert/spec/Alert.stories.mdx'),
@@ -20,8 +21,8 @@ const mainComponents = buildLookup(mainStories);
 
 const subpages = {
   ...mainComponents,
-//  ...unofficialComponents,
-//  ...internalComponents
+  //  ...unofficialComponents,
+  //  ...internalComponents
 };
 
 const nameParam = 'name';
@@ -31,7 +32,7 @@ const buildLink = (v: string) => ({
   text: v
 });
 
-const buildLinks = v => Object.keys(v).sort().map(buildLink);
+const buildLinks = (v: any) => Object.keys(v).sort().map(buildLink);
 
 const mainLinks = buildLinks(mainComponents);
 //const unofficialLinks = buildLinks(unofficialComponents);
@@ -40,9 +41,10 @@ const mainLinks = buildLinks(mainComponents);
 export const title = 'Components';
 const description = 'The components provided in DBT design system';
 
-const Page: FC<PageProps> = ({ location }) => {
+const Page: FC<PageProps> = () => {
+  const location = useLocation();
   const componentName = location.query[nameParam];
-  const stories = subpages[componentName];
+  const stories = subpages[componentName as unknown as string];
 
   return (
     <div className="govuk-grid-row">

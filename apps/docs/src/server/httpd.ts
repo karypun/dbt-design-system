@@ -1,11 +1,12 @@
 import { resolve } from 'path';
-import engine, { AuthMethod, Mode } from '@not-govuk/engine';
+import engine, { AuthMethod, Handler, Mode, SessionStore } from '@not-govuk/engine';
 import config from './config';
 import AppWrap from '../common/app-wrap';
 import ErrorPage from '../common/error-page';
 import PageWrap from '../common/page-wrap';
 import pageLoader from '../common/page-loader';
 import isReady from './readiness';
+import graphQLSchema from './graphql';
 
 export type httpdOptions = {
   entrypoints?: object
@@ -28,13 +29,16 @@ export const createServer = ({ entrypoints, port }: httpdOptions) => {
         || ( config.auth.method === AuthMethod.Headers && { method: AuthMethod.Headers, ...config.auth.headers } )
         || ( config.auth.method === AuthMethod.Basic && { method: AuthMethod.Basic, ...config.auth.basic } )
         || ( config.auth.method === AuthMethod.OIDC && { method: AuthMethod.OIDC, ...config.auth.oidc } )
-    ),
+    ) || undefined,
     cookies: {
       secret: config.cookies.secret,
       secure: config.cookies.secure
     },
     env: config.env,
     frameAncestors: config.frameAncestors,
+    graphQL: {
+      schema: graphQLSchema
+    },
     httpd: {
       host: config.httpd.host,
       port: port || config.httpd.port
@@ -55,12 +59,16 @@ export const createServer = ({ entrypoints, port }: httpdOptions) => {
     name: config.name,
     pageLoader,
     privacy: config.privacy,
+    session: config.session && (
+      ( config.session.store === SessionStore.Cookie && { store: SessionStore.Cookie } )
+        || ( config.session.store === SessionStore.Memory && { store: SessionStore.Memory } )
+    ) || undefined,
     ssrOnly: config.ssrOnly
   });
 
   const handler = (
     config.mode === Mode.Serverless
-      ? async (...args) => (await app)(...args)
+      ? async (event: object, context: object) => (await app as Handler)(event, context)
       : undefined
   );
 
