@@ -1,6 +1,8 @@
 name: Change assurance
 on:
   pull_request:
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 jobs:
   static-analysis:
     name: Static analysis
