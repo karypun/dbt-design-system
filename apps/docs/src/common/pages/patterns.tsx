@@ -8,8 +8,8 @@ export const menu = (
     <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Help users to</span>
     <NavigationMenu items={[
       {
-        href: '/patterns/add-multiple-things',
-        text: 'Add multiple things'
+        href: '/patterns/add-to-a-list',
+        text: 'Add to a list'
       },
       {
         href: '/patterns/create-account',
@@ -22,10 +22,6 @@ export const menu = (
       {
         href: '/patterns/manage-complex-applications',
         text: 'Save and return'
-      },
-      {
-        href: '/patterns/picklist',
-        text: 'Templated responses'
       }
     ]} />
      <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Pages</span>
@@ -33,14 +29,6 @@ export const menu = (
       {
         href: '/patterns/case-list-page',
         text: 'Case list page'
-      },
-      {
-        href: '/patterns/case-detail-page',
-        text: 'Case details page'
-      },
-      {
-        href: '/patterns/dashboard',
-        text: 'Dashboard'
       }
     ]} />
   </Fragment>

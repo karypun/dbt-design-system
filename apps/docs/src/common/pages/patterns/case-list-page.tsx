@@ -36,14 +36,9 @@ const Page: FC<PageProps> = () => (
 
 
 
-
-
-
-
-      <h2 className="govuk-heading-l">When to use this pattern</h2>
       <p>Use the case list page to make pieces of information about a case easier to scan, prioritise and action for users</p>
 
-      <h2 className="govuk-heading-l">How to use</h2>
+      <h2 className="govuk-heading-l">How it works</h2>
       <p>First understand what pieces of information are needed to prioritise and action cases.
         You should avoid using too many columns, and only provide users with information they really need.
         Use clear labels for column headings that describe the content.</p>
@@ -56,13 +51,7 @@ const Page: FC<PageProps> = () => (
 
       <p className="govuk-body">The filters are used on LITE. Caseworkers found it useful, especially to prioritise different information across various teams; the filter selection persists unless it's updated by the caseworker.</p>
 
-      <h2 className="govuk-heading-l">Help us improve this pattern</h2>
-      <p>This pattern needs improving. We need evidence about:</p>
-      <ul>
-        <li>user research findings</li>
-      </ul>
-
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing">discussion backlog</A>, or follow our <A href="../contributing">community guidance</A>.</p>
+      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
     </div>
 </div>

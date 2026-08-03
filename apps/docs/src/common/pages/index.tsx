@@ -16,21 +16,21 @@ const Page: FC<PageProps> = props => (
     </Helmet>
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
-        <h1>Design your T-REG services consistently</h1>
-        <p className="govuk-body-l">Use this design system to help you design and deliver: </p>
-        <ul>
-            <li>public-facing T-Reg services consistently</li>
-            <li>intenal case management systems based on reusable components and patterns</li>
-          </ul>
+        <h1>Design and deliver your TREG services consistently</h1>
+        <p className="govuk-body-l">The TREGS design system encourages teams to learn from the work of others, reuse where possible and solve common problems across the portfolio. </p>
+        <p className="govuk-body govuk-!-font-size-19">This is a temporarily hosted system until we migrate into the <A href="https://design.businessandtrade.gov.uk/">BIST domain</A>.</p>
 
 
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Updates</h2>
-          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#626a6e' }}>Last updated 28 May 2025</p>
+          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#1a1f2b' }}>Last updated 3 August 2026</p>
           <ul className="govuk-!-font-size-16">
-            <li>Set up <A href="https://github.com/users/karypun/projects/1/views/1">community discussion backlog</A></li>
+            <li>Added 'Licensing case management: shared working model' in <A href="/get-started/">Get started</A></li>
+            <li>Published card, timeline and guidance panel in <A href="/component/">Components</A></li>
+            <li>Published 'Save and return' and 'Add to a list' in <A href="/patterns/">Patterns</A></li>
+            <li>Set up <A href="https://trello.com/b/TZ77oz57/design-system-working-group">community backlog</A></li>
           </ul>
         </aside>
 
@@ -40,21 +40,21 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Pages</h2>
-          <p className="govuk-body govuk-!-font-size-19">Design and build case management pages</p>
+          <p className="govuk-body govuk-!-font-size-19">Design and build scalable case management pages</p>
           <A className="govuk-body govuk-!-font-size-19" href="/patterns/case-list-page">Browse pages</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Components</h2>
-          <p className="govuk-body govuk-!-font-size-19">Save time with reusable, accessible components for forms, tables and more.</p>
+          <p className="govuk-body govuk-!-font-size-19">Save time with reusable, accessible components.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/component">Browse components</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Patterns</h2>
-          <p className="govuk-body govuk-!-font-size-19">Help users complete common tasks like uploading files and getting help.</p>
+          <p className="govuk-body govuk-!-font-size-19">Make common licensing casework and regulatory patterns visible.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/patterns">Browse patterns</A>
         </aside>
       </div>

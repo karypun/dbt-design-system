@@ -9,7 +9,6 @@ const description = 'How to help users to use flags';
 const section = 'Component';
 const subsection = 'Components';
 
-const liteCard = require('../../../../assets/images/patterns/lite-cards.png');
 const ecilCard = require('../../../../assets/images/patterns/ecil-cards.png');
 
 const Page: FC<PageProps> = () => (
@@ -36,11 +35,7 @@ const Page: FC<PageProps> = () => (
       </div>
 
 
-      <p>Display links and grouped information on a dashboard in an organised way.</p>
-
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={liteCard} className="image-examples" alt="An example of an interaction that shows contextual help" />
-      </div>
+      <p>Display links and grouped information on a dashboard or a homepage in an organised way.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={ecilCard} className="image-examples" alt="An example of an interaction that shows contextual help" />
@@ -48,18 +43,23 @@ const Page: FC<PageProps> = () => (
 
       <h2 className="govuk-heading-l">How to use</h2>
 
-      <p className="govuk-body">ECIL based their cards from <A href="https://design.education.gov.uk/design-system/components/card">DfE</A> and HMRC versions use the entire card as the link, which works well - there are no competing links within the card.</p>
-      <p className="govuk-body">That said, the DfE design feels a bit washed out visually - the HMRC version adds a subtle grey background that gives it more presence on the page but I prefer the larger heading and body copy sizes of the DfE version. Both designs use a department-specific blue hover state with white text.</p>
+      <p className="govuk-body">Use the card on a dashboard or homepage to present links and a description of the link to users.</p>
+      <p>This component is similar to the <A href="https://design.education.gov.uk/design-system/components/card">Department for Education's (DfE) card component</A> and HMRC's version as it uses the entire card as the link, which works well - there are no competing links within the card. Both designs use a department-specific blue hover state with white text.</p>
+<p>However, the difference with this card is:</p>
+      <ul>
+        <li>a subtle grey background similar to HMRC which gives it more presence</li>
+        <li>larger heading and body copy sizes of DfE </li>
+      </ul>
+
 
       <h2 className="govuk-heading-l">Research</h2>
       <p className="govuk-body">This component is used in:</p>
       <ul>
-        <li>ECIL</li>
-        <li>LITE</li>
+        <li>Export Certificate Import Licencing (ECIL)</li>
       </ul>
+<p>which have tested really well with users.</p>
 
-
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://github.com/UKHomeOffice/design-system/discussions/353">GitHub discussion</A>, or follow our <A href="/contribute">contribute guidance</A>.</p>
+      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
     </div>
 </div>

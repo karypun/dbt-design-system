@@ -51,27 +51,31 @@ const Page: FC<PageProps> = () => (
         </li>
       </ul>
 
+      <h2 className="govuk-heading-l">How to use</h2>
+      <p className="govuk-body">Firstly, understand the needs of your user and the structure of your service, as there are two approaches to using the task list, namely, in a linear or non-linear fashion.</p>
+  <p>When deciding which aspects of the journey fit into a task list, consider information architecture focused user research, to match the task list items into meaningful tasks for users.</p>
 
+<h3 className="govuk-heading-m">Linear</h3>
+<p>Use a linear task list for services that are complex, where users are expected to complete their transaction in a single session. This will help set user expectations, whilst at the same time reassure users as they are able to determine what they'll be asked about in the journey in a logical structure.</p>
 
+<h3 className="govuk-heading-m">Non-linear</h3>
+<p>Use a non-linear task list for services that allow users to return to the services for completion over multiple sessions, for example, saving and returning. By having a non-linear task list, this enables users to complete their transaction bit by bit, giving them flexibility to complete tasks in a manner that suits them best.</p>
 
-      <h2 className="govuk-heading-l">Accessibility</h2>
-
-
-      <p className="govuk-body">If your service uses this pattern, let us know of any insights you have on accessibility considerations.</p>
+<h2 className="govuk-heading-l">Accessibility</h2>
+<p className="govuk-body">Both task lists have passed the Digital Accessibility Centre (DAC) tests with user research completed on partially sighted and neurodiverse users.</p>
+<p>Partially sighted users found the task lists relatively easy to navigate and status labels useful in understanding the progress of task list items. Neurodiverse users especially liked the linear task list, as it gave them a set structure providing expectation of what was coming next.</p>
 
       <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">More research is needed. If your service uses this pattern, get in touch to share your user research findings.</p>
-
-      <p className="govuk-body">If you have evidence this also works for your users, you can contribute to our backlog.</p>
-
-      <h2 className="govuk-heading-l">Help us improve this pattern</h2>
-      <p>This pattern needs improving. We need evidence about:</p>
+      <p className="govuk-body">These task lists were used in:</p>
       <ul>
-        <li>any other accessibility considerations</li>
-        <li>any research findings</li>
+        <li>Apply for licence to provide sanctioned trade services</li>
+        <li>Report a suspected breach of trade sanctions</li>
+        <li>Prompt payments</li>
       </ul>
 
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing">discussion backlog</A>, or follow our <A href="../contributing">community guidance</A>.</p>
+
+
+  <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
     </div>
 </div>
 

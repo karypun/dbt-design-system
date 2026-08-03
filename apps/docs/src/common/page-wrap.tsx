@@ -18,7 +18,7 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
       feedbackHref="https://github.com/daniel-ac-martin/NotGovUK/issues/new"
       footerContent={(
         <Fragment>
-          Copyright &copy; 2024 Crown Copyright<br />
+          &copy; Crown Copyright<br />
         </Fragment>
       )}
       navigation={navigation}
@@ -27,9 +27,9 @@ export const PageWrap: FC<PageProps> = ({ children }) => {
         { href: "/sitemap", text: "Sitemap" },
         { href: "https://github.com/daniel-ac-martin/NotGovUK/issues/new", text: "Contact" },
       ]}
-      organisationText="Department for Business & Trade"
+      organisationText="Department for Business, Innovation, Science and Trade"
 
-      serviceName="Trade and Regulatory Services design system"
+      serviceName="TREGS design system"
       title="DBT Trade and Regulatory Services design system"
       maxContentsWidth={1100}
     >

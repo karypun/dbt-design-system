@@ -49,32 +49,16 @@ const Page: FC<PageProps> = () => (
       <p className="govuk-body">The user will receive an email notification via GOV.UK Notify with a link to their account
         where they can navigate to the application in question. From there, they can respond directly through their account.
       </p>
-      <h3 className="govuk-heading-m">Related components</h3>
-      <ul>
-        <li><a href="/component/messages">messaging component</a></li>
-        <li><a href="/component/picklist">picklist component</a></li>
-      </ul>
-
-
-
-      <h2 className="govuk-heading-l">Accessibility</h2>
-
-
-      <p className="govuk-body">If your service uses this pattern, let us know of any insights you have on accessibility considerations.</p>
 
       <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">More research is needed. If your service uses this pattern, get in touch to share your user research findings.</p>
-      
-      <p className="govuk-body">If you have evidence this also works for your users, you can contribute to our backlog.</p>
-
-      <h2 className="govuk-heading-l">Help us improve this pattern</h2>
-      <p>This pattern needs improving. We need evidence about:</p>
+      <p className="govuk-body">This pattern is used in:</p>
       <ul>
-        <li>any other accessibility considerations</li>
-        <li>any research findings</li>
+        <li>Export licensing (LITE)</li>
       </ul>
 
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://docs.google.com/spreadsheets/d/1Q5M0fSTK3kdfXvac40pHC18885QQSHJEyaPO7FMPqOQ/edit?usp=sharing">discussion backlog</A>, or follow our <A href="../contributing">community guidance</A>.</p>
+      <p>More research is needed. If your service uses this pattern, get in touch to share your research findings.</p>
+
+  <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
     </div>
 </div>
 

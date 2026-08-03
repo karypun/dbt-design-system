@@ -5,12 +5,6 @@ import { A, NavigationMenu } from '@not-govuk/components';
 
 export const menu = (
   <Fragment>
-    <NavigationMenu items={[
-          {
-            href: 'https://github.com/users/karypun/projects/1/views/1',
-            text: 'Discussion backlog'
-          }
-        ]} />
   </Fragment>
 );
 
@@ -31,16 +25,11 @@ const Page: FC<PageProps> = () => (
     </div>
     <div className="govuk-grid-column-three-quarters">
     <h1 className="heading-section">Contribute to the design system</h1>
-    <p>Anyone can contribute to the design system. For example, you can:</p>
-    <ul>
-      <li>ask questions about a style, component or pattern</li>
-      <li>share an example use of a component or pattern</li>
-      <li>share research relating to a style, component or pattern</li>
-      <li>request an addition or improvement to the content style guide</li>
-      <li>propose a new style, component or pattern</li>
-    </ul>
+    <p>Contributions are open - anyone or any team can propose a pattern, add evidence or comment on something in progress.</p>
+    <p>To do this, go to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
-    <p><A href="https://github.com/users/karypun/projects/1/views/1">Start a new discussion</A> in the backlog.</p>
+
+
 
 
 

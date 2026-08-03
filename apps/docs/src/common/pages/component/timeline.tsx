@@ -33,25 +33,40 @@ const Page: FC<PageProps> = () => (
       <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-      
+
       <p>Show a record of events and messages in chronological order.</p>
 
+      <h2 className="govuk-heading-l">How to use</h2>
+      <p className="govuk-body">Show the most recent event first.</p>
+
+      <h3 className="govuk-heading-m">What to include</h3>
+      <p className="govuk-body">Each item should include:</p>
+      <ul>
+        <li>the date (or date and time)</li>
+        <li>who or what made the update</li>
+      </ul>
+
+      <p className="govuk-body">You could also include:</p>
+      <ul>
+        <li>a free text box for adding case notes or other information and call to actions to add or cancel information onto the timeline</li>
+        <li>a link to more detail</li>
+      </ul>
+
+      <h3 className="govuk-heading-m">For complex services</h3>
+      <p className="govuk-body">You may have a bigger timeline which covers items at a higher level which should include:</p>
+      <ul>
+        <li>view all notes and timeline</li>
+        <li>who or what made the update (for example, across multiple teams)</li>
+      </ul>
 
       <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">This pattern is used by:</p>
+      <p className="govuk-body">This component is used in:</p>
       <ul>
-        <li>LITE</li>
+        <li>Export licensing (LITE)</li>
       </ul>
-      <p className="govuk-body">More research is needed. If your service uses this
-      pattern, get in touch to share your user research findings.</p>
+      <p>which have tested really well with users.</p>
 
-      <h2 className="govuk-heading-l">Help us improve this pattern</h2>
-      <p>This pattern needs improving. We need evidence about:</p>
-      <ul>
-        <li>alterations for internal caseworking systems</li>
-      </ul>
-
-      <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://github.com/UKHomeOffice/design-system/discussions/353">GitHub discussion</A>, or follow our <A href="/contribute">contribute guidance</A>.</p>
+            <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
     </div>
 </div>
