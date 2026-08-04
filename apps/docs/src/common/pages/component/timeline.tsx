@@ -9,6 +9,7 @@ const description = 'How to help users to use the timeline';
 const section = 'Component';
 const subsection = 'Components';
 
+const timeLine = require('../../../../assets/images/patterns/timeline-complex.png');
 
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
@@ -36,8 +37,12 @@ const Page: FC<PageProps> = () => (
 
       <p>Show a record of events and messages in chronological order.</p>
 
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={timeLine} className="image-examples" alt="An example of an interaction that shows contextual help" />
+      </div>
+
       <h2 className="govuk-heading-l">How to use</h2>
-      <p className="govuk-body">Show the most recent event first.</p>
+      <p className="govuk-body">Show the most recent event first unless research suggests a different order is better.</p>
 
       <h3 className="govuk-heading-m">What to include</h3>
       <p className="govuk-body">Each item should include:</p>

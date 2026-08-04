@@ -9,7 +9,8 @@ const description = 'Make pieces of information about a case easier to scan, pri
 const section = 'Patterns';
 const subsection = 'Pages';
 
-
+const caseSimple = require('../../../../assets/images/patterns/case-list-simple.png');
+const caseComplex = require('../../../../assets/images/patterns/case-list-complex.png');
 
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
@@ -38,6 +39,10 @@ const Page: FC<PageProps> = () => (
 
       <p>Use the case list page to make pieces of information about a case easier to scan, prioritise and action for users</p>
 
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={caseSimple} className="image-examples" alt="An example of an interaction to add multiple addresses" />
+      </div>
+
       <h2 className="govuk-heading-l">How it works</h2>
       <p>First understand what pieces of information are needed to prioritise and action cases.
         You should avoid using too many columns, and only provide users with information they really need.
@@ -46,6 +51,10 @@ const Page: FC<PageProps> = () => (
 
       <h3 className="govuk-heading-m">If you have a lot of information</h3>
       <p>Where case information can be dense, control vast amounts of data by using a filter. it allows caseworkers to prioritise the minimal essential information needed in order to handle next steps for the case.</p>
+
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={caseComplex} className="image-examples" alt="An example of an interaction to add multiple addresses" />
+      </div>
 
       <h2 className="govuk-heading-l">Research</h2>
 

@@ -29,7 +29,7 @@ const Page: FC<PageProps> = props => (
           <ul className="govuk-!-font-size-16">
             <li>Added 'Licensing case management: shared working model' in <A href="/get-started/">Get started</A></li>
             <li>Published card, timeline and guidance panel in <A href="/component/">Components</A></li>
-            <li>Published 'Save and return' and 'Add to a list' in <A href="/patterns/">Patterns</A></li>
+            <li>Published 'Manage complex tasks' and 'Add to a list' in <A href="/patterns/">Patterns</A></li>
             <li>Set up <A href="https://trello.com/b/TZ77oz57/design-system-working-group">community backlog</A></li>
           </ul>
         </aside>

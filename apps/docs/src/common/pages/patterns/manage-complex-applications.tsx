@@ -4,12 +4,13 @@ import { PageProps } from '@not-govuk/app-composer';
 import { A } from '@not-govuk/components';
 import { menu } from '../patterns';
 
-export const title = 'Save and return';
+export const title = 'Manage complex tasks';
 const description = 'How to help users manage complex applications';
 const section = 'Patterns';
 const subsection = 'Help users to';
 
-const taskList = require('../../../../assets/images/patterns/task-list-pattern.png');
+const sanctionsLinear = require('../../../../assets/images/patterns/sanctions-linear.png');
+const sanctionsNonlinear = require('../../../../assets/images/patterns/sanctions-non-linear.png');
 
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
@@ -35,21 +36,9 @@ const Page: FC<PageProps> = () => (
       <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={taskList} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
-      </div>
-
-      <h2 className="govuk-heading-l">When to use this pattern</h2>
-      <p className="govuk-body">When asking users to complete a long complex application with lots of routing. If a user changes an answer, it may have
-        an impact on the other parts of the application.</p>
-        <p>Using the GOV.UK <a href="https://design-system.service.gov.uk/components/task-list/">task list component</a>, this has been adapted
-        to include:</p>
-      <ul className="govuk-list govuk-list--bullet">
-        <li>numbered sections to help tackle tasks in a specific order (depending on your input, this may impact subsequent tasks)</li>
-        <li>if a user changes an answer in one section, they will be prompted by an alert to go to answer
-          any additional questions before returning to the task list
-        </li>
-      </ul>
+        <p>This is a variation of the <a href="https://design-system.service.gov.uk/components/task-list/">GOV.UK task list</a>, which has been adapted
+        to include two approaches of handling complex tasks.</p>
+    
 
       <h2 className="govuk-heading-l">How to use</h2>
       <p className="govuk-body">Firstly, understand the needs of your user and the structure of your service, as there are two approaches to using the task list, namely, in a linear or non-linear fashion.</p>
@@ -58,8 +47,16 @@ const Page: FC<PageProps> = () => (
 <h3 className="govuk-heading-m">Linear</h3>
 <p>Use a linear task list for services that are complex, where users are expected to complete their transaction in a single session. This will help set user expectations, whilst at the same time reassure users as they are able to determine what they'll be asked about in the journey in a logical structure.</p>
 
+<div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+  <img src={sanctionsLinear} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+</div>
+
 <h3 className="govuk-heading-m">Non-linear</h3>
 <p>Use a non-linear task list for services that allow users to return to the services for completion over multiple sessions, for example, saving and returning. By having a non-linear task list, this enables users to complete their transaction bit by bit, giving them flexibility to complete tasks in a manner that suits them best.</p>
+
+<div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+  <img src={sanctionsNonlinear} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+</div>
 
 <h2 className="govuk-heading-l">Accessibility</h2>
 <p className="govuk-body">Both task lists have passed the Digital Accessibility Centre (DAC) tests with user research completed on partially sighted and neurodiverse users.</p>
