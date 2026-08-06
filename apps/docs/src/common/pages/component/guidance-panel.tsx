@@ -60,7 +60,9 @@ const Page: FC<PageProps> = () => (
       <h2 className="govuk-heading-l">Research</h2>
       <p className="govuk-body">This component is used in:</p>
       <ul>
-        <li><A href="https://www.gov.uk/guidance/launching-or-returning-a-rocket-or-space-plane-rules-and-regulations">Regulatory guidance for launching or returning a rocket or space plane</A></li>
+        <li><A href="https://www.gov.uk/guidance/letting-out-a-self-catering-holiday-home-in-england-rules-and-regulations">Letting out a self-catering holiday home in England: rules and regulations - GOV.UK</A></li>
+        <li><A href="https://www.gov.uk/guidance/brewing-beer-rules-and-regulations-for-commercial-brewing">Brewing beer: rules and regulations - GOV.UK</A></li>
+        <li><A href="https://www.gov.uk/government/collections/spaceflight-activities-rules-and-regulations">Spaceflight activities: rules and regulations - GOV.UK</A></li>
       </ul>
       <p className="govuk-body">More research is needed as this scales out - about which users sign up for notifications
       and where there are overlaps, to test hypotheses about usage and user populations. If your service uses this
