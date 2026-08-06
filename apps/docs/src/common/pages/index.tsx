@@ -25,8 +25,9 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Updates</h2>
-          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#1a1f2b' }}>Last updated 3 August 2026</p>
+          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#1a1f2b' }}>Last updated 6 August 2026</p>
           <ul className="govuk-!-font-size-16">
+            <li>Published case list page in <A href="/patterns/case-list-page">Pages</A></li>
             <li>Added 'Licensing case management: shared working model' in <A href="/get-started/">Get started</A></li>
             <li>Published card, timeline and guidance panel in <A href="/component/">Components</A></li>
             <li>Published 'Manage complex tasks' and 'Add to a list' in <A href="/patterns/">Patterns</A></li>

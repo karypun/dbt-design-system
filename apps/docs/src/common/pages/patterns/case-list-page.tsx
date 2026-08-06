@@ -77,9 +77,8 @@ const Page: FC<PageProps> = () => (
         <li>Export licensing (LITE)</li>
         <li>Sanctions</li>
       </ul>
-      <p>The rest of the model is still being developed.</p>
-
-      <p className="govuk-body">ECIL provides minimum information on their case list page. The filters are used on LITE. Caseworkers found it useful, especially to prioritise different information across various teams; the filter selection persists unless it's updated by the caseworker.</p>
+<p>The model is continually being developed and refined and we'll share more updates as the case management pages evolve.</p>
+      <p className="govuk-body">The filters are used on LITE. Caseworkers found it useful, especially to prioritise different information across various teams; the filter selection persists unless it's updated by the caseworker.</p>
 
       <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
