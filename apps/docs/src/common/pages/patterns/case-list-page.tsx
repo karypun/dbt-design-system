@@ -41,12 +41,12 @@ const Page: FC<PageProps> = () => (
       <p>Use the case list page to make pieces of information about a case easier to scan, prioritise and action for users</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={caseSimple} className="image-examples" alt="An example of case showing minimal information to help caseworkers" />
+        <img src={caseSimple} className="image-examples" alt="An example of a case list page" />
       </div>
 
       <h2 className="govuk-heading-l">How it works</h2>
       <p>First understand what pieces of information are needed to prioritise and action cases.
-      The <A href="https://uktrade.atlassian.net/wiki/spaces/DCMSS/pages/5200347262/Licensing+Case+Management+Shared+Working+Model">TREGS case management model</A> provides key information (core capabilities) that services require
+      The <A href="https://uktrade.atlassian.net/wiki/spaces/DCMSS/pages/5200347262/Licensing+Case+Management+Shared+Working+Model">TREGS case management working model</A> provides key information (capabilities) that services require
       for their case management systems.
         </p>
         <p>On a case list page, these core capabilities include:</p>
@@ -58,7 +58,7 @@ const Page: FC<PageProps> = () => (
         </ul>
 
         <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-          <img src={caseCapabilities} className="image-examples" alt="An example highlighting core capabilities on a case" />
+          <img src={caseCapabilities} className="image-examples" alt="An example highlighting core capabilities on a case list page" />
         </div>
 
 <p>User research will tell you what other key information is needed. You should avoid using too many columns, and only provide users with information they really need. Use clear labels for column headings that describe the content.</p>
@@ -66,7 +66,7 @@ const Page: FC<PageProps> = () => (
       <p>Where case information can be dense, consider a filter to control vast amounts of data which allows caseworkers to prioritise the minimal essential information needed.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={caseComplex} className="image-examples" alt="An example of a complex case using filters" />
+        <img src={caseComplex} className="image-examples" alt="An example of a complex case list page using filters" />
       </div>
 
       <h2 className="govuk-heading-l">Research</h2>

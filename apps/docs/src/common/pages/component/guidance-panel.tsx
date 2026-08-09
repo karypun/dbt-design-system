@@ -39,7 +39,7 @@ const Page: FC<PageProps> = () => (
       <p>Let users know when a guidance page was last updated and when it will be checked again.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={panel} className="image-examples" alt="An example of an interaction that shows contextual help" />
+        <img src={panel} className="image-examples" alt="An example of an up-to-date guidance panel from a GOV.UK regulations guidance page" />
       </div>
 
       <h2 className="govuk-heading-l">When to use</h2>

@@ -38,7 +38,7 @@ const Page: FC<PageProps> = () => (
       <p>Show a record of events and messages in chronological order.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={timeLine} className="image-examples" alt="An example of an interaction that shows contextual help" />
+        <img src={timeLine} className="image-examples" alt="An example of a timeline from the LITE export licensing service" />
       </div>
 
       <h2 className="govuk-heading-l">How to use</h2>

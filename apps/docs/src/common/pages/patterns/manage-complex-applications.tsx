@@ -38,7 +38,7 @@ const Page: FC<PageProps> = () => (
 
         <p>This is a variation of the <a href="https://design-system.service.gov.uk/components/task-list/">GOV.UK task list</a>, which has been adapted
         to include two approaches of handling complex tasks.</p>
-    
+
 
       <h2 className="govuk-heading-l">How to use</h2>
       <p className="govuk-body">Firstly, understand the needs of your user and the structure of your service, as there are two approaches to using the task list, namely, in a linear or non-linear fashion.</p>
@@ -48,14 +48,14 @@ const Page: FC<PageProps> = () => (
 <p>Use a linear task list for services that are complex, where users are expected to complete their transaction in a single session. This will help set user expectations, whilst at the same time reassure users as they are able to determine what they'll be asked about in the journey in a logical structure.</p>
 
 <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-  <img src={sanctionsLinear} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+  <img src={sanctionsLinear} className="image-examples" alt="An example of a linear task list for complex services" />
 </div>
 
 <h3 className="govuk-heading-m">Non-linear</h3>
 <p>Use a non-linear task list for services that allow users to return to the services for completion over multiple sessions, for example, saving and returning. By having a non-linear task list, this enables users to complete their transaction bit by bit, giving them flexibility to complete tasks in a manner that suits them best.</p>
 
 <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-  <img src={sanctionsNonlinear} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+  <img src={sanctionsNonlinear} className="image-examples" alt="An example of a non-linear task list allowing users to save and return" />
 </div>
 
 <h2 className="govuk-heading-l">Accessibility</h2>

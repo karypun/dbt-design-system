@@ -38,7 +38,7 @@ const Page: FC<PageProps> = () => (
       <p>Display links and grouped information on a dashboard or a homepage in an organised way.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={ecilCard} className="image-examples" alt="An example of an interaction that shows contextual help" />
+        <img src={ecilCard} className="image-examples" alt="An example of cards from the Export Certificate Import Licensing service" />
       </div>
 
       <h2 className="govuk-heading-l">How to use</h2>
@@ -57,7 +57,7 @@ const Page: FC<PageProps> = () => (
       <ul>
         <li>Export Certificate Import Licencing (ECIL)</li>
       </ul>
-<p>which have tested really well with users.</p>
+<p>which have tested well with users. More research is needed to see whether a stronger border could help define the card component better.</p>
 
       <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 

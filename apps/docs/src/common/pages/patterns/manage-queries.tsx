@@ -32,11 +32,13 @@ const Page: FC<PageProps> = () => (
       </h1>
 
       <div style={{marginTop: "-2em"}}>
-      <p className="govuk-caption-m" style={{marginBottom: "2em"}}>Use this pattern for requesting more information from users.</p>
+      <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
+      <p className="govuk-body">Use this pattern for requesting more information from users</p>
+
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={manageQuery} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+        <img src={manageQuery} className="image-examples" alt="An example of a manage queries pattern" />
       </div>
 
       <h2 className="govuk-heading-l">How it works</h2>

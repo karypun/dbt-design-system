@@ -32,14 +32,17 @@ const Page: FC<PageProps> = () => (
         {title}
       </h1>
       <div style={{marginTop: "-2em"}}>
-      <p className="govuk-caption-m" style={{marginBottom: "2em"}}>Use this pattern if you need to set up an account securely using GOV.UK One Login.</p>
+      <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-      <p className="govuk-body"></p>
+
+      <p className="govuk-body">Use this pattern if you need to set up an account securely using GOV.UK One Login.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={accessService} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+        <img src={accessService} className="image-examples" alt="An example of a create an account pattern" />
       </div>
+
+
 
       <h2 className="govuk-heading-l">How it works</h2>
       <p>Only create an account if there is a need to do so. For example, to return to a saved application
@@ -54,7 +57,7 @@ const Page: FC<PageProps> = () => (
         </ul>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={applyAuthenticatePersonal3} className="image-examples" alt="An example of a service verifying the user with passport details and date of birth" />
+        <img src={applyAuthenticatePersonal3} className="image-examples" alt="An example of GOV.UK Notify emails notifying different statuses of account creation" />
       </div>
 
       <h2 className="govuk-heading-l">Research</h2>
