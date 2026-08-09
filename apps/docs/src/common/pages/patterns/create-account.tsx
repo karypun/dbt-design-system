@@ -5,7 +5,7 @@ import { A } from '@not-govuk/components';
 import { menu } from '../patterns';
 
 export const title = 'Create an account';
-const description = 'How to help users to create an account';
+const description = 'How to help users create an account';
 const section = 'Patterns';
 const subsection = 'Help users to';
 
@@ -15,7 +15,7 @@ const applyAuthenticatePersonal3 = require('../../../../assets/images/patterns/g
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
-    <title>{title} - DBT design system</title>
+    <title>{title} - Trade and Regulatory Services design system</title>
     <meta name="description" content={description} />
     <meta name="og:title" content={title} />
     <meta name="og:description" content={description} />
@@ -68,7 +68,7 @@ const Page: FC<PageProps> = () => (
       </ul>
 
       <p>More research is needed. If your service uses this pattern, get in touch to share your research findings.</p>
-
+<h2 className="govuk-heading-l">Help us improve</h2>
   <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
     </div>

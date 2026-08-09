@@ -13,6 +13,10 @@ export const menu = (
         text: 'Card'
       },
       {
+        href: '/component/task-list',
+        text: 'Task list'
+      },
+      {
         href: '/component/timeline',
         text: 'Timeline'
       },
@@ -45,7 +49,7 @@ const Page: FC<PageProps> = () => (
         Components are reusable parts of the user interface that have been made to support a variety of applications.
       </p>
       <p>
-        Individual components can be used in multiple different patterns and contexts. For example, the text input component can be used to ask for an email address, a National Insurance number or someone’s name.
+        Individual components can be used in multiple different patterns and contexts.
       </p>
     </div>
   </div>

@@ -25,12 +25,11 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Updates</h2>
-          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#1a1f2b' }}>Last updated 6 August 2026</p>
+          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#1a1f2b' }}>Last updated 10 August 2026</p>
           <ul className="govuk-!-font-size-16">
-            <li>Added 'Licensing case management: shared working model' in <A href="/get-started/">Get started</A></li>
-            <li>Published <A href="/patterns/case-list-page">case list page</A></li>
-            <li>Published updated card and timeline component; added guidance panel in <A href="/component/">Components</A></li>
-            <li>Published 'Manage complex tasks' and 'Add to a list' in <A href="/patterns/">Patterns</A></li>
+            <li>Added Licensing Case Management Working Model in <A href="/get-started/">Get started</A></li>
+            <li>Published new <A href="/component/">components</A>: card, task list variants, timeline and guidance panel</li>
+            <li>Published new <A href="/patterns/">patterns</A>: 'Add to a list' and 'Case list page'</li>
             <li>Set up <A href="https://trello.com/b/TZ77oz57/design-system-working-group">community backlog</A></li>
           </ul>
         </aside>

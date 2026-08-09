@@ -16,7 +16,7 @@ const caseComplex = require('../../../../assets/images/patterns/case-list-comple
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
-    <title>{title} - DBT Design System</title>
+    <title>{title} - Trade and Regulatory Services Design System</title>
     <meta name="description" content={description} />
     <meta name="og:title" content={title} />
     <meta name="og:description" content={description} />
@@ -80,6 +80,7 @@ const Page: FC<PageProps> = () => (
 <p>The model is continually being developed and refined and we'll share more updates as the case management pages evolve.</p>
       <p className="govuk-body">The filters are used on LITE. Caseworkers found it useful, especially to prioritise different information across various teams; the filter selection persists unless it's updated by the caseworker.</p>
 
+<h2 className="govuk-heading-l">Help us improve</h2>
       <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
     </div>

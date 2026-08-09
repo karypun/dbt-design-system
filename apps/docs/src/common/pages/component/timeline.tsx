@@ -71,6 +71,7 @@ const Page: FC<PageProps> = () => (
       </ul>
       <p>which have tested really well with users.</p>
 
+<h2 className="govuk-heading-l">Help us improve</h2>
             <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
     </div>

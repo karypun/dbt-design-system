@@ -5,7 +5,7 @@ import { A } from '@not-govuk/components';
 import { menu } from '../component';
 
 export const title = 'Up to date guidance panel';
-const description = 'How to help users to use flags';
+const description = 'How to help users to use the guidance panel';
 const section = 'Component';
 const subsection = 'Components';
 
@@ -68,7 +68,7 @@ const Page: FC<PageProps> = () => (
       and where there are overlaps, to test hypotheses about usage and user populations. If your service uses this
       pattern, get in touch to share your user research findings.</p>
 
-
+<h2 className="govuk-heading-l">Help us improve</h2>
       <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
     </div>

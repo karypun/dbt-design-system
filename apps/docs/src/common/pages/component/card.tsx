@@ -59,6 +59,7 @@ const Page: FC<PageProps> = () => (
       </ul>
 <p>which have tested well with users. More research is needed to see whether a stronger border could help define the card component better.</p>
 
+<h2 className="govuk-heading-l">Help us improve</h2>
       <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
 
     </div>

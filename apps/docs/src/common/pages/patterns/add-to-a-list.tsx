@@ -5,7 +5,7 @@ import { A } from '@not-govuk/components';
 import { menu } from '../patterns';
 
 export const title = 'Add to a list';
-const description = 'How to help users to add to a list';
+const description = 'How to help users add to a list';
 const section = 'Patterns';
 const subsection = 'Help users to';
 
@@ -16,7 +16,7 @@ const oldAutocomplete = require('../../../../assets/images/patterns/ecil-old-aut
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
   <Helmet>
-    <title>{title} - Home Office Design System</title>
+    <title>{title} - Trade and Regulatory Services Design System</title>
     <meta name="description" content={description} />
     <meta name="og:title" content={title} />
     <meta name="og:description" content={description} />
@@ -86,7 +86,7 @@ const Page: FC<PageProps> = () => (
       </ul>
 
 
-
+<h2 className="govuk-heading-l">Help us improve</h2>
             <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.
             </p>
 

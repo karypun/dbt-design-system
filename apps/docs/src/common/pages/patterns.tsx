@@ -17,11 +17,7 @@ export const menu = (
       },
       {
         href: '/patterns/manage-queries',
-        text: 'Manage queries'
-      },
-      {
-        href: '/patterns/manage-complex-applications',
-        text: 'Manage complex tasks'
+        text: 'Manage requests for information'
       }
     ]} />
      <span className="govuk-caption-m" style={{marginBottom: "1em"}}>Pages</span>
