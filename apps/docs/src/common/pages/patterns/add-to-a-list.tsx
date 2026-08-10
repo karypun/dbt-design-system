@@ -84,7 +84,7 @@ const Page: FC<PageProps> = () => (
         <li>the autocomplete component and summary list of added items are on separate screens</li>
         <li>only one button would be visible on each page which should ensure fewer errors</li>
       </ul>
-
+<p>This pattern may not be suitable for users who might need everying done on one page, for example, on LITE.</p>
 
 <h2 className="govuk-heading-l">Help us improve</h2>
             <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.
