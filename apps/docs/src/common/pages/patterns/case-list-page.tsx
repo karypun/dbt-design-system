@@ -45,16 +45,16 @@ const Page: FC<PageProps> = () => (
       </div>
 
       <h2 className="govuk-heading-l">How it works</h2>
-      <p>First understand what pieces of information are needed to prioritise and action cases.
-      The <A href="https://uktrade.atlassian.net/wiki/spaces/DCMSS/pages/5200347262/Licensing+Case+Management+Shared+Working+Model">TREGS case management working model</A> provides key information (capabilities) that services require
+      <p>First understand what pieces of information are needed to prioritise and action cases.</p>
+      <p>The <A href="https://uktrade.atlassian.net/wiki/spaces/DCMSS/pages/5200347262/Licensing+Case+Management+Shared+Working+Model">TREGS case management working model</A> provides key information, or capabilities, that services must require
       for their case management systems.
         </p>
-        <p>On a case list page, these core capabilities include:</p>
+        <p>On a case list page, these capabilities include:</p>
         <ul>
-          <li>a clear case reference to identify and track the case</li>
-          <li>case is appropriately classified to an identity type or route</li>
-          <li>minimum information present to route case onwards</li>
-          <li>clear routing or priority signals to help caseworkers direct this case forward</li>
+        <li>a clear way of referencing a case to identify and track it</li>
+        <li>appropriately classifying a case to an identity type or route</li>
+        <li>presenting only the minimum information to help caseworkers action it</li>
+        <li>providing clear routing or priority signals so the case can be forwarded easily</li>
         </ul>
 
         <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
