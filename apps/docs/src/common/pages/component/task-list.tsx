@@ -97,10 +97,9 @@ const Page: FC<PageProps> = () => (
       <h2 className="govuk-heading-l">Research</h2>
       <p className="govuk-body">These task lists were used in:</p>
       <ul>
-        <li>Apply for licence to provide sanctioned trade services</li>
-        <li>Report a suspected breach of trade sanctions</li>
+        <li>Sanctions</li>
+        <li>Prompt payments (as part of Portfolio Services) </li>
       </ul>
-<p>Both patterns have been tested but further research is needed on the task list designs.</p>
 
 <h2 className="govuk-heading-l">Help us improve</h2>
   <p className="govuk-body">To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.</p>
