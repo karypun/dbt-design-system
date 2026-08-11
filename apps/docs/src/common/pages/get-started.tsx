@@ -33,9 +33,14 @@ const Page: FC<PageProps> = () => (
         <p> By standardising the model, this will allow TREGS services to have a more consistent case management approach to solving common caseworking problems.</p>
 
 
-        <h2>Design assets</h2>
+        <h2>Design resources</h2>
         <ul>
           <li><A href="https://app.mural.co/t/departmentforbusinessandtrad1574/m/departmentforbusinessandtrad1574/1718094413612/699e6b95d41d31ea4da1717eb1f645242da71026?sender=uf6ad2fb3e168bde1c2295660">Service blueprint template (Mural)</A></li>
+        </ul>
+
+        <h2>Development resources</h2>
+        <ul>
+          <li><A href="https://github.com/uktrade/govuk-onelogin-django">GOV.UK One Login Django (GitHub)</A></li>
         </ul>
 
     </div>

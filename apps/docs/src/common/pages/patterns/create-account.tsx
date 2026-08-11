@@ -56,6 +56,7 @@ const Page: FC<PageProps> = () => (
           <li>notifications about your account status (GOV.UK Notify)</li>
         </ul>
 
+<p>For development, see <A href="https://github.com/uktrade/govuk-onelogin-django">GOV.UK One Login Django</A>.</p>
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={applyAuthenticatePersonal3} className="image-examples" alt="An example of GOV.UK Notify emails notifying different statuses of account creation" />
       </div>
