@@ -17,7 +17,8 @@ const Page: FC<PageProps> = props => (
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
         <h1>Design and deliver your TREG services consistently</h1>
-        <p className="govuk-body-l">The TREGS design system encourages teams to learn from the work of others, reuse where possible and solve common problems across the portfolio. </p>
+        <p>The TREGS design system provides reusable building blocks that help standardise both public-facing and internal case management systems for domestic and international regulations, licensing and trade.</p>
+        <p>It builds on the <A href="https://design-system.service.gov.uk/">GOV.UK design system</A> and supplements BIST and other portfolio design systems, providing TREGS-specific elements where evidenced.</p>
         <p className="govuk-body govuk-!-font-size-19">This is a temporarily hosted system until we migrate into the <A href="https://design.businessandtrade.gov.uk/">BIST domain</A>.</p>
 
 

@@ -25,8 +25,8 @@ const Page: FC<PageProps> = () => (
     </div>
     <div className="govuk-grid-column-three-quarters">
       <h1>{title}</h1>
-        <p>This design system provides reusable building blocks that help standardise both public-facing and internal case management systems for domestic and international regulations, licensing and trade.</p>
-        <p>It builds on the <A href="https://design-system.service.gov.uk/">GOV.UK design system</A> and supplements BIST and other portfolio design systems, providing TREGS-specific elements where evidenced.</p>
+        <p>The TREGS design system encourages teams to learn from the work of others, reuse where possible and solve common problems across the portfolio.</p>
+
 
         <h2>Licensing case management working model</h2>
         <p>This shared working model sits in <A href="https://uktrade.atlassian.net/wiki/spaces/DCMSS/pages/5200347262/Licensing+Case+Management+Shared+Working+Model">Confluence</A> and contains an MVP caseworking spine with reusable stages, service patterns and capabilities which feeds into some of the caseworking components, patterns and pages in the design system.</p>
