@@ -16,6 +16,10 @@ export const menu = (
         text: 'Create an account'
       },
       {
+        href: '/patterns/know-when-a-page-is-up-to-date',
+        text: 'Know when a page is up to date'
+      },
+      {
         href: '/patterns/manage-queries',
         text: 'Manage requests for information'
       }

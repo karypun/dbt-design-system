@@ -19,10 +19,6 @@ export const menu = (
       {
         href: '/component/timeline',
         text: 'Timeline'
-      },
-      {
-        href: '/component/guidance-panel',
-        text: 'Up to date guidance panel'
       }
     ]} />
   </Fragment>
