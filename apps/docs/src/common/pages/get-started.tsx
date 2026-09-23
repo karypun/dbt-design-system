@@ -34,11 +34,9 @@ const Page: FC<PageProps> = () => (
         <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
           <img src={mvpSpine} className="image-examples" alt="A table showing the breakdown of the caseworking spine into stages, service pattern, capabilities and evidence" />
         </div>
-<p> By reusing the model, this allows TREGS services to have a more consistent case management approach to solving common caseworking problems. Visit the <A href="https://uktrade.atlassian.net/wiki/spaces/DCMSS/pages/5200347262/Licensing+Case+Management+Shared+Working+Model">Confluence hub</A> to find out more.</p>
-        <h2>Design resources</h2>
-        <ul>
-          <li><A href="https://app.mural.co/t/departmentforbusinessandtrad1574/m/departmentforbusinessandtrad1574/1718094413612/699e6b95d41d31ea4da1717eb1f645242da71026?sender=uf6ad2fb3e168bde1c2295660">Service blueprint template (Mural)</A></li>
-        </ul>
+<p> Adopting the model enables TREGS services to be more consistent in their case management approach to solving common caseworking problems. Visit the <A href="https://uktrade.atlassian.net/wiki/spaces/DCMSS/pages/5200347262/Licensing+Case+Management+Shared+Working+Model">Confluence hub</A> to find out more.</p>
+        <h2>Clearly TREGS</h2>
+        <p>Clearly TREGS is a content working group whose aim is to establish a common language across the portfolio. To find out more, visit the <A href="https://uktrade.atlassian.net/wiki/spaces/TCWG/pages/5243568171/Clearly+TREGS+content+working+group+overview">Confluence hub</A>.</p>
 
         <h2>Development resources</h2>
         <ul>
