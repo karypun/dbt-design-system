@@ -20,10 +20,6 @@ export const menu = (
         text: 'Know when a page is up to date'
       },
       {
-        href: '/patterns/manage-complex-information',
-        text: 'Manage grouped information'
-      },
-      {
         href: '/patterns/manage-queries',
         text: 'Manage requests for information'
       }

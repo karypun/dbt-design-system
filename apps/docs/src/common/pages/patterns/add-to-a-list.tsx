@@ -11,6 +11,7 @@ const subsection = 'Help users to';
 
 const addAnotherFlow = require('../../../../assets/images/patterns/add-another-flow.png');
 const addAnotherEcil = require('../../../../assets/images/patterns/add-another-ecil01.png');
+const addAnotherEcilCard = require('../../../../assets/images/patterns/add-another-ecil02.png');
 const oldAutocomplete = require('../../../../assets/images/patterns/ecil-old-autocomplete.png');
 const addAnotherDmas = require('../../../../assets/images/patterns/dmas.png');
 
@@ -59,16 +60,20 @@ const Page: FC<PageProps> = () => (
 <h2 className="govuk-heading-m">'Add to a list' across multiple pages</h2>
       <p>This pattern is used on public-facing transactional services and contains:</p>
       <ul>
-        <li>a typeahead </li>
+        <li>a typeahead (to look up a long list of things such as countries) </li>
         <li><A href="https://design-system.service.gov.uk/components/summary-list/">summary list component</A></li>
         <li>question prompt to ask whether another item should be added</li>
       </ul>
 
-      <p>The Export Certificate Import Licensing (ECIL) service uses the multiple page layout to add multiple countries.</p>
+      <p>For items that contain one piece of information, use the table as a list.</p>
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={addAnotherEcil} className="image-examples" alt="An example of an 'Add another' pattern in Export certificate import licensing service" />
       </div>
-
+      <p>For more complex items that contain more information that needs to be displayed, use a summary card as part of the list.</p>
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={addAnotherEcilCard} className="image-examples" alt="An example of an 'Add another' pattern in Export certificate import licensing service" />
+      </div>
+<p>The Export Certificate Import Licensing (ECIL) service uses the 'Add to a list' across multiple pages, using both table and card formats.</p>
       <h2 className="govuk-heading-m">'Add to a list' on a single page</h2>
             <p>This pattern should be used on internal services where more information needs to sit across a single screen. Like the multiple screen layout, it contains a typeahead and summary list but does not include the question prompt.</p>
             <p>This pattern was developed by the BIST design working group and has been used by the Digital Market Access System (DMAS) to successfully add multiple sectors and government agencies.</p>
