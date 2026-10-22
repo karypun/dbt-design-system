@@ -23,7 +23,7 @@ const Page: FC<PageProps> = () => (
     <div className="govuk-grid-row">
       <div className="govuk-grid-column-two-thirds">
         <h2 className="a-z-header" id="a">A</h2>
-        <h3 id="accessory">Accessory</h3>
+        <h3 id="accessory">Accessories</h3>
         <p>An accessory is different to a component. LITE defines the term in the application for users.</p>
         <p>Current definition: an accessory is an optional item that when fitted to a functioning product adds features or capability. An accessory can also be removed without detriment to the product.</p>
         <h3 id="air waybill">Air waybill</h3>
