@@ -122,7 +122,7 @@ const Page: FC<PageProps> = () => (
         <p>Current guidance: the government classifies information assets to ensure they are appropriately protected.</p>
         <p><a href="https://www.gov.uk/government/publications/government-security-classifications">Guidance on government security gradings (opens in a new tab)</a></p>
         <p>The grading can sometimes include a prefix and suffix. There are many in use and so it is important that you know the full classification of the product.</p>
-        <p>If the product was developed with Minstry of Defense (MOD) funding you will find the grading in the Security Aspects Letter provided by the MOD project team.</p>
+        <p>If the product was developed with Minstry of Defence (MOD) funding you will find the grading in the Security Aspects Letter provided by the MOD project team.</p>
         <p>If the product was developed with overseas government support that government is responsible for providing the grading.</p>
         <p>If the project was developed without UK or overseas government support you should apply for a private venture grading using <a href="https://spire.trade.gov.uk/spire/fox/espire/LOGIN/login">SPIRE - the online export licensing system</a>.
             The grading will be provided by MOD.</p>
@@ -211,7 +211,7 @@ const Page: FC<PageProps> = () => (
 
         <h2 className="a-z-header" id="s">S</h2>
         <h3 id="security approval">Security approval</h3>
-        <p>Term to cover getting Ministry of Defense (MOD) approval through Form 680 (F680) or Form 1686 (F1686).</p>
+        <p>Term to cover getting Ministry of Defence (MOD) approval through Form 680 (F680) or Form 1686 (F1686).</p>
 
         <h3>Signatory name</h3>
         <p>Suggested hint text: this is the name of the person who signed the end user document.</p>
