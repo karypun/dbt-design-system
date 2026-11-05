@@ -41,21 +41,22 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Pages</h2>
-          <p className="govuk-body govuk-!-font-size-19">Design and build scalable case management pages</p>
+          <p className="govuk-body govuk-!-font-size-19">Design and build scalable case management pages using key capabilities.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/patterns/case-list-page">Browse pages</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Components</h2>
-          <p className="govuk-body govuk-!-font-size-19">Save time with reusable, accessible components.</p>
+          <p className="govuk-body govuk-!-font-size-19">Components are reusable parts of the user interface that have been made to support a variety of applications.</p>
+<p className="govuk-body govuk-!-font-size-19">Individual components can be used to create multiple different patterns.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/component">Browse components</A>
         </aside>
       </div>
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Patterns</h2>
-          <p className="govuk-body govuk-!-font-size-19">Make common licensing casework and regulatory patterns visible.</p>
+          <p className="govuk-body govuk-!-font-size-19">Patterns are guidance on how to solve certain types of problems. They include examples of successful approaches but are flexible and don’t prescribe exact design solutions.</p>
           <A className="govuk-body govuk-!-font-size-19" href="/patterns">Browse patterns</A>
         </aside>
       </div>
