@@ -14,6 +14,7 @@ const addAnotherEcil = require('../../../../assets/images/patterns/add-another-e
 const addAnotherEcilCard = require('../../../../assets/images/patterns/add-another-ecil02.png');
 const oldAutocomplete = require('../../../../assets/images/patterns/ecil-old-autocomplete.png');
 const addAnotherDmas = require('../../../../assets/images/patterns/dmas.png');
+const entryLookup = require('../../../../assets/images/patterns/entry-lookup.png');
 
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
@@ -43,70 +44,111 @@ const Page: FC<PageProps> = () => (
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={addAnotherFlow} className="image-examples" alt="An example of an 'Add another' pattern" />
       </div>
+      <h2 className="govuk-heading-l">When to use</h2>
+      <p>The 'Add to a list' pattern allow users to add multiple pieces of information. Use this pattern if there are several things you're able to manually add. Do not use if you need to add things in bulk.</p>
 
       <p>Information may include things such as:</p>
       <ul>
-        <li>countries and destinations</li>
+        <li>countries</li>
         <li>products, codes, sectors and other similar items</li>
         <li>people and entities</li>
       </ul>
 
       <h2 className="govuk-heading-l">How it works</h2>
-      <p>The 'Add to a list' has two layouts:</p>
+      <p>The 'Add to a list' pattern across TREGS is created using 3 components:</p>
       <ul>
-        <li>across multiple pages</li>
-        <li>on a single page</li>
-      </ul>
-<h2 className="govuk-heading-m">'Add to a list' across multiple pages</h2>
-      <p>This pattern is used on public-facing transactional services and contains:</p>
-      <ul>
-        <li>a typeahead (to look up a long list of things such as countries) </li>
-        <li><A href="https://design-system.service.gov.uk/components/summary-list/">summary list component</A></li>
-        <li>question prompt to ask whether another item should be added</li>
+        <li><A href="https://design-system.service.gov.uk/components/table/">tables</A></li>
+        <li><A href="https://design-system.service.gov.uk/components/summary-list/">cards</A></li>
+        <li>lozenges, or <A href="https://design.sis.gov.uk/components/feedback-progress/chip/">chips</A></li>
       </ul>
 
-      <p>For items that contain one piece of information, use the table as a list.</p>
+      <h3 className="govuk-heading-m">Table</h3>
+      <p>Use tables to capture simple pieces of data.</p>
+      <p>Use on:</p>
+      <ul>
+        <li>transactional services to capture things like countries and files</li>
+      </ul>
+      <p>Services that use this:</p>
+      <ul>
+        <li>Export certificate import licensing service (ECIL)</li>
+        <li>Domestic regulations</li>
+      </ul>
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={addAnotherEcil} className="image-examples" alt="An example of an 'Add another' pattern in Export certificate import licensing service" />
       </div>
-      <p>For more complex items that contain more information that needs to be displayed, use a summary card as part of the list.</p>
+
+      <h3 className="govuk-heading-m">Card</h3>
+      <p>Use cards to capture complex or grouped data.</p>
+      <p>Use on:</p>
+      <ul>
+        <li>transactional services to capture nested sets of information. Each card contains its actions to view or edit the card's dataset through its summary list. Cards can be stacked to form a multi-card list view</li>
+        <li>internal caseworking or data platforms to help distinguish sets of information and related actions</li>
+      </ul>
+      <p>Services that use this:</p>
+      <ul>
+        <li>ECIL</li>
+        <li>Domestic market access service (DMAS)</li>
+      </ul>
+
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={addAnotherEcilCard} className="image-examples" alt="An example of an 'Add another' pattern in Export certificate import licensing service" />
       </div>
-<p>The Export Certificate Import Licensing (ECIL) service uses the 'Add to a list' across multiple pages, using both table and card formats.</p>
-      <h2 className="govuk-heading-m">'Add to a list' on a single page</h2>
-            <p>This pattern should be used on internal services where more information needs to sit across a single screen. Like the multiple screen layout, it contains a typeahead and summary list but does not include the question prompt.</p>
-            <p>This pattern was developed by the BIST design working group and has been used by the Digital Market Access System (DMAS) to successfully add multiple sectors and government agencies.</p>
+
+
+<div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+  <img src={addAnotherDmas} className="image-examples" alt="An example of an 'Add another' pattern on the Digital Market Access System" />
+</div>
+
+<p className="govuk-body-s">DMAS uses the the card component on its internal service where more information needs to sit across a single page. It contains a typahead and summary list that sits within a single card. This pattern was developed by the BIST design working group to standardise internal services.</p>
+
+
+            <h3 className="govuk-heading-m">Lozenge (chip)</h3>
+            <p>Use lozenges where space is limited.</p>
+            <p>Use on:</p>
+            <ul>
+              <li>internal caseworking, data platforms or search pages where filtering is involved</li>
+            </ul>
+            <p>Services that use this:</p>
+            <ul>
+              <li>ECIL</li>
+              <li>DMAS</li>
+              <li>Licensing for International Trade and Enterprise (LITE)</li>
+            </ul>
 
             <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-              <img src={addAnotherDmas} className="image-examples" alt="An example of an 'Add another' pattern on the Digital Market Access System" />
+              <img src={entryLookup} className="image-examples" alt="An example of an interaction that shows contextual help" />
             </div>
 
+            <h2 className="govuk-heading-l">Research</h2>
+            <p className="govuk-body">On ECIL, the table component was used across multiple pages which allowed users to successfully add all intended countries to their application without a problem.
+            Similar to <A href="https://design.tax.service.gov.uk/hmrc-design-patterns/add-to-a-list/">HMRC's design pattern</A> there are a few distinctions:</p>
+            <ul>
+              <li>this follows a more prescriptive "Add to a list" pattern which includes an 'Are you sure you want to remove' question to avoid accidental removal of items</li>
+              <li>the autocomplete component and summary list of added items are on separate screens</li>
+              <li>only one button would be visible on each page which should ensure fewer errors</li>
+            </ul>
+      <p>The multi-page format is not suitable for users who might need everying done on one page such as internal services.</p>
+        <p>More research is needed on the pattern using lozenges for its accessibility.</p>
+
       <h2 className="govuk-heading-l">Accessibility</h2>
-      <p>On ECIL, the revised 'Add to a list' pattern removed the need for filter chips previously used due to accessibility issues such as the small control size for removing chips and lack of visible count of items. </p>
+      <p>On ECIL, the revised 'Add to a list' pattern removed the need for lozenges previously used due to accessibility issues such as the small control size for removing chips and lack of visible count of items, although soms services like LITE have adapted their code to make it more accessible off a DAC report in 2024.</p>
+<p>Across all services, use an accessible typeahead such as the <A href="https://alphagov.github.io/accessible-autocomplete/">alphagov accessible autocomplete</A> to help users select from a pre-formatted list. To find out more about this feature, <A href="https://accessibility.blog.gov.uk/2018/05/15/what-we-learned-from-getting-our-autocomplete-tested-for-accessibility/">read the GOV.UK blog</A>.</p>
 
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={oldAutocomplete} className="image-examples" alt="An example of an old inaccessible 'Add another' pattern" />
       </div>
-<p>Across all services, use an accessible typeahead such as the <A href="https://alphagov.github.io/accessible-autocomplete/">alphagov accessible autocomplete</A> to help users select from a pre-formatted list. To find out more about this feature, <A href="https://accessibility.blog.gov.uk/2018/05/15/what-we-learned-from-getting-our-autocomplete-tested-for-accessibility/">read the GOV.UK blog</A>.</p>
-
-      <h2 className="govuk-heading-l">Research</h2>
-      <p className="govuk-body">The multiple page layout used in ECIL has allowed users to successfully add all intended countries to their application without a problem.
-      Similar to <A href="https://design.tax.service.gov.uk/hmrc-design-patterns/add-to-a-list/">HMRC's design pattern</A> there are a few distinctions:</p>
-      <ul>
-        <li>this follows a more prescriptive "add to a list" pattern</li>
-        <li>the autocomplete component and summary list of added items are on separate screens</li>
-        <li>only one button would be visible on each page which should ensure fewer errors</li>
-      </ul>
-<p>This pattern is not suitable for users who might need everying done on one page such as internal services. We would like to hear more from you if your service uses the 'Add to a list' pattern on a single page.</p>
 
 
 
+<h2 className="govuk-heading-l">Help us improve this pattern</h2>
 
-<h2 className="govuk-heading-l">Help us improve</h2>
-
-            <p>To contribute, add your thoughts and research findings to our <A href="https://trello.com/b/TZ77oz57/design-system-working-group">Trello board</A>.
-            </p>
+            <p>This pattern needs improving in these areas:</p>
+            <ul>
+              <li>more information needed on services using cards and lozenges</li>
+              <li>insight from ECIL's research on multi-card list view with application completion/submission</li>
+              <li>considerations to standardise content on how we add things to a list, whether invidvidually or in bulk</li>
+              <li>accessibility findings around lozenges and how code was made more accessible</li>
+            </ul>
 
     </div>
 </div>
