@@ -14,7 +14,7 @@ const addAnotherEcil = require('../../../../assets/images/patterns/add-another-e
 const addAnotherEcilCard = require('../../../../assets/images/patterns/add-another-ecil02.png');
 const oldAutocomplete = require('../../../../assets/images/patterns/ecil-old-autocomplete.png');
 const addAnotherDmas = require('../../../../assets/images/patterns/dmas.png');
-const entryLookup = require('../../../../assets/images/patterns/entry-lookup.png');
+const entryLookup = require('../../../../assets/images/patterns/lozenge.png');
 
 const Page: FC<PageProps> = () => (
 <div className="govuk-grid-row">
@@ -41,11 +41,8 @@ const Page: FC<PageProps> = () => (
 
       <p className="govuk-body">Allow users to add multiple pieces of information.</p>
 
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={addAnotherFlow} className="image-examples" alt="An example of an 'Add another' pattern" />
-      </div>
       <h2 className="govuk-heading-l">When to use</h2>
-      <p>The 'Add to a list' pattern allow users to add multiple pieces of information. Use this pattern if there are several things you're able to manually add. Do not use if you need to add things in bulk.</p>
+      <p>Use this pattern if there are several things you're able to manually add. Do not use if you need to add things in bulk.</p>
 
       <p>Information may include things such as:</p>
       <ul>
@@ -133,10 +130,6 @@ const Page: FC<PageProps> = () => (
       <h2 className="govuk-heading-l">Accessibility</h2>
       <p>On ECIL, the revised 'Add to a list' pattern removed the need for lozenges previously used due to accessibility issues such as the small control size for removing chips and lack of visible count of items, although soms services like LITE have adapted their code to make it more accessible off a DAC report in 2024.</p>
 <p>Across all services, use an accessible typeahead such as the <A href="https://alphagov.github.io/accessible-autocomplete/">alphagov accessible autocomplete</A> to help users select from a pre-formatted list. To find out more about this feature, <A href="https://accessibility.blog.gov.uk/2018/05/15/what-we-learned-from-getting-our-autocomplete-tested-for-accessibility/">read the GOV.UK blog</A>.</p>
-
-      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-        <img src={oldAutocomplete} className="image-examples" alt="An example of an old inaccessible 'Add another' pattern" />
-      </div>
 
 
 
