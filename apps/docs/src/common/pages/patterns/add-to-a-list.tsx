@@ -39,10 +39,10 @@ const Page: FC<PageProps> = () => (
       <p className="govuk-caption-m" style={{marginBottom: "2em"}}></p>
       </div>
 
-      <p className="govuk-body">Allow users to add multiple pieces of information.</p>
+      <p className="govuk-body">Allow users to add multiple pieces of similar information.</p>
 
       <h2 className="govuk-heading-l">When to use</h2>
-      <p>Use this pattern if there are several things you're able to manually add. Do not use if you need to add things in bulk.</p>
+      <p>Use this pattern to manually add several things. Do not use to add things in bulk.</p>
 
       <p>Information may include things such as:</p>
       <ul>
@@ -61,57 +61,39 @@ const Page: FC<PageProps> = () => (
 
       <h3 className="govuk-heading-m">Table</h3>
       <p>Use tables to capture simple pieces of data.</p>
-      <p>Use on:</p>
-      <ul>
-        <li>transactional services to capture things like countries and files</li>
-      </ul>
-      <p>Services that use this:</p>
-      <ul>
-        <li>Export certificate import licensing service (ECIL)</li>
-        <li>Domestic regulations</li>
-      </ul>
+    
+      <h4 className="govuk-heading-s">Using a table on transactional services</h4>
+      <p>On ECIL, the table component was used across multiple pages which allowed users to successfully add all intended countries to their application without a problem.</p>
+      <p>The autocomplete component and summary list of added items are on separate screens.</p>
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={addAnotherEcil} className="image-examples" alt="An example of an 'Add another' pattern in Export certificate import licensing service" />
       </div>
 
       <h3 className="govuk-heading-m">Card</h3>
       <p>Use cards to capture complex or grouped data.</p>
-      <p>Use on:</p>
-      <ul>
-        <li>transactional services to capture nested sets of information. Each card contains its actions to view or edit the card's dataset through its summary list. Cards can be stacked to form a multi-card list view</li>
-        <li>internal caseworking or data platforms to help distinguish sets of information and related actions</li>
-      </ul>
-      <p>Services that use this:</p>
-      <ul>
-        <li>ECIL</li>
-        <li>Domestic market access service (DMAS)</li>
-      </ul>
 
+<h4 className="govuk-heading-s">Using a card on transactional services</h4>
+<p>ECIL uses cards to capture nested sets of information. Each card contains a set of actions to view or edit the card's dataset through its summary list. Cards can be stacked to form a multi-card list view.</p>
       <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
         <img src={addAnotherEcilCard} className="image-examples" alt="An example of an 'Add another' pattern in Export certificate import licensing service" />
       </div>
 
+      <h4 className="govuk-heading-s">Using a card on internal services</h4>
+      <p>DMAS uses a card on its internal service where more information needs to sit across a single page. It contains a typahead and summary list that sits within a single card. This pattern was developed by the BIST design working group to standardise internal services.</p>
 
 <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
   <img src={addAnotherDmas} className="image-examples" alt="An example of an 'Add another' pattern on the Digital Market Access System" />
 </div>
 
-<p className="govuk-body-s">DMAS uses the the card component on its internal service where more information needs to sit across a single page. It contains a typahead and summary list that sits within a single card. This pattern was developed by the BIST design working group to standardise internal services.</p>
+
 
 
             <h3 className="govuk-heading-m">Lozenge (chip)</h3>
             <p>Use lozenges where space is limited.</p>
-            <p>Use on:</p>
-            <ul>
-              <li>internal caseworking, data platforms or search pages where filtering is involved</li>
-            </ul>
-            <p>Services that use this:</p>
-            <ul>
-              <li>ECIL</li>
-              <li>DMAS</li>
-              <li>Licensing for International Trade and Enterprise (LITE)</li>
-            </ul>
 
+<h4 className="govuk-heading-s">Using lozenges on internal and transactional services</h4>
+  <p>DMAS uses lozenges as part of its filters which sits above the typahead whereas LITE uses them to capture control list entries on application forms; these sit beneath the typahead.
+  More research is needed to understand its usage, in particular with accessibility.</p>
             <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
               <img src={entryLookup} className="image-examples" alt="An example of an interaction that shows contextual help" />
             </div>
