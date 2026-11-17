@@ -41,6 +41,10 @@ const Page: FC<PageProps> = () => (
 
       <p className="govuk-body">Allow users to add multiple pieces of similar information.</p>
 
+      <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
+        <img src={addAnotherFlow} className="image-examples" alt="An example of an 'Add another' pattern using tables and cards" />
+      </div>
+
       <h2 className="govuk-heading-l">When to use</h2>
       <p>Use this pattern to manually add several things. Do not use to add things in bulk.</p>
 
@@ -61,7 +65,7 @@ const Page: FC<PageProps> = () => (
 
       <h3 className="govuk-heading-m">Table</h3>
       <p>Use tables to capture simple pieces of data.</p>
-    
+
       <h4 className="govuk-heading-s">Using a table on transactional services</h4>
       <p>On ECIL, the table component was used across multiple pages which allowed users to successfully add all intended countries to their application without a problem.</p>
       <p>The autocomplete component and summary list of added items are on separate screens.</p>
@@ -82,7 +86,7 @@ const Page: FC<PageProps> = () => (
       <p>DMAS uses a card on its internal service where more information needs to sit across a single page. It contains a typahead and summary list that sits within a single card. This pattern was developed by the BIST design working group to standardise internal services.</p>
 
 <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-  <img src={addAnotherDmas} className="image-examples" alt="An example of an 'Add another' pattern on the Digital Market Access System" />
+  <img src={addAnotherDmas} className="image-examples" alt="An example of an 'Add another' pattern on the Digital Market Access Service" />
 </div>
 
 
@@ -95,7 +99,7 @@ const Page: FC<PageProps> = () => (
   <p>DMAS uses lozenges as part of its filters which sits above the typahead whereas LITE uses them to capture control list entries on application forms; these sit beneath the typahead.
   More research is needed to understand its usage, in particular with accessibility.</p>
             <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
-              <img src={entryLookup} className="image-examples" alt="An example of an interaction that shows contextual help" />
+              <img src={entryLookup} className="image-examples" alt="An example of an 'Add another' pattern using lozenges on a filter and transactional service" />
             </div>
 
             <h2 className="govuk-heading-l">Research</h2>
