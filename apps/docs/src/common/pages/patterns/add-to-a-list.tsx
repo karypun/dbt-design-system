@@ -9,7 +9,7 @@ const description = 'How to help users add to a list';
 const section = 'Patterns';
 const subsection = 'Help users to';
 
-const addAnotherFlow = require('../../../../assets/images/patterns/add-another-flow.png');
+const addAnotherFlow = require('../../../../assets/images/patterns/add-another-flow2.png');
 const addAnotherEcil = require('../../../../assets/images/patterns/add-another-ecil01.png');
 const addAnotherEcilCard = require('../../../../assets/images/patterns/add-another-ecil02.png');
 const oldAutocomplete = require('../../../../assets/images/patterns/ecil-old-autocomplete.png');
