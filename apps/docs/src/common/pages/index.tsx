@@ -26,12 +26,10 @@ const Page: FC<PageProps> = props => (
       <div className="govuk-grid-column-one-third">
         <aside>
           <h2>Updates</h2>
-          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#1a1f2b' }}>Last updated 11 August 2026</p>
+          <p className="govuk-body govuk-!-font-size-16" style={{ color: '#1a1f2b' }}>Last updated 19 November 2026</p>
           <ul className="govuk-!-font-size-16">
-            <li>Added GOV.UK One Login Django and Licensing Case Management Working Model as team resources in <A href="/get-started/">Get started</A></li>
-            <li>Published new <A href="/component/">components</A>: card, task list variants and timeline</li>
-            <li>Published new <A href="/patterns/">patterns</A>: 'Add to a list', 'Case list page' and 'Review dates'</li>
-            <li>Set up <A href="https://trello.com/b/TZ77oz57/design-system-working-group">community backlog</A></li>
+            <li>Added Clearly TREGS as part of team resources in <A href="/get-started/">Get started</A></li>
+            <li>Updated <A href="/patterns/add-to-a-list">'Add to a list' pattern</A></li>
           </ul>
         </aside>
 

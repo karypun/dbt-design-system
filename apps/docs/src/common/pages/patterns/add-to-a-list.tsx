@@ -83,7 +83,7 @@ const Page: FC<PageProps> = () => (
       </div>
 
       <h4 className="govuk-heading-s">Using a card on internal services</h4>
-      <p>DMAS uses a card on its internal service where more information needs to sit across a single page. It contains a typahead and summary list that sits within a single card. This pattern was developed by the BIST design working group to standardise internal services.</p>
+      <p>DMAS uses a card on its internal service where more information needs to sit across a single page. It contains an autocomplete and summary list that sits within a single card. This pattern was developed by the BIST design working group to standardise internal services.</p>
 
 <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
   <img src={addAnotherDmas} className="image-examples" alt="An example of an 'Add another' pattern on the Digital Market Access Service" />
@@ -96,7 +96,7 @@ const Page: FC<PageProps> = () => (
             <p>Use lozenges where space is limited.</p>
 
 <h4 className="govuk-heading-s">Using lozenges on internal and transactional services</h4>
-  <p>DMAS uses lozenges as part of its filters which sits above the typahead whereas LITE uses them to capture control list entries on application forms; these sit beneath the typahead.
+  <p>DMAS uses lozenges as part of its filters which sits above the autocomplete whereas LITE uses them to capture control list entries on application forms; these sit beneath the autocomplete.
   More research is needed to understand its usage, in particular with accessibility.</p>
             <div className="example example-images confirmation" style={{marginBottom: "2em"}}>
               <img src={entryLookup} className="image-examples" alt="An example of an 'Add another' pattern using lozenges on a filter and transactional service" />
@@ -115,7 +115,7 @@ const Page: FC<PageProps> = () => (
 
       <h2 className="govuk-heading-l">Accessibility</h2>
       <p>On ECIL, the revised 'Add to a list' pattern removed the need for lozenges previously used due to accessibility issues such as the small control size for removing chips and lack of visible count of items, although soms services like LITE have adapted their code to make it more accessible off a DAC report in 2024.</p>
-<p>Across all services, use an accessible typeahead such as the <A href="https://alphagov.github.io/accessible-autocomplete/">alphagov accessible autocomplete</A> to help users select from a pre-formatted list. To find out more about this feature, <A href="https://accessibility.blog.gov.uk/2018/05/15/what-we-learned-from-getting-our-autocomplete-tested-for-accessibility/">read the GOV.UK blog</A>.</p>
+<p>Across all services, use an accessible autocomplete such as the <A href="https://alphagov.github.io/accessible-autocomplete/">alphagov accessible autocomplete</A> to help users select from a pre-formatted list. To find out more about this feature, <A href="https://accessibility.blog.gov.uk/2018/05/15/what-we-learned-from-getting-our-autocomplete-tested-for-accessibility/">read the GOV.UK blog</A>.</p>
 
 
 
